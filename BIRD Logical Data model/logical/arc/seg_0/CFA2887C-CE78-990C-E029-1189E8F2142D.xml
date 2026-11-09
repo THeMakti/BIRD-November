@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="CFA2887C-CE78-990C-E029-1189E8F2142D" name="Master agreement with central counterparty type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-16 08:50:43 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>ADE10F45-DA0C-C9A5-9923-06D767F27440</entity>
+<relations>
+<relationID>52ED91E2-D0CD-1361-93A5-3F3173321DDD</relationID>
+<relationID>E653866A-B7EC-722E-CF39-2F22406E4DA3</relationID>
+</relations>
+</Arc>

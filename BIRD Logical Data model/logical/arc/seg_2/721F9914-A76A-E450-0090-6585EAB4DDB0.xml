@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="721F9914-A76A-E450-0090-6585EAB4DDB0" name="Significant risk transfer indicator">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-12-20 10:47:14 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>EC05B5FC-3397-964C-AAF0-C65C085847AA</entity>
+<relations>
+<relationID>785EC905-ED2D-E106-B00C-10C42B2A5DE9</relationID>
+<relationID>0FCE9820-2AE1-A35E-1441-6102B807C6E7</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Collateral received protects Long balance sheet recognsied security positition via Long balance sheet recognised security position Collateral received assignment" directorySegmentName="seg_3" id="F505FFDD-FED8-5586-EB88-7F4F09F14282">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-15 13:16:09 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E2628B7-BDCE-EBBC-B929-66AE41DDE57A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCBBAB01-3686-CCD5-A54D-EA33D1CB2ED2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A19587F2-EE13-306A-0074-0A19396D79CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

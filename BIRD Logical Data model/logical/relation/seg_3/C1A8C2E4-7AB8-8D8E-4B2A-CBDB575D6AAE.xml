@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Held for sale type specifies Cash on hand(s)" directorySegmentName="seg_3" id="C1A8C2E4-7AB8-8D8E-4B2A-CBDB575D6AAE">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 14:08:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[specifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3E0C3075-8792-4102-E82D-9DAEA6D26C0F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8010F03-C9C4-D0EC-E458-F061E8B3D403</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECF68788-373E-1D0F-3815-7A354DDD7269</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

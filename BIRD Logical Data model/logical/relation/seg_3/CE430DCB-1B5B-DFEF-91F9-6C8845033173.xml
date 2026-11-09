@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Non-performing prior to forbearance type classifies Non-performing financial asset instrument debtor assessed" directorySegmentName="seg_3" id="CE430DCB-1B5B-DFEF-91F9-6C8845033173">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-28 13:36:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>16585DD7-6714-757F-5E09-9458FD136424</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A0F486F9-AE6B-CB81-CCAB-A0129196A81A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39EA12A6-5E06-D3B8-1CCD-42401743A67E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

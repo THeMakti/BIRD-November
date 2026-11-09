@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="B0676B18-CC6F-93A6-CEAE-BC81B3B3E743" name="Renegotiated financial asset instrument without forbearance measure">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-04 00:04:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Renegotiated financial asset instrument without forbearance measure is a Renegotiated financial asset instrument where no forbearance measure have been applied.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>69D25E1E-91E8-BA72-9F71-596ADDF4C867</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RNGTTD_FNNCL_ASST_INSTRMNT_WTHT_FRBRNC_MSR</preferredAbbreviation>
+</Entity>

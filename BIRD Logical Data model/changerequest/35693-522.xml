@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Distinction between Deposits that are Repurchase agreements and Collateralised deposits other than repurchase agreements" id="35693-522">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+
+AE regulation differentiates between Deposits that are _Repurchase agreements_ and _Collateralised deposits other than repurchase agreements_. In the model this distinction is not possible because the relationship between the Repurchase agreement cash leg points directly to the general deposit supertype, therefore all the subtypes can be a repurchase agreement:
+
+![deposit_repo.png](/uploads/c9bd9cbed1ab569da7841f88d053617d/deposit_repo.png)
+
+### Contact person
+
+@Arianna.Nuvoli 
+
+### Legal definition
+
+Annex XVII:
+
+_Repurchase agreements (repos) shall be the transactions in which the reporting institution receives cash in exchange for financial assets sold at a given price under a commitment to repurchase the same (or identical) assets at a fixed price on a specified future date. The following variants of repo-type operations are all required to be reported as repurchase agreements: - amounts received in exchange for securities temporarily transferred to a third party in the form of securities lending against cash collateral and - amounts received in exchange for securities temporarily transferred to a third party in the form of a sale/buy-back agreement._
+
+### Reason for inclusion
+
+AE integration
+
+### Relevant Framework/Template
+
+AE
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/522]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

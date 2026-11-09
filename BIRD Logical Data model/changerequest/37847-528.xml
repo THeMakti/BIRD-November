@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Preferred abbreviations in Logical data model lead to overlapping attribute names" id="37847-528">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+Some entities of the Logical data model have multiple attributes with the same preferred abbreviation.
+
+The preferred abbreviation is useful as a technical field in any technical software that works with the LDM structures, it matches common constraints on technical naming (clear use of case, no spaces in names, reasonable length of name). 
+
+This is a data-modelling concern (it is not related to business logic of regulatory reporting)
+
+We can consider the example of the 'Protection Protection provider assignment' entity.
+
+This entity has 12 attributes, including 2  named:
+
+Protection arrangement reference date
+
+And 
+
+Protection provider reference date
+
+Those 2 attributes both have the same preferred abbreviation of DT_RFRNC, see image below
+
+![image](/uploads/25c5311b3fb5be61dd71b83d41d23fb1/image.png)
+
+The preferred abbreviations are used heavily in the BIRD Input layer. Interestingly both attributes are forward engineered to the same field in the BIRD input layer, and so this overlap of naming does not cause problems in that forward engineered model. However I believe the concerns of the forward engineered input layer should not impact the LDM.
+
+I believe this kind of case was already tidied up in many entities, perhaps we missed the ones where it does not cause problems for the input layer.
+
+For example in the entity ‘Other loan Loan debtor assignment’ we have 13 attributes includein 2 named:
+
+Other loan reference date
+
+And
+
+Loan debtor reference date
+
+These have distinct preferred abbreviations of
+
+OTHR_LN_INSTRMNT_RFRNC_DT
+
+And
+
+LN_DBTR_PRTY_RFRNC_DT
+
+Which is much better.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/528]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

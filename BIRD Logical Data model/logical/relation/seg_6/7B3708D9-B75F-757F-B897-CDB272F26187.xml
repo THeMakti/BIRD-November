@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fair value option designation for financial assets is assigned to Balance sheet recognised financial asset instrument according to International Financial Reporting Standard (IFRS)" directorySegmentName="seg_6" id="7B3708D9-B75F-757F-B897-CDB272F26187">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-20 17:24:12 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6CF1AA07-7901-BF63-4D65-9FC6ECB862C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2EA243FA-4C22-1517-47B4-2222CB91C9BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7339446F-A4AD-062D-76D4-8576DD58D4C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

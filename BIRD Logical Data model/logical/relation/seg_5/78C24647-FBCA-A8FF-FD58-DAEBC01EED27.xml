@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Other commodity collateral is measured by Protection valuation approach" directorySegmentName="seg_5" id="78C24647-FBCA-A8FF-FD58-DAEBC01EED27">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-11-22 14:09:36 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F509325A-ED2C-91A3-8CE1-AF8FE97EC681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEAECD04-84D6-BE28-0AFB-55F1488722F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF76AB91-9970-0D60-B03D-0699B167A21A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

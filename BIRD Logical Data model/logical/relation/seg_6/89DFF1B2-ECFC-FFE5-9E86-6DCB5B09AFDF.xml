@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Security position might be balance sheet/non-balance sheet recognised" directorySegmentName="seg_6" id="89DFF1B2-ECFC-FFE5-9E86-6DCB5B09AFDF">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-22 15:38:33 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>EF013BE8-07DF-E972-BA0B-388DCE235895</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58EBE203-5DEC-4B40-ACD1-091ACE0A3F31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE454F88-CBBB-388C-4265-06CD95FA89DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

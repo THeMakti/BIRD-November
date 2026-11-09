@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Multiple forbearance measures in place indicator is applied to Renegotiated debt security with forbearance measure" directorySegmentName="seg_3" id="5A867A8B-DD4A-B824-A751-D268CDE633C4">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-04 17:51:06 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>E4514AB5-06CC-A7A8-A688-CEEEF9642187</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>934C4D97-C9CB-47B6-2368-E198A716159B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D75D6D18-936A-0C07-C659-115112F6CEE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

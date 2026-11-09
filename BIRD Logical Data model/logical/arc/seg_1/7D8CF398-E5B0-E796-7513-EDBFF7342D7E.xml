@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="7D8CF398-E5B0-E796-7513-EDBFF7342D7E" name="Tranche in a synthetic securitisation type">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-10-27 08:43:51 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>0760DF4C-14A4-3E6B-1C5A-C45B3F675B38</entity>
+<relations>
+<relationID>9914FFBF-E498-9DF9-CB1B-BABDC437AC04</relationID>
+<relationID>875F4CE7-69B1-902F-7F2D-E0A4484B9661</relationID>
+</relations>
+</Arc>

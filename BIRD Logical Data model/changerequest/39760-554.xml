@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Update Forward Engineering Script to Prevent Renaming of Discriminant Attributes in (E)ILs" id="39760-554">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[The forward engineering script needs to be modified  in order to prevent renaming Discriminant Attributes in (E)ILs. 
+
+For example Party type while remain Party type instead of Type of party.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/554]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

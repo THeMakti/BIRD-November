@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="F7E0EB49-75AE-FDB7-0525-C02BBA848023" name="Performing financial asset instrument debtor assessed">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 23:15:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Performing financial asset instrument debtor assessed is a Financial asset instrument debtor assessed that is classified as performing according to FINREP, Annex V, part 2 (213)-(239).]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EDB81862-2506-12D6-C90F-51F5425FC7B4</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Performing forborne exposure under probation reclassified from non-performing indicator" id="342E6EAC-FB08-85D2-E051-45F8DDCE80DE">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-28 15:56:04 UTC</createdTime>
+<comment><![CDATA[An indicator specifying if an asset is classified as Non-performing forborne exposure under probation reclassified from non-performing or not according to Regulation (EU) 680/2014, Annex V, part 2.260.]]></comment>
+<generatorID>E10868C1-7278-0122-7339-277F6E6FFB92</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>8C034B1F-8B8F-EA36-6CFF-85C93A2CE313</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>38F97F83-D9A9-4896-1F56-2ED6CA576232</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

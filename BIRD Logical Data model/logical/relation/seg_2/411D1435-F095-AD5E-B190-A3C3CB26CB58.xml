@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Type of interest rate classifies Financial asset instrument" directorySegmentName="seg_2" id="411D1435-F095-AD5E-B190-A3C3CB26CB58">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-05-22 15:01:56 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>7C4AA955-BB7D-C481-C5A9-CBE1F27C497C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>852E6539-35E1-F08E-D9B0-CD8539CAC21E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

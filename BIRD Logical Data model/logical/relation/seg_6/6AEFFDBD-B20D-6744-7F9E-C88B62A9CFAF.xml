@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Held for sale type is applied to Debt security issued (by the reporting agent)" directorySegmentName="seg_6" id="6AEFFDBD-B20D-6744-7F9E-C88B62A9CFAF">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-11-20 10:34:49 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3E0C3075-8792-4102-E82D-9DAEA6D26C0F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8010F03-C9C4-D0EC-E458-F061E8B3D403</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>101580C7-7A41-DBA0-F668-CA0B21D0D2A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

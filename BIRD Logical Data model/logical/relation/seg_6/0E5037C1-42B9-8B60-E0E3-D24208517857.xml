@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Group of clients has Key management personnel via Group of clients Key management personnel assignment" directorySegmentName="seg_6" id="0E5037C1-42B9-8B60-E0E3-D24208517857">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-19 07:56:28 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>86FECAC0-8A7A-BE18-57FE-C8ED7C57A9F5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F1F805D-695C-CC58-C849-BC03C1FC4803</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8DBBDEC-3063-2C0C-6CAC-CD7AFB7E0B56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="5C2AB711-C638-C2BB-3925-CAA0258C9F46" name="Security borrowing and lending transaction component type by Security type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-04 11:42:28 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>7588A262-96B1-5613-947F-09E56CDEAF14</entity>
+<relations>
+<relationID>59E16AD4-FE46-CA4E-805B-87775494092D</relationID>
+<relationID>12A7408D-19F7-A52E-2D31-07A455FBA3F8</relationID>
+</relations>
+</Arc>

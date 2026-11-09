@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Credit card debt has Credit card debt Creditor assignment" directorySegmentName="seg_2" id="8E430AE7-905B-3DA7-0674-8C966CB729F3">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 18:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<dominantRole>E15885CE-699E-B3B5-610B-AA173173EEBF</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E15885CE-699E-B3B5-610B-AA173173EEBF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D74A184E-FD0B-BFCF-805F-052C4DD6AD65</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

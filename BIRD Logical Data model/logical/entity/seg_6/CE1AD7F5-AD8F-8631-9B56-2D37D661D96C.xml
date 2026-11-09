@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_6" id="CE1AD7F5-AD8F-8631-9B56-2D37D661D96C" name="Commercial real estate collateral">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-09-22 10:01:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Commercial real estate collateral is a Commercial real estate and offices and commercial premises collateral that is Real estate property other than residential property, offices and commercial premises, and which does affect the creditworthiness of the debtor (i.e. if the proceeds received from it affect the creditworthiness of the debtor.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>9233E877-99B3-25CB-0DCC-48B7E03DC1DD</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3ABDB5E3-5E87-A306-54FF-49F4C6835EA2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CMMRCL_RL_ESTT_CLLTRL</preferredAbbreviation>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lessee leases Financial lease(s) via Financial lease Lessee assignment" directorySegmentName="seg_2" id="6612548F-E42E-B2B1-4105-F34D135E3C30">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 19:14:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[leases]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDEF1F95-2DB5-A2E5-8116-D0FB8FD756E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B53A29B-CD67-9AA5-64E9-AE999D38B0B4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Traditional securitisation involves Tranche in a Traditional securitisation" directorySegmentName="seg_1" id="242993BD-188F-3131-E006-1DC2F52BF475">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:30:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[involves]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>CCD7497F-44AA-7E0C-2B1D-9EAD605A4908</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA2C1C55-9919-EFA4-4644-24E333EEF6B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F113ACC3-8DA5-8E54-6DD7-91545BD2BAF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

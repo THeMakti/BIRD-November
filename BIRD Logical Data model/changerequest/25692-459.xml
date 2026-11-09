@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Fiduciary Instrument - (FDCRY)" id="25692-459">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[An indicator specifying if an instrument is a fiduciary instrument or not. Currently in the LDM there's an entity _Fiduciary instrument type_, with attribute `Fiduciary instrument indicator`, related only to the entities _Deposit_ and _Other loan_.
+
+In AE this concept is required in template F 32.01 and it is needed/relevant for loans and advances, equity instruments (both those which are securities and those which aren't), and debt securities (both negotiable and not negotiable) to cover the columns about Assets '**_which are issued by other entities of the group_**'.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/459]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

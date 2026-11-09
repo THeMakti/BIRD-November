@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Long balance sheet recognised security position Collateral received assignment has derived data in Long balance sheet recognised security position Collateral received assignment derived data" directorySegmentName="seg_0" id="B9AD5E8C-0EDE-2577-12F4-B9D380D28C3F">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-03-12 07:23:21 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3B7A29C3-41DE-F82A-76E2-1D37B1F0EA33</sourcePk>
+<dominantRole>A19587F2-EE13-306A-0074-0A19396D79CA</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A19587F2-EE13-306A-0074-0A19396D79CA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0B119041-FC24-768D-DCCD-506F89A1671B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

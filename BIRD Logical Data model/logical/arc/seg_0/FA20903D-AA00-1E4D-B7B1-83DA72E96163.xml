@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="FA20903D-AA00-1E4D-B7B1-83DA72E96163" name="Repurchase transaction Non-balance sheet recognised security position assignment type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 10:49:12 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>1B81C633-8BAE-AAEC-E856-F329FE19A63D</entity>
+<relations>
+<relationID>EEB95427-FF04-1415-5607-A143F41F9D71</relationID>
+<relationID>1BC970A5-BB28-2E3B-C26C-18E7195B8C28</relationID>
+</relations>
+</Arc>

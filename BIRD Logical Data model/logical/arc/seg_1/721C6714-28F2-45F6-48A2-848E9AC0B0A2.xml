@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="721C6714-28F2-45F6-48A2-848E9AC0B0A2" name="Security Entity role assignment type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-08 11:23:35 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>2E687A61-179E-79A2-5229-65E58FE2858B</entity>
+<relations>
+<relationID>77764183-8785-5FD8-36BB-73A09894636D</relationID>
+<relationID>FA260FEB-8B39-184E-865D-D190ECED7686</relationID>
+<relationID>53A3ED70-AC30-A652-7501-DA33FC7703FB</relationID>
+</relations>
+</Arc>

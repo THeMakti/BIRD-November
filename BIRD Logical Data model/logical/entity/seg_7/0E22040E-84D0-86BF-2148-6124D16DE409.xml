@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_7" id="0E22040E-84D0-86BF-2148-6124D16DE409" name="Security status">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 15:50:40 UTC</createdTime>
+<comment><![CDATA[It indicates the status of the security, i.e. whether the instrument is alive (active) or not alive (not active)]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SCRTY_STTS</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Security status" id="0D8F1BAF-DE9A-D584-1463-5F272A9D2C9E">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 15:50:49 UTC</createdTime>
+<comment><![CDATA[Indicates the status of the security, i.e. whether the instrument is alive (active) or not alive (not active).]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>F9F623D9-5AFC-4BFA-B66C-230A7A8C2271</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SCRTY_STTS</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC566D06-17AA-960E-1296-F4B50A448C21" name="Security status PK">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 15:51:10 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D8F1BAF-DE9A-D584-1463-5F272A9D2C9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

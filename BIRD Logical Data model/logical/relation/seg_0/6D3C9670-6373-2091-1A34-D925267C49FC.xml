@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Partner enterprise assignment has Partner enterprise" directorySegmentName="seg_0" id="6D3C9670-6373-2091-1A34-D925267C49FC">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 12:19:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DE2D162F-2639-0E82-7936-5BEB1863F343</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4A8E2EF-3BC7-A093-1A60-939500CB66EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8612644A-423D-E808-F058-A7534601A9DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

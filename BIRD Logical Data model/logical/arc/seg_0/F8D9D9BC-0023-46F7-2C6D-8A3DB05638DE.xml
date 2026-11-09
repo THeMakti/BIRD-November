@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="F8D9D9BC-0023-46F7-2C6D-8A3DB05638DE" name="Balance sheet recognised financial liability instrument accounting standard type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:09:57 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>B5819EC6-25AB-CE81-2AF6-A357F93FAD4A</entity>
+<relations>
+<relationID>55A48A6C-4D43-DBBF-C378-7FE65EA21C65</relationID>
+<relationID>31502E0C-EE13-C8C4-DB34-8061F20F3FD0</relationID>
+</relations>
+</Arc>

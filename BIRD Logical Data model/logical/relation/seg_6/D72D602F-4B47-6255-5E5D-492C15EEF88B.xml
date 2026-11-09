@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Risk type classifies Over the counter (OTC) Derivative instrument" directorySegmentName="seg_6" id="D72D602F-4B47-6255-5E5D-492C15EEF88B">
+<createdBy>reddigj</createdBy>
+<createdTime>2024-02-20 16:19:32 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>8E70C349-33B7-C269-FDAB-1FD1686A40B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F50869AB-836B-6678-6121-163B93F3FC0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9665198A-8A15-BE5A-E137-9B7F66788D28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

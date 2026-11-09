@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Type of financial liability identifies Short balance sheet recognised security position derived data" directorySegmentName="seg_9" id="406C2A46-7D76-D179-BCCD-960B56A2BFA7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-08-05 09:46:25 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>042FEA71-72D6-4F7B-BF18-FE0639FF1690</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D5E5947-03F3-8D8B-B0C7-0995ECA65A5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B35FE2AD-7E8A-1370-14DD-1644B0F7D508</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

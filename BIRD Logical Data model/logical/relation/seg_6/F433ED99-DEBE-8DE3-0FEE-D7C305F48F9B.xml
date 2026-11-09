@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies national general accepted accounting principles (nGAAP)" directorySegmentName="seg_6" id="F433ED99-DEBE-8DE3-0FEE-D7C305F48F9B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:44:14 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3862A235-456A-1239-9279-A7922ED769CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

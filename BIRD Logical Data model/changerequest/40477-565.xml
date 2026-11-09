@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Add attribute IMPRMNT_ASSSSMNT_MTHD" id="40477-565">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+For anacredit reporting we need the attribute IMPRMNT_ASSSSMNT_MTHD in the instrument table in the EIL
+
+### Contact person
+@Silvia.Giacinti 
+
+### Description of change request
+For anacredit reporting we need the attribute IMPRMNT_ASSSSMNT_MTHD in the instrument table in the EIL, Currently it is present under security long position that are not used for AnaCredit generation
+
+### Summary of impacted LDM objects/attributes
+_[IL EIL ]_
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/565]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

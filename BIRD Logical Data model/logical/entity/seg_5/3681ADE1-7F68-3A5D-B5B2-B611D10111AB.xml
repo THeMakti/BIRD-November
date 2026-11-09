@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="3681ADE1-7F68-3A5D-B5B2-B611D10111AB" name="European Central Bank">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-01-27 14:35:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[European Central Bank is a Central Bank that is the central bank of the European Union countries which have adopted the Euro as their currency. The ECB is an official EU institution at the heart of the Eurosystem and the Single Supervisory Mechanism.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>63CD934A-3217-CF5C-68F0-16C1C1D80BF3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ECB</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="International organisation code" id="A9ED1D5F-BC63-15C4-45C5-AC7C15AD8315">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-08-08 10:40:24 UTC</createdTime>
+<generatorID>B5ED294B-52E3-CD13-F6BA-B0C79F9BCC52</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<constraintName>European Central Bank has international organisation code 4F</constraintName>
+<referedAttribute>F4848967-497F-1F34-B1C0-AAA311BE4113</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>CEC28C26-EB1B-4728-B461-46A2631F6A33</domain>
+<defaultValue>4F</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INTRNTNL_ORGNSTN_CD</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

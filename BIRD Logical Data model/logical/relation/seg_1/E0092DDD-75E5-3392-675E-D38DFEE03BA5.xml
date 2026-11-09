@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Synthetic securitisation without involvement of an SSPE comprises Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) being a financial guarantee" directorySegmentName="seg_1" id="E0092DDD-75E5-3392-675E-D38DFEE03BA5">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:46:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[comprises]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>CCD7497F-44AA-7E0C-2B1D-9EAD605A4908</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69F073B3-E281-91DE-AB3F-03CE229C5A06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>35F14063-6EB3-9BD1-02A6-C0C77139B8DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

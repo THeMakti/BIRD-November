@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="FB4B3522-647B-2B58-6611-BBD9976568F4" name="Domestic institutional unit indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-22 16:53:07 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>E67B7F73-CFCE-AD91-7BAB-8AE7216D2A77</entity>
+<relations>
+<relationID>1B1AF89E-5890-AE6B-0EC2-DC6669DFBEDC</relationID>
+<relationID>818ED651-2F7B-CC8A-6032-9E7FA9303CE2</relationID>
+</relations>
+</Arc>

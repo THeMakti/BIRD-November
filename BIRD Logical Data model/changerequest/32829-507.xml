@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Update the Time past due band Domain" id="32829-507">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The Time Past Due Band Domain currently includes the allowed value "<= 30 days", with code 73.
+For template F 07.01 and F 07.02 of FINREP, we need a more granular allowed value that is described in the Reference Output Layer as "(1d, 30d]", with code 75.
+
+For context, in the Reference Output Layer there is:
+- Member "[0d, 30d]" (74) that covers "Not past due or past due <= 30 days"
+- Member "[1d, 30d]" (75) that covers ">= 1 day <= 30 days"
+
+### Contact person
+@Maria_Manuel.Henriques 
+
+### Description of change request
+Update the Time Past Due Band Domain to include Members:
+- 75 with the description ">= 1 day <= 30 days"
+- 1002 with the description "0 days"
+
+### Summary of impacted LDM objects/attributes
+Time Past Due Band Domain
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/507]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

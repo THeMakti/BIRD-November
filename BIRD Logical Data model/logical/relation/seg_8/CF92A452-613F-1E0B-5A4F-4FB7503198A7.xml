@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lessee has Lessee derived data" directorySegmentName="seg_8" id="CF92A452-613F-1E0B-5A4F-4FB7503198A7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-01 17:05:21 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDEF1F95-2DB5-A2E5-8116-D0FB8FD756E4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>25FAC7A8-2EC1-2131-8B3C-F643E7A600C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

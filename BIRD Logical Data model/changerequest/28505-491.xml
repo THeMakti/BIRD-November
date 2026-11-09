@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[AE] On demand and short notice only applicable to Deposits?" id="28505-491">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+Investigate if the attribute `Repayment rights` in entity type _Deposit_, which holds a member value of "On demand and short notice" should also be in other subtypes of _Loan_ as well.
+
+### Contact person
+@Arjan.Bos 
+
+### Background information
+_[info]_
+
+### Points/Questions to resolve
+_[Key points]_
+
+### Related issues
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/491]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

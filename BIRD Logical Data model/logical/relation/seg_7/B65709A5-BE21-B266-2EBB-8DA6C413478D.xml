@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool (subject to a Securitisation and other credit transfer) comprises Over the counter (OTC) Derivative instrument via Asset pool Over the counter (OTC) Derivative instrument assignment" directorySegmentName="seg_7" id="B65709A5-BE21-B266-2EBB-8DA6C413478D">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-09-17 08:09:32 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7C6E1F-7451-2836-19AA-82EF3C7B0B1C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF3123E9-C3A5-7650-8DD2-DBE9CABA5872</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC33E184-994C-E565-57F3-4A7572B38D53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26021-466</requestID>
+</changeRequests>
+</Relation>

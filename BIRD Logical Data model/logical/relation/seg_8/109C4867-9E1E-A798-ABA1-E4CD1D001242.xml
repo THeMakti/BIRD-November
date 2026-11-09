@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Primary issuer indicator classifies Security issuer assignment" directorySegmentName="seg_8" id="109C4867-9E1E-A798-ABA1-E4CD1D001242">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-03-20 13:04:12 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DB752681-EC3A-08B9-FB37-6C18B2D095E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE24DDD6-3DFD-8C9B-1263-DACF4D8858CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C4CA59D-CEFA-7753-9A33-AF14FE5B6E7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

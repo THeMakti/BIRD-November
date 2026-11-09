@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Encumbered asset indicator classifies Cash on hand national general accepted accounting principles (nGAAP)" directorySegmentName="seg_6" id="7BA5C4EA-2D29-6863-B80D-6E8F704532AA">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:56:21 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1646D3F9-4140-F25D-93D4-CB127D6ECDB1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89A25A88-DF54-C195-6643-F9649C0AB478</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3862A235-456A-1239-9279-A7922ED769CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Non-registered Postal Code system country has No registered Postal Code system address" directorySegmentName="seg_1" id="5F9A789C-CD13-D700-F945-FF0AC65BAF95">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-07 10:47:36 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C48B5035-5A69-ED62-4C63-D2E541D73AE9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38F62856-4F46-505C-1193-B734E18C46AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FFEDC4BB-0EF3-35C2-125C-E6221DB500B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Balance sheet recognition status is assigned to Balance sheet recognised financial asset instrument" directorySegmentName="seg_4" id="C63A22D0-916E-13BD-49AB-A66C15511920">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 12:29:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[is assigned to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>D3115364-F5FB-5780-6F83-B2B77D505727</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FF5B73E-2314-A267-3889-069CD20CFFD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D98528DD-4340-7068-DCF4-FC4EE2F41DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

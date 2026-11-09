@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_9" id="A3E1FF98-BA13-C6EC-F99E-C9A2A5707134" name="Credit facility other than under pre-specified terms and conditions derived data">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Credit facility other than under pre-specified terms and conditions derived data is additonal information Credit facility other than under pre-specified terms and conditions.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>AE3B0B8B-4E66-709C-450E-CC4B1C21FF1E</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CRDT_FCLTY_OTHR_THN_UNDR_PRSPCFD_TRM_CNDTN_DRVD_DT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Credit facility reference date" id="739777DF-2D1C-ED66-08A6-73C0B0E1CE25">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>DC1217A4-9349-62AE-95E3-752F7DEB2146</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>DE40AA9F-0745-E78B-DBE4-D99060132D85</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Credit facility reporting agent identifier" id="9544E84C-083D-F57C-0D8D-45C6244B663F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>DC1217A4-9349-62AE-95E3-752F7DEB2146</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>31EEE1E5-07D0-62D4-FD1E-5A762D440AB7</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Credit facility accounting consolidation level" id="EF5C62B1-F231-4388-5136-38E3D6E03A91">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>DC1217A4-9349-62AE-95E3-752F7DEB2146</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>921A3484-B56E-80D6-E840-7A686D0BD52B</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Credit facility accounting standard" id="63116F66-DCEF-CFF5-AB40-D455FCE81F20">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<generatorID>DC1217A4-9349-62AE-95E3-752F7DEB2146</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>05A1B2B9-4F98-7440-8FDF-9136BF282ECB</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Credit facility identifier" id="8AA71233-CF00-0F54-B48C-AF17DBC89B7B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<comment><![CDATA[An identifier to uniquely identify each credit facility.]]></comment>
+<generatorID>DC1217A4-9349-62AE-95E3-752F7DEB2146</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>F1C28690-04F9-D9B0-3AAA-191F9EBE1F31</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Transfer between impairment stages" id="8D5DF36C-312F-04FD-2E6F-E57D398A7B72">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:21:35 UTC</createdTime>
+<comment><![CDATA[Transfer between impairment stages compares the impairment status at the beginning of the period (Initial impairment status) with the impairment status at the end of the period.]]></comment>
+<generatorID>84D171EB-79C5-8DD2-7818-AAED15B99D58</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>82B6C192-63EA-742A-23BA-8C02BD32F53A</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>BAC24BD5-93CD-9579-119D-83D1FEE3CC48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TRNSFR_IMPRMNT_STGS</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3594252A-74CD-3715-0531-A9E62A81AE50" name="Credit facility other than under pre-specified terms and conditions derived data PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>739777DF-2D1C-ED66-08A6-73C0B0E1CE25</attributeRef>
+<attributeRef>9544E84C-083D-F57C-0D8D-45C6244B663F</attributeRef>
+<attributeRef>EF5C62B1-F231-4388-5136-38E3D6E03A91</attributeRef>
+<attributeRef>63116F66-DCEF-CFF5-AB40-D455FCE81F20</attributeRef>
+<attributeRef>8AA71233-CF00-0F54-B48C-AF17DBC89B7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

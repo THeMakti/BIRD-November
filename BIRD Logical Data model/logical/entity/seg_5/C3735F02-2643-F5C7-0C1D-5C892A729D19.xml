@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="C3735F02-2643-F5C7-0C1D-5C892A729D19" name="Performing non-default financial asset instrument individually assessed">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 23:31:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Performing non-default financial asset instrument individually assessed is a Non-default financial asset instrument individually assessed that is classified as performing according to FINREP, Annex V, part 2 (213)-(239).]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5665D8C6-101E-5527-CEA1-737A23EBD518</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PRFRMNG_NN_DFLT_FNNCL_ASST_INSTRMNT_INDVDLLY_ASSSSD</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Performing forborne exposure under probation reclassified from non-performing indicator" id="59E4E672-F3B4-795E-0DDB-387CD2E7190D">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-28 16:03:51 UTC</createdTime>
+<comment><![CDATA[An indicator specifying if an asset is classified as Non-performing forborne exposure under probation reclassified from non-performing or not according to Regulation (EU) 680/2014, Annex V, part 2.260.]]></comment>
+<generatorID>9BEAA7B5-1E92-2042-CA42-53E1B708C5A5</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>8C034B1F-8B8F-EA36-6CFF-85C93A2CE313</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>38F97F83-D9A9-4896-1F56-2ED6CA576232</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subsidiary, joint venture and associate comprises Subsidiary via Subsidiary, joint venture and associate Subsidiary assignment" directorySegmentName="seg_2" id="AE335D2E-446E-AC75-4D17-52717320E967">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-27 11:32:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[comprises]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>86FECAC0-8A7A-BE18-57FE-C8ED7C57A9F5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>074C10B7-DC84-861E-6F29-AD5B890A5FDC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2C7B058-F8C2-369B-AA57-351682BB3DA3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

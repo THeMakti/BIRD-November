@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies Goodwill" directorySegmentName="seg_2" id="BCC17B1E-3732-DCE1-E87F-4BD43ED5AD68">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-12-08 13:09:19 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8184D48D-8A30-028E-8202-306D5C4FE44F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

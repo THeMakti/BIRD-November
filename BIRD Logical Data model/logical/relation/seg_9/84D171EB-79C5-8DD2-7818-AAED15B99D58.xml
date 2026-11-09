@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Transfer between impairment stages is applied to Credit facility other than under pre-specified terms and conditions derived data" directorySegmentName="seg_9" id="84D171EB-79C5-8DD2-7818-AAED15B99D58">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:21:35 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>ECD8EEF0-5056-F34A-4DB3-FBC3EDD07F8D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2735F89-31EA-99CF-81A6-93D3886B74D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3E1FF98-BA13-C6EC-F99E-C9A2A5707134</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

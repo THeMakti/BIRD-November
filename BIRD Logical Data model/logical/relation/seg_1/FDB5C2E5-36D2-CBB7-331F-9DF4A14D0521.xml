@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool (subject to a Securitisation and other credit transfer) comprises Instrument(s) via Asset pool Loan assignment" directorySegmentName="seg_1" id="FDB5C2E5-36D2-CBB7-331F-9DF4A14D0521">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 15:18:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[comprises]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7C6E1F-7451-2836-19AA-82EF3C7B0B1C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF3123E9-C3A5-7650-8DD2-DBE9CABA5872</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2920BCAE-102A-9ABA-B91C-D4DF1E83B442</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

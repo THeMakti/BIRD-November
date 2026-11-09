@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subordinated debt indicator classifies Debt security" directorySegmentName="seg_3" id="6516F85B-5E3A-ABCE-72D2-E97696ABA483">
+<createdBy>lindomi</createdBy>
+<createdTime>2022-04-06 13:26:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>E2B30F0F-F2C7-E3C8-B19A-23D7175B0F23</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95774261-695F-BBCC-B48D-FA19567080D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BE76A78F-7CDB-648D-9F71-76109033434A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

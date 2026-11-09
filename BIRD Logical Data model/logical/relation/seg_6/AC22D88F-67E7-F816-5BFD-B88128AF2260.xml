@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Synthetic securitisation comprises Exchange tradable derivative liability position Synthetic securitisation assignment" directorySegmentName="seg_6" id="AC22D88F-67E7-F816-5BFD-B88128AF2260">
+<createdBy>ostarij</createdBy>
+<createdTime>2024-03-06 15:20:07 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>CCD7497F-44AA-7E0C-2B1D-9EAD605A4908</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F6AF604-488B-E625-A891-E2C2BF2AE925</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C89D083A-8940-4234-8E2C-3D6C4BA4C14C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

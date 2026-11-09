@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_744" directorySegmentName="seg_6" id="2004F107-816F-3F39-8319-FA1B474AB350">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-02 13:13:15 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<arc>5B71511C-6FDB-2600-D817-E1121CA04C0C</arc>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>58AD3A4A-6668-545C-9E14-F3A294702D9C</sourceEntity>
+<targetEntity>2504B7A3-448D-7220-180B-A78BBF1E8D02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

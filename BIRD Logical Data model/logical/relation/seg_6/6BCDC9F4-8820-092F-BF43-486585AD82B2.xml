@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Performing status reason classifies Party risk data" directorySegmentName="seg_6" id="6BCDC9F4-8820-092F-BF43-486585AD82B2">
+<createdBy>neil</createdBy>
+<createdTime>2024-03-22 09:09:03 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>7F3AAC82-1340-BCF2-478F-A1D2DFE9AC5E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>917DF606-CA1F-B9C2-DD33-B6AAD5BA0C25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66149CD5-EEE9-54D5-6A86-244769D4C7F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

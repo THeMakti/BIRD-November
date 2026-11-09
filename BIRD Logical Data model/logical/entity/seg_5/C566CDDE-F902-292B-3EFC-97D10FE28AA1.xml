@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="C566CDDE-F902-292B-3EFC-97D10FE28AA1" name="Balance sheet recognised exchange tradable derivative liability position national general accepted accounting principles (nGAAP)">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 07:51:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Balance sheet recognised exchange tradable derivative liability position national general accepted accounting principles (nGAAP) is a Balance sheet recognised exchange tradable derivative liability position to which the nGAAP accounting standard applies.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2F2741D3-5A9B-84B6-79A0-B1F2C0C6DB6E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>BLNC_SHT_RCGNSD_ETD_LBLTY_PSTN_NGAAP</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Haircuts for trading position valued at fair value" id="F09F538D-AFBD-1A89-6B6C-1DB4DA0F98CA">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 07:51:34 UTC</createdTime>
+<comment><![CDATA[Haircut for trading position valued at fair value. 
+According to Annex V (5.29):
+Where applicable under national GAAP based on BAD, ‘Haircuts for trading positions valued at fair value’ shall be reported. The haircuts decrease the value of trading assets and increase the value of trading liabilities.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FAA20A39-31D6-458E-8297-A7FD01A6501F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>HRCTS_TRDNG_PSTN_FV</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

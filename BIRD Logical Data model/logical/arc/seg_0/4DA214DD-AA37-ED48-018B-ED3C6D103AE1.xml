@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="4DA214DD-AA37-ED48-018B-ED3C6D103AE1" name="Employee benefit type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-13 11:45:11 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>7CF1A73F-A8DD-3582-9672-DB908CB20CD3</entity>
+<relations>
+<relationID>95834ED0-B3BB-10EF-1245-504A1ABDA52D</relationID>
+<relationID>D5F3BC34-0543-4613-A9D2-E82A59189E38</relationID>
+</relations>
+</Arc>

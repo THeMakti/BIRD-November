@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Asset specific value - (ASST_SPCFC_VL)" id="26023-467">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[## Contact person
+@Arianna.Nuvoli @Maria_Manuel.Henriques @Pietro.Ferroni 
+
+## Legal definition
+According to the instructions (Annex XVII, pag.26): 
+
+_"The asset-specific value shall be the economic value of the cover pool assets, as may be described by a fair value in accordance with IFRS 13, a market value observable from executed transactions in liquid markets, or a present value that would discount future cash flows of an asset by an asset-specific interest rate curve"_
+
+## Reason for inclusion
+AE integration
+
+## Relevant Framework/Template
+- F 35.00.a - Asset encumbrance: Covered bonds issuance (a) 
+
+For the entire cover pool meaning _Loans and advances_, _Equities_, and _Debt securities_.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/467]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

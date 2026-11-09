@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_3" id="88C7D5A0-5282-0FAE-F06C-8B05FD2B7694" name="Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE)">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:41:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) is either a Financial guarantee or a Deposit acting as a collateral for a particular part of the underlying Pool of assets.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>A0CBE5B5-15E4-B4F0-F88E-E83729225A42</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>0760DF4C-14A4-3E6B-1C5A-C45B3F675B38</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE</preferredAbbreviation>
+<attributeInherType>All atributes</attributeInherType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) type" id="EC179D54-690C-6ADB-731A-F41269B2F56F">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:46:29 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between different tranches in a synthetic securitisation, specifically between financial guarantees and deposits.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>B9FFCE33-6A57-04E7-5388-7ED9EEB508B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

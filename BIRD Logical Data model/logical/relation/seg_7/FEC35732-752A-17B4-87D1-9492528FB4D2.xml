@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Security is used in Security lending component via Security lending component Security assignment" directorySegmentName="seg_7" id="FEC35732-752A-17B4-87D1-9492528FB4D2">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-09-23 15:54:04 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>B9AAA95C-8F10-489B-49CE-630E13C3BDE2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B9C4C46-5617-E783-1C65-FB2BF74222E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B587593-6229-5E12-E432-44673A6E926A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26014-463</requestID>
+</changeRequests>
+</Relation>

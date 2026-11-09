@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="0E57B8EA-294B-00B6-908B-2E1E6FD34468" name="At cost based method or Lower of costs or market (LOCOM) indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 09:58:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[At cost based method or Lower of Costs or Market (LOCOM) indicator distinguishes the used accounting portfolio for national General Accepted Accounting Principles (nGAAP) between those that use the At cost based method or Lower of Costs or Market (LOCOM), and those that do not use At cost based method or Lower of Costs or Market (LOCOM).]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CST_BSD_MTHD_LCM_INDCTR</preferredAbbreviation>
+<changeRequests>
+<requestID>29064-493</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="At cost-based method or Lower of costs or market (LOCOM) indicator" id="91896E75-25EC-DE58-0FA6-D645D510B5A8">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:00:07 UTC</createdTime>
+<comment><![CDATA[At cost based method or Lower of costs or market (LOCOM) indicator distinguishes the used accounting portfolio for national General Accepted Accounting Principles (nGAAP) between those that use the At cost based method or Lower of costs or market (LOCOM), and those that do not use At cost based method or Lower of costs or carket (LOCOM).]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>959C32F4-A93F-4799-8BBA-49A90BFBF2FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CST_BSD_MTHD_LCM_INDCTR</preferredAbbreviation>
+<changeRequests>
+<requestID>29064-493</requestID>
+</changeRequests>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70D7EDC0-4258-5940-7F39-D51053E1A7EE" name="At cost based method or Lower of Costs or Market (LOCOM) indicator PK">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:07:34 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91896E75-25EC-DE58-0FA6-D645D510B5A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

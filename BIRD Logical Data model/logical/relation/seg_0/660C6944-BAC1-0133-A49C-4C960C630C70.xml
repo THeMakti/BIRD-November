@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Country is location of Debt security with underlying assets" directorySegmentName="seg_0" id="660C6944-BAC1-0133-A49C-4C960C630C70">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-04 11:06:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[is]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C48B5035-5A69-ED62-4C63-D2E541D73AE9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38013587-3E0F-07E3-FABD-AEF3C2ADF02B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E0F148A0-9C9D-A606-1568-84FF4AB58583</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>21826-396</requestID>
+</changeRequests>
+</Relation>

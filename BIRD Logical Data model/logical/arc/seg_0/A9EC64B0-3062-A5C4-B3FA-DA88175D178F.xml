@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="A9EC64B0-3062-A5C4-B3FA-DA88175D178F" name="Physical collateral type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 08:54:57 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>74CBF0BA-D8C4-24EA-B0C0-163D00A99C5C</entity>
+<relations>
+<relationID>1122A75A-7A38-392A-62D7-CE471FE43EB5</relationID>
+<relationID>705FC4B0-8680-9D1E-3AF5-2C10D0ADD8EB</relationID>
+<relationID>2A84B617-A404-54A7-7FEA-CDED8FC7AD67</relationID>
+<relationID>44D66E7F-1B5E-F7A6-AE19-33B6E23B310A</relationID>
+<relationID>24C7B7B6-51E9-CEC9-A5BE-A543ECFB4AAB</relationID>
+<relationID>656EC002-111D-EE58-0696-61B531491E6D</relationID>
+<relationID>A977E557-6318-0CC3-B3CE-F843C94349FF</relationID>
+<relationID>E09773AD-6D13-B6F4-874A-FA51254DE754</relationID>
+</relations>
+</Arc>

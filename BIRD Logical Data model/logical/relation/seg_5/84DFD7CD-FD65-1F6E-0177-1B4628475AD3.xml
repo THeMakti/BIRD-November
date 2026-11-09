@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fundamental review of the trading book standard approach risk measure has risk measure in Risk factor for standardised approach" directorySegmentName="seg_5" id="84DFD7CD-FD65-1F6E-0177-1B4628475AD3">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-11 08:37:40 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>08353A62-239B-08AB-54C9-104DEEC217EB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>569226D4-0B71-7630-0EE4-00E6F7A871C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D43EE6E0-75DE-52E9-8D4A-F62843894A1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

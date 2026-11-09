@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Software asset indicator is applied to Other intangible asset" directorySegmentName="seg_8" id="FA0F63CD-A2FA-E9A2-6AAB-2F23A1EDA9EF">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 09:13:58 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>87830DEE-6E93-1939-6C66-14F33D63EBC7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD4B4387-8E33-C426-E7CC-4466448F6CB9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0A68774-AE19-592E-515D-4033B459C533</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

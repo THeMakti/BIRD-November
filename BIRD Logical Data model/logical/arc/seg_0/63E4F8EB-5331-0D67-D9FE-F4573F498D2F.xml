@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="63E4F8EB-5331-0D67-D9FE-F4573F498D2F" name="Off-balance instrument type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:05:10 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>0BA391DF-4546-E207-BED7-A5437CCDDFE7</entity>
+<relations>
+<relationID>C88C25F7-7466-5ED7-B8E2-22ADB9DACD99</relationID>
+<relationID>65C54AE8-42D9-4527-2901-0F0DC1E42DD0</relationID>
+</relations>
+</Arc>

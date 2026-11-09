@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cash on hand International Financial Reporting Standard (IFRS) has Cash on hand International Financial Reporting Standard (IFRS) derived data" directorySegmentName="seg_6" id="83E60C2B-4698-450D-A1D7-A924D70CAEAE">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:53:49 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>051DCB79-B87A-9CB5-6E3B-85FEE497712E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECF68788-373E-1D0F-3815-7A354DDD7269</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F5D56DF8-3D14-44D5-54D4-43BBE25BF39B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

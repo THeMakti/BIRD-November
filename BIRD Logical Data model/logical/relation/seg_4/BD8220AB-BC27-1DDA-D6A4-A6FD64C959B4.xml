@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pulling effect type classifies Legal person(s)" directorySegmentName="seg_4" id="BD8220AB-BC27-1DDA-D6A4-A6FD64C959B4">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 09:44:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F4A0F0A7-724C-F90B-9C31-AC53FAC0D3FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74758E4B-C79F-B33D-9D77-47AD043EF18B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1F895CA-E612-3482-70D5-3578E2C60A8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

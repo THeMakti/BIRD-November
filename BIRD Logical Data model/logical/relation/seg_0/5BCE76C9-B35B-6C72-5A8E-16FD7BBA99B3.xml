@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Domestic institutional unit comprises Organisation" directorySegmentName="seg_0" id="5BCE76C9-B35B-6C72-5A8E-16FD7BBA99B3">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-29 11:27:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[comprises]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>86FECAC0-8A7A-BE18-57FE-C8ED7C57A9F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92EA0EE2-9231-25BD-E81C-498A2B560724</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36F4F142-0055-6B37-EB1E-64DFB173402F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

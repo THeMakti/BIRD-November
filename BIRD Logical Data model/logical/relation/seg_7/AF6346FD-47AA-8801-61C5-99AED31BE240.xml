@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies Interest rate risk hedge portfolio" directorySegmentName="seg_7" id="AF6346FD-47AA-8801-61C5-99AED31BE240">
+<createdBy>nuvolia</createdBy>
+<createdTime>2024-04-05 16:08:40 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6492E8D9-FD91-6B31-CE87-B8CF6C5292F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Main debtor type classifies Credit card debt Loan debtor assignment" directorySegmentName="seg_5" id="73FE3534-3AC1-DFB8-604F-FB619B647320">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 13:51:39 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C1CC20EB-7C6F-266B-BE7A-4BC54582ECD2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>578A6840-994B-72BA-F2AB-5DB2888CB35C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D2B58AB-9ACF-0DE8-4224-69C85E35F560</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool Deposit assignment has Asset pool Deposit assignment derived" directorySegmentName="seg_8" id="38570908-758F-FA36-C4D0-F0A91F22F098">
+<createdBy>reddigj</createdBy>
+<createdTime>2025-09-22 09:35:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DB71D3C4-44C5-1700-B9E0-F6D5D22A6122</sourcePk>
+<dominantRole>D143C8B3-BD28-54B3-0EFA-ECB88CD47327</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D143C8B3-BD28-54B3-0EFA-ECB88CD47327</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>760974AE-21CE-433C-A93D-72899FFE26FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>40474-563</requestID>
+</changeRequests>
+</Relation>

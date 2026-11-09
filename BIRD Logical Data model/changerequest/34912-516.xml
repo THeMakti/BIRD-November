@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Typo in EIL 6.5 entity name: LNG_EQTY_FND_SCRYT_PSTN_ENCMBRNC_DT" id="34912-516">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[In 6.5 EIL, there is a typo in entity LNG_EQTY_FND_SCRYT_PSTN_ENCMBRNC_DT, that should instead be LNG_EQTY_FND_SCRTY_PSTN_ENCMBRNC_DT.
+
+(i.e. ~~SCRYT~~ should be SCRTY)
+
+![image](/uploads/1dae3e0775b2c1df6b9e684221b4c959/image.png)]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/516]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

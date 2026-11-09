@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting hedge type classifies Loan and advance as a hedge" directorySegmentName="seg_6" id="5D0257F8-DFB0-6374-2496-53FAA95E0908">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-03-14 13:40:44 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>415A8643-1019-B4DF-B014-61C7C360ADC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD909C61-3FC2-EC62-3190-271AD516B596</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D249222E-C88E-947C-2B2E-F8F931CFDCCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

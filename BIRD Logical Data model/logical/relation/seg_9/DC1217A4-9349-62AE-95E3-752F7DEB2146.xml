@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Credit facility other than under pre-specified terms and conditions has derived data" directorySegmentName="seg_9" id="DC1217A4-9349-62AE-95E3-752F7DEB2146">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:20:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1AE12C8D-FA90-A5F2-9060-EBC70B60B0E4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CAA7F5C6-3717-EEF5-F0AA-AA0C7F85DA95</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A3E1FF98-BA13-C6EC-F99E-C9A2A5707134</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

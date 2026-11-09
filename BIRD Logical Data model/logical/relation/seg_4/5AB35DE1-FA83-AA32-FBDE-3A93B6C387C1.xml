@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Collateral received has Collateral received derived data" directorySegmentName="seg_4" id="5AB35DE1-FA83-AA32-FBDE-3A93B6C387C1">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-08-25 13:27:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E2628B7-BDCE-EBBC-B929-66AE41DDE57A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCBBAB01-3686-CCD5-A54D-EA33D1CB2ED2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E62E3F0-6FFD-E5E4-C654-80C99823D21D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

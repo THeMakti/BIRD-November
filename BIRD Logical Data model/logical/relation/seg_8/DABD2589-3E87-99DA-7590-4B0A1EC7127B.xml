@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset encumbrance source indicator classifies Off-balance sheet item received instrument" directorySegmentName="seg_8" id="DABD2589-3E87-99DA-7590-4B0A1EC7127B">
+<createdBy>bosarie</createdBy>
+<createdTime>2025-01-07 15:25:54 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E569DED-0DD6-41C4-228C-C093C1F08213</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11A87EFA-44E0-B79E-7B39-F86E64BB761B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E294C734-9622-7DB5-5FF2-894CA739F838</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>8348-5</requestID>
+</changeRequests>
+</Relation>

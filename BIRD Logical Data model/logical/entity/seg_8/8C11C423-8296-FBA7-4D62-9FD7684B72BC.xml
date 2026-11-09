@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="8C11C423-8296-FBA7-4D62-9FD7684B72BC" name="Renegotiated credit facility">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 08:13:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Renegotiated credit facility is a credit facility where a renegotiation has occured.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>AE3B0B8B-4E66-709C-450E-CC4B1C21FF1E</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RNGTD_CRDT_FCLTY</preferredAbbreviation>
+<changeRequests>
+<requestID>38957-549</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date of renegotiation status" id="A7E120F3-15EE-F8B7-0C8C-F820E955F2F6">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 08:24:57 UTC</createdTime>
+<comment><![CDATA[The date on which the renegotiation status is considered to have been established or changed.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>DT_RNGTTN_STTS</preferredAbbreviation>
+</Attribute>
+<Attribute name="Renegotiated credit facility with forbearance measure indicator" id="717A90F6-915E-353E-61D6-F11914C352EA">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 09:26:45 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FA4EDCD6-40AF-E0AD-1847-28CC95C176F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>RNGTTD_CRDT_FCLTY_FRBRNC_MSR_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

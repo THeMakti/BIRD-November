@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting classification classifies Short balance sheet recognised security position derived data" directorySegmentName="seg_3" id="0138FAC4-EE76-7F6D-F26B-C6CF5FA3A86C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-02-02 13:49:14 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>266C2F30-055D-1B1A-9095-EF0382B92477</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EC9BBB2-EB91-A986-6E0C-0C7B64929A33</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B35FE2AD-7E8A-1370-14DD-1644B0F7D508</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

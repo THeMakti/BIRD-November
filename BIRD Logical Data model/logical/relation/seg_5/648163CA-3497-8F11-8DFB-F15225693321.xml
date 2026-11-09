@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="(Reverse) Repurchase transaction Non-balance sheet recognised security position (received) assignment has derived data via (Reverse) Repurchase transaction Non-balance sheet recognised security position (received) assignment derived data" directorySegmentName="seg_5" id="648163CA-3497-8F11-8DFB-F15225693321">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-02-04 10:07:48 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>872B71AA-B63D-8C12-8E71-21516F4D9C41</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F694A722-2D01-272C-E219-B105D2D77C80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54CC7DF0-D46F-D28F-77B1-1465A6F08883</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

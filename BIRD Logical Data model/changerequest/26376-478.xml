@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Residual maturity of the contract - RSDL_MTRTY_CNTRCT" id="26376-478">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[## Overview
+Template F 33.00.b requires information on the residual maturity of the contract, which is something not yet included in the BIRD LDM.
+
+## Contact person
+@Arianna.Nuvoli @Maria_Manuel.Henriques @Pietro.Ferroni 
+
+## Legal definition
+According to Annex XVII, section _3. Part B: Maturity data_ 
+
+F 33.00.b, row 0020 is described as follows: 
+
+> **Collateral received re-used (receiving leg)** 
+
+
+See instructions for row 0130 of the AE-COL template and column 0040 of
+the AE-SOU template. 
+
+
+The amounts are reported at fair value and distributed among the set of **residual maturity buckets** specified in the columns according to the **residual maturity** of the transaction that generated for the entity the reception of the collateral that is being re-used (receiving leg).
+
+## Reason for inclusion
+AE integration
+
+## Relationships
+This issue is linked to the modelling of a collateral received re-used. #477 
+
+## Relevant Framework/Template
+- F 33.00.b - Asset encumbrance: Maturity data (b)
+
+### Before closing checklist
+
+* [ ] Assign reviewer (orignal author of the issue)
+* [ ] Assignee to close (should not be same as original author)
+* [ ] If the issue resolution does not require a logical data model, technical, or code change, a continuous improvement action should have been taken (e.g. improve documentation)]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/478]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

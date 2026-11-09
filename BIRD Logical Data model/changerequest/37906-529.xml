@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Current treatment of overdrafts" id="37906-529">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Overview
+Business definition
+We would like to deepen the background of the derived data “Overdraft indicator” to better understand how the banks should use it and why is necessary a derived indicator. 
+### Contact person
+Luciana.meoli@bancaditalia.it; valentina.murano@bancaditalia.it; 
+
+### Description of change request
+Currently it is a derived attribute of the transferable deposit. In particular, it is not clear the reason why “overdraft indicator” is a derived attribute We noticed that in the ESA Reg. (REGULATION (EU) No 549/2013 on the European system of national and regional accounts in the European Union) the overdrafts are included in the transferable deposit. 
+In our view the current treatment is not sufficiently clear and maybe not completely correct (as far as the sign treatment to derive such information could be not correct compared to the domain. More in detail, the SQL domain / SDD Subdomain associated with Loan (excluding repurchase agreement).Nominal amount is Non negative monetary amounts with 2 decimals and would (intuitively) not allow negative values.). It could be improved by removing the entity Transferable deposit derived data and by adding the attribute Overdraft indicator on the Transferable Deposit.  
+### Legal definition
+Reg. (REGULATION (EU) No 549/2013 on the European system of national and regional accounts in the European Union) […] 
+5.82 Transferable deposit accounts may have overdraft facilities. If the account is overdrawn, the withdrawal to zero is the withdrawal of a deposit, and the amount of the overdraft is the granting of a loan. 
+
+Other types of loans 5.136 The loans category includes the following: (a) overdrafts on transferable deposit accounts, where the amount overdrawn is not treated as a negative transferable deposit; […] 
+
+### Summary of impacted LDM objects/attributes
+
+![Logical_-_SubView_Overdrafts](/uploads/2b226f9959701a6604d0cfa9578462ec/Logical_-_SubView_Overdrafts.png)]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/529]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="27FF413E-9D67-9908-BDBF-F40930429870" name="Central bank type">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-01-31 09:15:54 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>63CD934A-3217-CF5C-68F0-16C1C1D80BF3</entity>
+<relations>
+<relationID>592AE7DD-65E3-E15D-8BA9-BF527A43D141</relationID>
+<relationID>2EF237F1-D19E-61AC-777A-8D9E2F327BB1</relationID>
+</relations>
+</Arc>

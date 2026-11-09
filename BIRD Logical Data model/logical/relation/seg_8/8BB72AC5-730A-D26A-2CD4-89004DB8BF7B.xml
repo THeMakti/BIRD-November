@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rolling stock collateral is measured by Protection valuation approach" directorySegmentName="seg_8" id="8BB72AC5-730A-D26A-2CD4-89004DB8BF7B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-08-27 15:16:38 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F509325A-ED2C-91A3-8CE1-AF8FE97EC681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEAECD04-84D6-BE28-0AFB-55F1488722F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>607DACD2-134A-8CBD-556A-0CA8DE30C0F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Main lessee type classifies Financial lease Lessee assignment" directorySegmentName="seg_8" id="AEDBF85C-3393-8008-7648-5AC9EE1EB0CC">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 14:11:15 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>38B4118B-DAE2-596F-36E3-24867351505E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5FB38DDB-0232-B6C6-4D81-785418C616C7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B53A29B-CD67-9AA5-64E9-AE999D38B0B4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

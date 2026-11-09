@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Protection arrangement received has Protection arrangement received derived data" directorySegmentName="seg_4" id="D50A64F3-41F9-ED26-3612-35041C2226E1">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-08-26 09:02:42 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>23D91901-228F-F520-1ABB-C06D904B1F43</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0DE55755-69A8-375B-E4D0-2058D91A0F9D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B7F15999-7D0E-B1BE-AF82-B0345C6584FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>33002-508</requestID>
+</changeRequests>
+</Relation>

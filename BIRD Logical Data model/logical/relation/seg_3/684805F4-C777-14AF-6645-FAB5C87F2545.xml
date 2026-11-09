@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting classification for financial assets is applied to Balance sheet recognised financial asset instrument(s)" directorySegmentName="seg_3" id="684805F4-C777-14AF-6645-FAB5C87F2545">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-03-07 16:59:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[is applied to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>49687C80-651A-98BF-3343-AE932BE15352</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02BFA482-6B90-AEDD-2AF3-894CCAC2D420</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D98528DD-4340-7068-DCF4-FC4EE2F41DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

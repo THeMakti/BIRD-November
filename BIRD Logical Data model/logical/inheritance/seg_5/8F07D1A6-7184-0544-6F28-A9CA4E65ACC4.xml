@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_630v1" directorySegmentName="seg_5" id="8F07D1A6-7184-0544-6F28-A9CA4E65ACC4">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-26 14:23:38 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<arc>22DE1BBA-A00B-9F3B-7634-0CE6C09384EE</arc>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>101580C7-7A41-DBA0-F668-CA0B21D0D2A3</sourceEntity>
+<targetEntity>A1008DB8-FF02-4239-ADEA-D4009AE1212D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

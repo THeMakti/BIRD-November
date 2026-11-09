@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="B06BBF09-1AF0-3877-F294-4DADF5DFE426" name="Collateral received instrument type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 10:06:22 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>E50F91BD-9CAA-1F59-DEF3-6907A545578F</entity>
+<relations>
+<relationID>C461BEF3-D040-7DB1-88A3-F33012A17EF0</relationID>
+<relationID>84868952-395C-385A-CC74-6AD6F4EB85C9</relationID>
+</relations>
+</Arc>

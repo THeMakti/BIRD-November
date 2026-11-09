@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="49B5025E-8327-7AF6-C9B8-B0C3345A971D" name="Renegotiated debt security type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-04 15:32:06 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>BE76A78F-7CDB-648D-9F71-76109033434A</entity>
+<relations>
+<relationID>37151AB4-E18C-976D-CDDF-63455688D32D</relationID>
+<relationID>E40A739B-D3FB-6975-7568-79590BB5B60F</relationID>
+</relations>
+</Arc>

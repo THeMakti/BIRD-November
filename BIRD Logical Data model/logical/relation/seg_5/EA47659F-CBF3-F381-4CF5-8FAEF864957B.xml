@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Statistical Classification of Economic Activities in the European Community (NACE) classifies Party(ies)" directorySegmentName="seg_5" id="EA47659F-CBF3-F381-4CF5-8FAEF864957B">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 14:10:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7EC39F-9B42-9893-56CA-96A19F39E6A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>597D6E32-A717-6C84-2295-58CF27F551E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68582837-AD3C-8E9C-DB5E-68322CD1DE08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

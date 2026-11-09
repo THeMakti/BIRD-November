@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Assigned debtor has Assigned debtor derived data" directorySegmentName="seg_5" id="18A7F963-174C-33A6-CA42-11C77CEE876F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-01 17:09:53 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>486D6DF6-D80B-53C0-21CD-91D6A906839B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02F2FE6D-2515-6757-5033-C336093DB172</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7A7885DA-E1B0-C4FE-5C1A-452275BEAD8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

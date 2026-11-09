@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Time elapsed since initial recognition band is applied to Balance sheet recognised exchange tradable derivative asset position taken into possession derived data" directorySegmentName="seg_8" id="1DDFC537-B35A-0B39-21C2-0FCD8C6856D6">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-23 14:43:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>55C80FA1-E67B-8166-6E7C-B25304B38F0B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD59ED4E-238E-DE0F-5022-FC3237A6CC85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D74C9EB-D462-9E5D-1F2B-C7633776FD9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

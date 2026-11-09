@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gold is assigned as collateral received to a (reverse) repurchase transaction via (Reverse) repurchase transaction gold collateral received assignment" directorySegmentName="seg_4" id="BC8EFF97-8302-1F65-8B2A-3D4D15A2E3A7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-26 11:22:50 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E2628B7-BDCE-EBBC-B929-66AE41DDE57A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCBBAB01-3686-CCD5-A54D-EA33D1CB2ED2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C207513-B80B-2B01-86DB-39048C524A11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

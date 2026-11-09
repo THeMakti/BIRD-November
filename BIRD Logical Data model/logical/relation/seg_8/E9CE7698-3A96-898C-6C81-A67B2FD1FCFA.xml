@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Deposit is part of Asset pool Deposit assignment" directorySegmentName="seg_8" id="E9CE7698-3A96-898C-6C81-A67B2FD1FCFA">
+<createdBy>reddigj</createdBy>
+<createdTime>2025-09-22 09:28:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CCB209C-1981-3086-B589-367D457CE9CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D143C8B3-BD28-54B3-0EFA-ECB88CD47327</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>40474-563</requestID>
+</changeRequests>
+</Relation>

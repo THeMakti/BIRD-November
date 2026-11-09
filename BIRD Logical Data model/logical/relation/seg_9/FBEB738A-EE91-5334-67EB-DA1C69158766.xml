@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Off-balance sheet item given instrument has Provisions associated with off-balance sheet item given instrument" directorySegmentName="seg_9" id="FBEB738A-EE91-5334-67EB-DA1C69158766">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:59:45 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>791B8411-7E00-08FE-C4F8-E18BAA32B7B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7CE6C6C-5F4E-2BA8-B205-B1E9F0BB3D0E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9418570D-17AB-8125-8601-F769B68A5D5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

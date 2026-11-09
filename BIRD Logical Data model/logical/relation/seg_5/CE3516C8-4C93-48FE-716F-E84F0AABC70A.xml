@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Multilateral development bank indicator classifies International organisation(s)" directorySegmentName="seg_5" id="CE3516C8-4C93-48FE-716F-E84F0AABC70A">
+<createdBy>saporig</createdBy>
+<createdTime>2023-10-17 07:24:50 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>D9FB7D51-09D0-F101-5DBF-5E03083FE8A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19F7395F-0212-A01D-6324-A63C83FFF418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB902D77-F0D4-07A3-B64A-103FAF25D7D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

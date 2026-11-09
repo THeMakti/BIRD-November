@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool (subject to a Securitisation and other credit transfer) comprises Exchange tradable derivative position via Asset pool Exchange tradable derivative position assignment" directorySegmentName="seg_7" id="D77EC6C8-1D60-D732-9EFB-D73AFF027E40">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-09-18 14:52:52 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7C6E1F-7451-2836-19AA-82EF3C7B0B1C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF3123E9-C3A5-7650-8DD2-DBE9CABA5872</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CAD27AF-0587-C396-A72B-839760CF6C56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26028-469</requestID>
+</changeRequests>
+</Relation>

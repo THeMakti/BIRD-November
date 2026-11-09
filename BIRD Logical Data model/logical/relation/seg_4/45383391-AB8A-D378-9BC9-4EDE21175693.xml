@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Immediate parent according to AnaCredit type classifies Immediate parent enterprise assignment" directorySegmentName="seg_4" id="45383391-AB8A-D378-9BC9-4EDE21175693">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 08:41:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F6EC8DFE-3007-7A59-F4A0-737B6BF12127</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82DBDADB-96D9-9309-D2DF-0E4F68E8F67C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72CB0826-36E0-A4B4-3525-40FB92136EC6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

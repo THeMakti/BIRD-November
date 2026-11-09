@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="EEF46574-EF55-D329-5F21-8D3A6C6A64DB" name="Instrument Protection arrangement assignment type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-12-10 16:29:46 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>10AA6500-7827-73A0-E10E-0E0F4B5040F8</entity>
+<relations>
+<relationID>DFD9E373-E55B-B135-4647-CD2F074C5ACA</relationID>
+<relationID>25A228CE-0F5E-CB5A-A171-19B30BCD6215</relationID>
+</relations>
+</Arc>

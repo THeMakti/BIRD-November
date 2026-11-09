@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="4A4974FA-44D5-7ABB-1CA0-246482A29A0E" name="Trade receivable type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:06:02 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>5183D638-6F8E-E4ED-2C17-CAD059CF1853</entity>
+<relations>
+<relationID>E603C8A1-B47D-1F65-8A4F-236364B5A084</relationID>
+<relationID>7F3540F0-B131-C4B0-4B8C-A98AC2716309</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="8FC7B0D1-DB11-6FC9-F9B5-7E30D8DDD755" name="Financial guarantee instrument type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:05:13 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>375D085D-ACD7-8FF1-9C4C-47D9B7A404D1</entity>
+<relations>
+<relationID>C0707D16-6DDF-7554-CB08-CED098E25F9F</relationID>
+<relationID>CFE02323-36A4-419A-1E6B-EC44437B8256</relationID>
+</relations>
+</Arc>

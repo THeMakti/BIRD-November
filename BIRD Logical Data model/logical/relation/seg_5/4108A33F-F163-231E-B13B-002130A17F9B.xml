@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Syndicated contract contains Syndicated financial contract member(s)" directorySegmentName="seg_5" id="4108A33F-F163-231E-B13B-002130A17F9B">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-11-08 08:52:24 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>9E4491BD-23E7-94F6-E4C9-26E6DAE246B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67F67629-DEAB-6530-D906-4E5A5BCD18EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>433144ED-ECC7-F44F-21AC-90A4454E3543</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

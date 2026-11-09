@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_2" id="618B70CD-D880-6536-437D-7A34AA91FD04" name="Non-balance sheet recognised financial asset instrument">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 16:32:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Non-balance sheet recognised financial asset instrument is a Financial asset instrument that is not recognised in the balance sheet (of the reporting agent).]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AC25CE06-349E-2EC8-DA05-FFD6B8759432</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>NN_BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Non-balance sheet recognised financial asset instrument by accounting standard" id="A2316B30-CEC7-9669-0EBB-6D442C4EF9F4">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-06-12 18:22:43 UTC</createdTime>
+<comment><![CDATA[Non-balance sheet recognised financial asset instrument by accounting standard distinguishes the Non-balance sheet recognised financial asset instrument according to the applied accounting standard (IFRS, nGAAP).]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>BBDE5CEC-C879-453F-A744-0029A1653819</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>NN_BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_BY_ACCNTNG_STNDRD</preferredAbbreviation>
+<changeRequests>
+<requestID>25692-459</requestID>
+</changeRequests>
+</Attribute>
+</attributes>
+</Entity>

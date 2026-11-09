@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting classification for financial assets is applied to Long balance sheet recognised security position" directorySegmentName="seg_8" id="92DD22D6-797E-DAE4-E15D-1F0ECDB70877">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-18 12:26:16 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>49687C80-651A-98BF-3343-AE932BE15352</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02BFA482-6B90-AEDD-2AF3-894CCAC2D420</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C41CD82-6B5E-E1F3-6046-8A212990D177</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

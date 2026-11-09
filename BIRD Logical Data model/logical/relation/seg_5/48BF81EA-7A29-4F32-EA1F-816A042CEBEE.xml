@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Initial impairment status is applied to Balance sheet recognised financial asset instrument(s)" directorySegmentName="seg_5" id="48BF81EA-7A29-4F32-EA1F-816A042CEBEE">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-11-03 10:16:02 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C3DBE20A-2B7F-06D1-B867-6E1869868B29</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9B912F1-C1CA-33E0-82AE-8177B40CDA04</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D98528DD-4340-7068-DCF4-FC4EE2F41DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

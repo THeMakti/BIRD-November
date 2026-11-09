@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="European Union member address hosts European Union member party" directorySegmentName="seg_2" id="D5B440F6-4E38-3BC8-2390-B9EC07B9A3D2">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-07 12:49:49 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>9F83083C-C1CE-60A0-8B73-E5925690D384</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C5B9F82-190D-AF25-BC51-7E18BC5BA50F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAF84954-725A-E258-FAD5-A53D93BB8C73</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

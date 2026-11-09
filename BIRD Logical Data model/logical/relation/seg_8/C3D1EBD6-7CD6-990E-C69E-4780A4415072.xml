@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Main Deposit-taking corporation type classifies Deposit Deposit-taking corporation assignment" directorySegmentName="seg_8" id="C3D1EBD6-7CD6-990E-C69E-4780A4415072">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 14:13:14 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1C9C5F89-3966-3CC9-882F-23F0C29970F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>006F988A-2752-8BC3-EF58-95BE3C8EFF62</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B77D927-F7BE-DD1D-6A5C-64ACEBF9CC05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

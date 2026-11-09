@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[IReF] Add ISIN to OTC Derivatives" id="29257-496">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!--See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab)-->
+
+# Overview
+
+IReF is adding the International Securities Identification Number as a requirement for the reporting of Over the Counter (OTC) Derivative instruments. BIRD needs to create a solution for that which is similar in structure to the structure for _Securities_ (see picture)
+
+![image](/uploads/da94ad45559840aa7bc470e7bcdd0d51/image.png){width="707" height="406"}
+
+Current structure for OTC derivatives:
+
+![image.png](/uploads/458e296264e18bf92d503c61852087b7/image.png)
+
+### Contact person
+
+- @Arjan.Bos
+- @Olivia.Hauet
+
+### Relevant Framework/Template
+
+- IReF
+
+### Additional documentation/links (optional)
+
+ESMA has a Q&A on this specific topic: https://www.esma.europa.eu/sites/default/files/2024-01/ESMA12-766636679-105_Response_to_EC_consultation_OTC_derivative_identifier.pdf
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/496]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="FBA17C85-20A8-D296-28B9-EC415FE8A0E8" name="Debt security with underlying assets type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 18:44:25 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>E0F148A0-9C9D-A606-1568-84FF4AB58583</entity>
+<relations>
+<relationID>685929B1-A905-A53C-A139-ABF1A3B3CC3E</relationID>
+<relationID>D0FED109-C484-1E17-F44D-62971E657340</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Collateral received is assigned to protect Off-balance instrument via Off-balance instrument Collateral received assignment" directorySegmentName="seg_0" id="0ED9BECE-EC2C-64B6-C7F4-39884848824C">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-03-12 09:23:10 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E2628B7-BDCE-EBBC-B929-66AE41DDE57A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCBBAB01-3686-CCD5-A54D-EA33D1CB2ED2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEF00C66-CC8A-B061-1495-16AA9FB628D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_9" id="B3F63A15-F3B1-62CB-02E2-0039876ACA8B" name="Exchange tradable derivative position as a hedge according to national general accepted accounting principles (nGAAP)">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:24:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Exchange tradable derivative position as a hedge according to national general accepted accounting principles (nGAAP) is an Exchange tradable derivative position as a hedge where the applicable accounting standard is nGAAP.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6EEE9DB7-67AC-D2CA-13A9-4ED84E7604F3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_PSTN_HDG_NGAAP</preferredAbbreviation>
+<changeRequests>
+<requestID>29064-493</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="At cost-based method or Lower of costs or market (LOCOM) indicator" id="62391F9D-4211-5E5C-13BF-6BAF0D2B8291">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:27:43 UTC</createdTime>
+<comment><![CDATA[At cost based method or Lower of costs or market (LOCOM) indicator distinguishes the used accounting portfolio for national General Accepted Accounting Principles (nGAAP) between those that use the At cost based method or Lower of costs or market (LOCOM), and those that do not use At cost based method or Lower of costs or carket (LOCOM).]]></comment>
+<generatorID>5119B9A2-524D-A9B4-1A6F-81FA5DCBB8DE</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>91896E75-25EC-DE58-0FA6-D645D510B5A8</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>959C32F4-A93F-4799-8BBA-49A90BFBF2FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CST_BSD_MTHD_LCM_INDCTR</preferredAbbreviation>
+<changeRequests>
+<requestID>29064-493</requestID>
+</changeRequests>
+</Attribute>
+</attributes>
+</Entity>

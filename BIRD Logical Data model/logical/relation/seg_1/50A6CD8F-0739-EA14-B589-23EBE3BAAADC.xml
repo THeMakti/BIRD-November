@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool (subject to a credit transfer other than securitisation and covered bond programme) is underlying to a Credit transfer other than securitisation and covered bond programme" directorySegmentName="seg_1" id="50A6CD8F-0739-EA14-B589-23EBE3BAAADC">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[is underlying to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7C6E1F-7451-2836-19AA-82EF3C7B0B1C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1924C1A-7831-F71C-8570-D4B1B0E6B2FD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>99A8FAFD-054C-C867-FE11-69640A2ACE80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

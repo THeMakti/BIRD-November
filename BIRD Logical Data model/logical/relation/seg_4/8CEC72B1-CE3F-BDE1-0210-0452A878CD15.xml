@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Enterprise type classifies Central bank and private sector company(ies)" directorySegmentName="seg_4" id="8CEC72B1-CE3F-BDE1-0210-0452A878CD15">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 15:20:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FBE6383D-5B24-6DBC-C6EB-F52A28BA1E20</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>640F6922-F9EE-51D8-1152-A6AE271F0417</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85956057-D0C7-8869-F90B-A6A301A3A30F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

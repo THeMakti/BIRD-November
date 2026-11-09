@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Under construction or developement indicator classifies Residential Immovable property" directorySegmentName="seg_8" id="DD64B1DB-4D64-B05D-1EFE-DA223C99AEC1">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-24 15:07:01 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>D7E180EB-AB70-E0D7-DFDD-E8F5588793DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46F25976-E134-25E5-5399-16B95A92C0EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>378ED8FD-0028-41EB-09F8-4FF1B73B83FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

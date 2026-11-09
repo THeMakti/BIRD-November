@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies Other intangible asset" directorySegmentName="seg_8" id="6E235627-BA49-BE3E-0BB0-DD4B0E8D66B4">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 08:40:01 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0A68774-AE19-592E-515D-4033B459C533</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

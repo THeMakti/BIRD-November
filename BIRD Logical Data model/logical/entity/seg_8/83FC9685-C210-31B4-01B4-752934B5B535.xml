@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="83FC9685-C210-31B4-01B4-752934B5B535" name="Renegotiated credit facility with forbearance measure">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 08:54:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Renegotiated credit facility with forbearance measure is a Renegotiated credit facility where forbearance measures have been applied.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>AE3B0B8B-4E66-709C-450E-CC4B1C21FF1E</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8C11C423-8296-FBA7-4D62-9FD7684B72BC</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RNGTD_CRDT_FCLTY_WTH_FRBRNC_MSR</preferredAbbreviation>
+<changeRequests>
+<requestID>38957-549</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Forbearance measure type" id="4CFF79BA-FCCE-7196-067B-BD8ECFD50761">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 09:14:01 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between refinanced debt, instruments with modified interest rate below market value and other modified terms.]]></comment>
+<generatorID>65364BCD-6408-0EDC-86AC-0A02BAD68392</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>041D454F-D602-0511-5CA9-74A3F6EB3CD6</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>87EF806E-E453-9C18-75EE-10501A78404B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FRBRNC_MSR_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Date of forbearance status" id="CC67F70D-E583-ECCC-770A-9DACB985EA9D">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 09:16:51 UTC</createdTime>
+<comment><![CDATA[The date on which forbearance measure have been applied.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>DT_FRBRNC_MSRS</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

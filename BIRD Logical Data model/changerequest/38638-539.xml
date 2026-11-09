@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="`Other party identifier`.`Other party code` should be mandatory" id="38638-539">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+The `Other party identifier` entity type has only one non-key attribute, i.e., `Other party code`, which is optional. Hence, the model allows to create an instance of the entity type `Other party identifier` that does not provide any (valuable) information - except for that for a particular `Party` there exists an `Other party code` (entity type) but without known `Other party code` (attibute).
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Description of change request
+
+Make the attribute `Other party identifier`.`Other party code` mandatory.
+
+### Summary of impacted LDM objects/attributes
+
+* `Other party identifier`.`Other party code`
+
+![image](/uploads/eb97088d46c43dfa9a8e661a79db9ee5/image.png)
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/539]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

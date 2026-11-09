@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Initial impairment status is applied to Credit facility other than under pre-specified terms and conditions" directorySegmentName="seg_9" id="8705C817-0C80-F720-EE5B-6A56399587E7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:21:13 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C3DBE20A-2B7F-06D1-B867-6E1869868B29</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9B912F1-C1CA-33E0-82AE-8177B40CDA04</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CAA7F5C6-3717-EEF5-F0AA-AA0C7F85DA95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

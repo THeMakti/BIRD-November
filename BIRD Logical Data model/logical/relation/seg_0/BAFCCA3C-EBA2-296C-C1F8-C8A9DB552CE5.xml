@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting hedge type classifies Debt security issued (by the reporting agent) as a hedge" directorySegmentName="seg_0" id="BAFCCA3C-EBA2-296C-C1F8-C8A9DB552CE5">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-03-14 13:42:40 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>415A8643-1019-B4DF-B014-61C7C360ADC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD909C61-3FC2-EC62-3190-271AD516B596</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAEB9B83-BE89-F719-6667-BF2DE4448BFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

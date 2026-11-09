@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="BD6713F2-2018-81E3-CFDE-95F0093CE632" name="Past due financial asset instrument indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-07 07:26:39 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</entity>
+<relations>
+<relationID>474BC9D2-96C6-2FBB-4F96-C0E4B717E9C2</relationID>
+<relationID>D82FBAFE-9360-5609-227F-118830D3D170</relationID>
+</relations>
+</Arc>

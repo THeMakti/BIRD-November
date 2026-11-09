@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Performing forborne exposure under probation reclassified from non-performing type classifies Performing non-retail exposure class financial asset instrument" directorySegmentName="seg_4" id="620FF32D-1195-F22F-E461-98076190237C">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-28 16:06:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>7DC612F4-8CB9-B63F-7112-C285B2939848</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25331F76-F34C-2729-9E43-88F9451CF2C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F5056AF-C375-5EB3-4040-02541A2B90BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

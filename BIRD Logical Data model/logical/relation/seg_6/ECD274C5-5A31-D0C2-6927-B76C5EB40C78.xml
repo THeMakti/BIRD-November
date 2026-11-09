@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Impairment status classifies Credit facility" directorySegmentName="seg_6" id="ECD274C5-5A31-D0C2-6927-B76C5EB40C78">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-19 10:45:20 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3A25B8CF-E62C-9090-A0E9-158B2D581F0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFC26DEF-9D22-AE21-D2D1-BFDB52A52F50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

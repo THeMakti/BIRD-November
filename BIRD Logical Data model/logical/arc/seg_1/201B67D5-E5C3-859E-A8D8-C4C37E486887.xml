@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="201B67D5-E5C3-859E-A8D8-C4C37E486887" name="Financial asset instrument type by fixed interest rate">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 23:53:31 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</entity>
+<relations>
+<relationID>18327405-EEE9-3B88-16B0-E993CCEAC58E</relationID>
+<relationID>9F1A5815-8715-CCC2-A50B-34C4AFFB5BC4</relationID>
+</relations>
+</Arc>

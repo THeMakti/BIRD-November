@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Optional enumerated attributes in derived data entity types" id="38642-541">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+
+Given the currently applied convention for optionality of enumerated attributes - which is btw in contrast to Codd's 'systematic treatment of null values' - it seems that the optionality of some enumerated attributes in derived data entity types is incorrect.
+
+For example, the attribute `Financial asset instrument derived data`.`Performing status` is optional although it is an enumerated attribute.
+
+Please note that this situation is present in other locations in the model as well, for example `Balance sheet recognised financial asset instrument derived data`.`Transfer between impairment stages` - this might be a systematic issue (check forward engineering scripts).
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Background information
+_[info]_
+
+### Points/Questions to resolve
+
+* please reflect on the treatment of null values
+* if the given convention is considered appropriate and there is a good reason to violate the 'systematic treatment of null values', please apply the given convention consistently
+* if the given convention is considered appropriate, maybe explore the possibility to implement validations (e.g., using SQL data modeler's validation functionality) to avoid future inconsistencies
+
+### Related issues
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/541]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

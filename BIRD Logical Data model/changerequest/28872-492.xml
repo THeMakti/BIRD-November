@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Exchange tradable derivative position role type domain" id="28872-492">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Overview
+
+There is an issue with Exchange tradable derivative position role type domain. There are two members with code 4: 
+
+* Non-balance sheet recognised exchange tradable derivative asset position 
+* Exchange tradable derivative position as a hedge
+
+causing the member _'Exchange tradable derivative position as a hedge'_ to disappear in the (E)IL.
+
+### Contact person
+
+@Arianna.Nuvoli 
+
+### Description of change request
+
+Change the code of the member  'Exchange tradable derivative position as a hedge' (also in the SDD).
+
+### Forward Engineering considerations
+
+Double check that the member 'Exchange tradable derivative position as a hedge' is included in the new (E)Il version
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/492]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[Asset Sec] SPV as a party role" id="17873-200">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+In COREP we might need 3rd party info about the SPV in the securitisation.
+
+### Contact person
+
+### Background information
+
+### Points/Questions to resolve
+Do we need 3rd party info about the SPV?
+
+### Related issues
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/200]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

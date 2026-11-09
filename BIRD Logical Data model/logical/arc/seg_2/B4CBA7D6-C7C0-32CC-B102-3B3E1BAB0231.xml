@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="B4CBA7D6-C7C0-32CC-B102-3B3E1BAB0231" name="Non-balance sheet recognised financial asset instrument by accounting standard">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-06-12 18:26:50 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>618B70CD-D880-6536-437D-7A34AA91FD04</entity>
+<relations>
+<relationID>0FC07D0E-63A9-CA4C-9C6A-200AD1DE6E74</relationID>
+<relationID>9B96FAA4-185E-A9EF-FF28-01623084E3C0</relationID>
+</relations>
+</Arc>

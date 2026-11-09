@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="359E79A3-0B2A-0B28-740A-409FDB106D7E" name="Non-balance sheet recognised exchange tradable derivative liability position national general accepted accounting principles (nGAAP)">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:23:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Non-balance sheet recognised exchange tradable derivative liability position national general accepted accounting principles (nGAAP) is a Non-balance sheet recognised exchange tradable derivative liability position to which the nGAAP accounting standard applies.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5B6B2353-8910-2E57-E1EB-19CDE58D77F7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>NN_BLNC_SHT_RCGNSD_ETD_LBLTY_PSTN_NGAAP</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fair value" id="606C803E-0FFA-6AAD-8420-EFA27F1E4671">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:26:04 UTC</createdTime>
+<comment><![CDATA[Fair value as defined in IFRS 13.9.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FAA20A39-31D6-458E-8297-A7FD01A6501F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FV</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

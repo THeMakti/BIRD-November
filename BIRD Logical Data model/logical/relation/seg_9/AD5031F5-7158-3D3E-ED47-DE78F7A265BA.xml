@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Repurchase agreement transaction has buyer via Repurchase transaction buyer assignment" directorySegmentName="seg_9" id="AD5031F5-7158-3D3E-ED47-DE78F7A265BA">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-27 11:14:08 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B03540AC-36AC-63EE-EEC5-CB1B2B0E4C5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F676F550-E548-6EFD-7817-A6E7BCCE81EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Collateral given protects Loan(s) and advance via Off-balance instrument Collateral given assignment" directorySegmentName="seg_8" id="A3919DFB-DB5A-7081-F82B-DA9497872891">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-12-11 08:41:06 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6E2628B7-BDCE-EBBC-B929-66AE41DDE57A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4547A0A-7D7D-C26A-4956-DCFBBC4E05C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>838313BF-5398-7A18-08C7-3D12F4E8FE2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26377-479</requestID>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

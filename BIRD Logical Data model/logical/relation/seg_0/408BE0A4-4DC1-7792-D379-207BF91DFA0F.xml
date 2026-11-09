@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loan and advance is protected by Protection item via Loan and advance Collateral received assignment" directorySegmentName="seg_0" id="408BE0A4-4DC1-7792-D379-207BF91DFA0F">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-03 15:43:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[is protected by]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6FD5D89-A17A-4780-AA57-0259F91E0630</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ACDEC181-3399-411D-BD18-E28CCC37B7BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

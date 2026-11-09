@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Long/short balance sheet recognised security position is assigned to Prudential portfolio(s) via security position Prudential portfolio assignment" directorySegmentName="seg_3" id="7CF3D7A3-1266-6A89-53E6-CBF4BAAA5B70">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-22 16:36:30 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>4BA9B0F9-AFA7-E30A-3A3E-35C1ADD0F440</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15C47DFF-7AC2-9C56-CD0C-E37F2FDE60F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>187B5AB5-70C9-929A-88D4-9E5126986A3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

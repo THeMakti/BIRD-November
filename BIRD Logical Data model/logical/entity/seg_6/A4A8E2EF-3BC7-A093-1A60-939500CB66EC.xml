@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_6" id="A4A8E2EF-3BC7-A093-1A60-939500CB66EC" name="Partner enterprise">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-03-15 15:59:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Partner enterprises are all enterprises which are not classified as linked enterprises and between which there is the following relationship: an enterprise (upstream enterprise) holds, either solely or jointly with one or more linked enterprises, 25 % or more of the capital or voting rights of another enterprise (downstream enterprise). (Commission Recommendation 2003/361/EC)]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>0A8459C5-6F0E-2DFD-CCB2-4B74CD47130F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PRTNR_ENTRPRS</preferredAbbreviation>
+</Entity>

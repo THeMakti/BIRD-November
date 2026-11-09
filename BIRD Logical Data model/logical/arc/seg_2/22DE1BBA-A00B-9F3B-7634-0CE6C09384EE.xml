@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="22DE1BBA-A00B-9F3B-7634-0CE6C09384EE" name="Debt security issued prudential portfolio type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-26 14:25:01 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>101580C7-7A41-DBA0-F668-CA0B21D0D2A3</entity>
+<relations>
+<relationID>8F07D1A6-7184-0544-6F28-A9CA4E65ACC4</relationID>
+<relationID>9030BAF9-5ACC-EDC5-F6D0-7B89F6A898ED</relationID>
+</relations>
+</Arc>

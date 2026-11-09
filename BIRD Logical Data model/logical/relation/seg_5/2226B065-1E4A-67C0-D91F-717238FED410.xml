@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Transfer between impairment stages is applied to Balance sheet recognised financial asset instrument derived data" directorySegmentName="seg_5" id="2226B065-1E4A-67C0-D91F-717238FED410">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-11-08 15:42:40 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>ECD8EEF0-5056-F34A-4DB3-FBC3EDD07F8D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2735F89-31EA-99CF-81A6-93D3886B74D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7843E56A-D970-2EDE-467A-EBF530A20DE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

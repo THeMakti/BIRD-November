@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="B1FFA8F7-D1D6-514B-3D71-3D014F75017F" name="Overnight deposit type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:05:55 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>85E24118-E0AE-37F8-4C00-15C6B0340637</entity>
+<relations>
+<relationID>5EEEBA86-2EDD-939E-82EF-5A110A56918A</relationID>
+<relationID>FE689A25-1B5F-1A89-CCE9-952EDDA4CB2E</relationID>
+</relations>
+</Arc>

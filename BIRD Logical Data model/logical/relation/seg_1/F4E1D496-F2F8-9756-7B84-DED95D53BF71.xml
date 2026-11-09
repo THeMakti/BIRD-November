@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rating agency manages Rating system(s)" directorySegmentName="seg_1" id="F4E1D496-F2F8-9756-7B84-DED95D53BF71">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-12 13:26:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[manages]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>8164CFD7-A94F-01E1-AFE3-2C58D9D83BFD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>619A31E0-3703-F2FC-5946-75EE5A48E9D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>70FB289D-B03F-3183-2133-75789F14C663</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

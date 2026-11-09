@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="9D7D25CF-D562-3E9F-22D1-F498F7C14C30" name="Credit facility Entity role assignment type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-08 11:23:33 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>A8BCC194-C8A1-AAEE-9AD3-70384DA5B8FD</entity>
+<relations>
+<relationID>D1D26458-6E0C-4D60-0030-F29953DDBA9E</relationID>
+<relationID>3CE85B50-038F-9F13-417A-43C133AC48B0</relationID>
+<relationID>193B328F-97A4-B08F-07D5-481E74A32CDD</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Exchange tradable derivative liability position has Exchange tradable derivative liability position derived data" directorySegmentName="seg_7" id="97634E4F-F0FA-14B9-6181-81B459AAC8F4">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:43:04 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>22DD2F33-FB79-581F-16C7-D2B0BD796F55</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5169C55-A549-B957-4273-12882244BA42</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8E240CC7-5D43-CF5A-5F51-7BD66F4F3FDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

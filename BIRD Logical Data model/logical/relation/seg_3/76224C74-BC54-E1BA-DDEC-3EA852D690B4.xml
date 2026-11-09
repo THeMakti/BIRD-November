@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Under construction or developement indicator classifies Commercial Immovable property related to land (excluding agricultural land)" directorySegmentName="seg_3" id="76224C74-BC54-E1BA-DDEC-3EA852D690B4">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-06 09:09:54 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>D7E180EB-AB70-E0D7-DFDD-E8F5588793DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46F25976-E134-25E5-5399-16B95A92C0EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>662D063E-F7B9-0CCA-2264-0284224BC439</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

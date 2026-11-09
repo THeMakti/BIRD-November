@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="5F1C17DD-FCEA-DFBB-697D-A851848F2274" name="Debt security by accounting standard">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-29 14:04:26 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>BE76A78F-7CDB-648D-9F71-76109033434A</entity>
+<relations>
+<relationID>B6FA054E-5180-EDFA-639E-432EF51E2A8D</relationID>
+<relationID>5BECAE45-E0FB-CED7-C454-11F9204EB5AD</relationID>
+</relations>
+</Arc>

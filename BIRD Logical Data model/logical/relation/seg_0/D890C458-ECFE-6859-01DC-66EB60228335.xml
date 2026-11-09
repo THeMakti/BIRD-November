@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accounting hedge type classifies Equity instrument that is not a security as a hedge" directorySegmentName="seg_0" id="D890C458-ECFE-6859-01DC-66EB60228335">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-03-14 13:42:01 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>415A8643-1019-B4DF-B014-61C7C360ADC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD909C61-3FC2-EC62-3190-271AD516B596</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30FE22A5-7D6D-B178-7F24-11F6D029B691</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

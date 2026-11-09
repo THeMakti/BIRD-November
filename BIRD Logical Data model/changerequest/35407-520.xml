@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Debt security issued  - hedged by... OTC or exchange tradable derivative" id="35407-520">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+In BIRD 6.5 you have the entities:
+**Instrument hedged by Over the counter (OTC) Derivative**
+and 
+**Security position hedged by Over the counter (OTC) derivative**
+
+You also have:
+**Instrument hedged by exchange tradable derivative position**
+and 
+**Security position hedged by exchange tradable derivative position**
+
+However, I miss the concept for a Debt security issued..._hedged by Over the counter (OTC) derivative_ 
+
+In the current model version, it is not possible to show a debt security issued that is hedged by an (OTC) derivative. 
+Likewise, it is not possible to show a debt security issued that is hedged by an exchange tradable derivative position.
+
+Illustration of the Debt security relation with Otc derivative
+![image](/uploads/e180cd781ac5a1d71094d6d3e3abbda9/image.png)
+### Contact person
+_[m.peters80@gmail.com]_
+
+### Business definition
+_[Business requirements]_
+
+### Legal definition
+_[Legal reference]_
+
+### Reason for inclusion
+_Model is not complete_
+
+### Relationships
+_[Related objects]_
+
+### Relevant Framework/Template
+FinRep F 11.04
+Annex V.Part 2.146, 147
+IFRS 7.24B(a)
+
+### Additional documentation/links (optional)
+_[Additional info]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/520]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

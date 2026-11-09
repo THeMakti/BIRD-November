@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Non_financial_asset_id and non_financial_liability_id to be deleted  from the input layer" id="35359-519">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Overview
+
+The table Non financial asset and non financial liability are at aggregated level therefore they must not have an identifier.
+
+### Contact person
+
+@Arianna.Nuvoli 
+
+### Description of change request
+
+Delete Non_financial_asset_id and non_financial_liability_id from all the input layer models.
+
+### Summary of impacted LDM objects/attributes
+
+None
+
+### Forward Engineering considerations
+
+The change will impact only the input layer.
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/519]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="5FA5CE67-5D82-9348-D320-2EC115906056" name="Instrument type by origin">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-28 11:09:30 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>54907B80-5ADD-5298-6AE7-54D1AC9CA6F6</entity>
+<relations>
+<relationID>FB557BC2-E211-8274-D050-5F2F1A8C7020</relationID>
+<relationID>DBDF7A91-0CFB-A5FB-A8AD-F18B80F9900F</relationID>
+</relations>
+</Arc>

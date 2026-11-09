@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="ENCMBRD_NMNL_AMNT to be replaced with ENCMBRD_ASST_INDCTR for table SCRTY_PSTN in EIL 6.5" id="35225-518">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Overview
+
+ENCMBRD_ASST_INDCTR is missing in SCRTY_PSTN, while ENCMBRD_NMNL_AMNT is included despite being already in ENCMBRD_NMNL_AMNT
+
+### Contact person
+
+@Arianna.Nuvoli 
+
+### Description of change request
+
+_Replace ENCMBRD_NMNL_AMNT with ENCMBRD_ASST_INDCTR_]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/518]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

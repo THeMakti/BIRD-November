@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Over the counter (OTC) Derivative instrument has Over the counter (OTC) Derivative as a hedge" directorySegmentName="seg_4" id="53FC488B-8E58-D189-08B0-EEE9C2BB9F71">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-20 14:59:38 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9665198A-8A15-BE5A-E137-9B7F66788D28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE7AABF7-53FD-1A4B-D940-7E228C87F604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asset pool (subject to a Securitisation) is underlying to a Securitisation" directorySegmentName="seg_1" id="79FF3391-A97C-97DA-35A0-C8EDE78D1D42">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-11 13:59:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[is underlying to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>FD7C6E1F-7451-2836-19AA-82EF3C7B0B1C</sourcePk>
+<dominantRole>BCDB3E14-DE0D-743A-5D84-9C31FEF0137E</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BCDB3E14-DE0D-743A-5D84-9C31FEF0137E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EC05B5FC-3397-964C-AAF0-C65C085847AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

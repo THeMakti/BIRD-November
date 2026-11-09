@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Held for sale type specifies Gold" directorySegmentName="seg_3" id="B7669C14-20AD-12C3-60F7-FDD1D068B58B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-03 17:16:36 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3E0C3075-8792-4102-E82D-9DAEA6D26C0F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8010F03-C9C4-D0EC-E458-F061E8B3D403</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D0555CE-928E-ADCE-45E9-17D395275EAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Foreign branch has foreign branch derived data" directorySegmentName="seg_8" id="0C90BB37-FC01-C0A7-D2E5-8097AE381BF8">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-02 17:20:13 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A6FE620C-D0A1-F3B4-BCF9-3ABCF84D367D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>718CEC61-D5A5-8225-E6B6-74908DD7D59B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>124FD91B-E11D-709E-7D15-74668295166F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

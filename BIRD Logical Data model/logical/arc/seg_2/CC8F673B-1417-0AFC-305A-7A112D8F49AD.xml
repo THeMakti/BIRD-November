@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="CC8F673B-1417-0AFC-305A-7A112D8F49AD" name="Exchange tradable derivative asset or liability position role type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-30 13:21:49 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>DEBAF9F4-7798-ED5D-963A-B6BEE579D665</entity>
+<relations>
+<relationID>F45C3A12-2F8A-BC0C-1FE7-41146217C448</relationID>
+<relationID>5619B6AA-6180-EEC8-99E5-20642F5CBEF7</relationID>
+</relations>
+</Arc>

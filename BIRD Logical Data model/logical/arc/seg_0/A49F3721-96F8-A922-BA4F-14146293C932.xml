@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="A49F3721-96F8-A922-BA4F-14146293C932" name="Security or exchange tradable derivative position type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 12:18:03 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>4D700285-5991-2DE8-8999-DF34CDBD8FC0</entity>
+<relations>
+<relationID>0D46C63B-F316-4701-328E-8A29DE4092F7</relationID>
+<relationID>D6EE7807-CAE6-3AD9-10DD-3CEC4E3FFB7C</relationID>
+</relations>
+</Arc>

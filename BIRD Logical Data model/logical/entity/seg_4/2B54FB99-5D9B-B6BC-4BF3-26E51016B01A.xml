@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_4" id="2B54FB99-5D9B-B6BC-4BF3-26E51016B01A" name="Right of use asset indicator">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-05-15 09:38:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Right-of-use asset indicator identifies assets under lease for which the reporting agent assumes the role of lessee and recognizes a right-of-use asset under IFRS 16.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RGHT_US_ASST_INDCTR</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Right of use asset indicator" id="D8EACA12-E3D7-1A7D-9EC4-DE515237E322">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-05-15 09:39:14 UTC</createdTime>
+<comment><![CDATA[Right-of-use asset indicator identifies assets under lease for which the reporting agent assumes the role of lessee and recognizes a right-of-use asset under IFRS 16.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>8969FE4F-4C33-D035-54D6-745451FE4B72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>RGHT_US_ASST_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59439907-90F5-7C8E-D06B-8F512A017C6B" name="Right-of-use asset indicator PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-05-15 09:39:26 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8EACA12-E3D7-1A7D-9EC4-DE515237E322</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

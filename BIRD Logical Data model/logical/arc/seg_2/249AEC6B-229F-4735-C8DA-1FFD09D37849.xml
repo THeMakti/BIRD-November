@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="249AEC6B-229F-4735-C8DA-1FFD09D37849" name="Past due debt security indicator">
+<createdBy>Vishal Upadhayay</createdBy>
+<createdTime>2025-08-03 12:04:00 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>BE76A78F-7CDB-648D-9F71-76109033434A</entity>
+<relations>
+<relationID>4EA16D58-ACB2-0ECF-6210-E6E1DE9B394D</relationID>
+<relationID>CF1279E8-7842-BE38-5D6F-50E065FE2864</relationID>
+</relations>
+</Arc>

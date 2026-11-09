@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loan and advance has Loan and advance as a hedge" directorySegmentName="seg_7" id="6397218F-9E80-8495-AE14-C64EC7A16511">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-20 12:45:54 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<dominantRole>B6FD5D89-A17A-4780-AA57-0259F91E0630</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6FD5D89-A17A-4780-AA57-0259F91E0630</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D249222E-C88E-947C-2B2E-F8F931CFDCCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

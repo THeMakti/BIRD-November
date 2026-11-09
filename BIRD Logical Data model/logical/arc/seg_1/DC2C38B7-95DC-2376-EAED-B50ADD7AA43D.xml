@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="DC2C38B7-95DC-2376-EAED-B50ADD7AA43D" name="Security position hedged by Over the counter (OTC) derivative type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-08 12:53:33 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>8D276167-45CA-B564-B28C-7849EB0D5ADC</entity>
+<relations>
+<relationID>7AEA89BC-5BAB-9B72-D14E-60A30CB58997</relationID>
+<relationID>B9C0C05C-5CC9-7017-D9FA-4884AE592D3E</relationID>
+</relations>
+</Arc>

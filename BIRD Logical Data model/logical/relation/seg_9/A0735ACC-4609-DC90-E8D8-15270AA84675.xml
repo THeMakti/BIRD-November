@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="(Reverse) Repurchase transaction Non-balance sheet recognised security position assignment is assigned to a Repurchase transaction via Repurchase transaction Non-balance sheet recognised security position assignmentv2" directorySegmentName="seg_9" id="A0735ACC-4609-DC90-E8D8-15270AA84675">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-30 17:27:10 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>E11947CB-1464-873A-C1F1-F2FC9FB48602</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0F54796-D350-E3DC-FBD3-8F0AC47B6353</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E0958300-7F1A-F70D-8BC0-B4DCA7A6E3DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

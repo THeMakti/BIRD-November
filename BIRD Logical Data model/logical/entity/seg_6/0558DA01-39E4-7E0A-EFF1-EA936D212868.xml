@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_6" id="0558DA01-39E4-7E0A-EFF1-EA936D212868" name="Vega sensitivity">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-11 09:54:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[The potential loss resulting from the change in value of a derivative due to a change in the implied volatility of its underlying.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1B94F88B-CE04-E04E-DE88-6866B6DBCB24</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D43EE6E0-75DE-52E9-8D4A-F62843894A1A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>VG_SNSTVTY</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Underlying residual maturity" id="769BE65F-3772-E71C-AB9A-B84E19CA08D3">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-11 10:07:00 UTC</createdTime>
+<comment><![CDATA[Where required, the underlying residual maturity to which the sensitivity is wwa created. Required when we consider that the sensitivity came from a change in a volatility surface.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>A602B33C-0004-D05B-A4E1-4A2339C606D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>UNDRLYNG_RSDL_MTRTY</preferredAbbreviation>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Vega sensitivity" id="6A23AB24-ABC7-3BC1-0BCC-A8E40E30FD88">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-11 10:07:00 UTC</createdTime>
+<comment><![CDATA[The sensitivity, as an amount (e.g. 100 dollars).]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>A602B33C-0004-D05B-A4E1-4A2339C606D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>VG_SNSTVTY</preferredAbbreviation>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Option maturity" id="99D62938-B7D9-17D7-26F3-262D8B28DA07">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-11 10:08:04 UTC</createdTime>
+<comment><![CDATA[The option maturity to which this sensitivity relates.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>A602B33C-0004-D05B-A4E1-4A2339C606D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>OPTN_MTRTY</preferredAbbreviation>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Currency of record" id="B89F85AE-943A-1F8D-AEF7-C7DB33AF2B20">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-11-09 13:53:38 UTC</createdTime>
+<comment><![CDATA[Currency of record is the currency in which the vega sensitivity risk is measured.]]></comment>
+<generatorID>10EB90D8-2D58-330B-0D21-766AF8BD106F</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>4CA512E4-A54A-933E-24C1-3D8E2D31E7C6</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2D4D0542-0954-4C82-9231-4447DC95A6DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRRNCY_RCRD</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

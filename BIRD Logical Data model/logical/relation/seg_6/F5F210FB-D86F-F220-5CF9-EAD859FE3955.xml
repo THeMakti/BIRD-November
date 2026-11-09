@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loan and advance Collateral received assignment might have Loan and advance Collateral received assignment derived data" directorySegmentName="seg_6" id="F5F210FB-D86F-F220-5CF9-EAD859FE3955">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-12-12 15:26:32 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>36B74390-52DB-5483-5069-84D9E1CFFF9C</sourcePk>
+<dominantRole>ACDEC181-3399-411D-BD18-E28CCC37B7BC</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ACDEC181-3399-411D-BD18-E28CCC37B7BC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C91C6606-3D81-6747-C4C1-A399C29C3540</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

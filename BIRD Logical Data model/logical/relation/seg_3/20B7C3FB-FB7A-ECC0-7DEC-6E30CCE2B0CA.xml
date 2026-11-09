@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Non-performing prior to forbearance type classifies Non-performing non-retail exposure class financial asset instrument" directorySegmentName="seg_3" id="20B7C3FB-FB7A-ECC0-7DEC-6E30CCE2B0CA">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-28 13:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>16585DD7-6714-757F-5E09-9458FD136424</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A0F486F9-AE6B-CB81-CCAB-A0129196A81A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>779C3E16-8622-5CF9-0F7F-038A39CD74BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

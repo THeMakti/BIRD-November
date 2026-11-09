@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="25B382E2-3E56-EA88-778F-80641EAAA01E" name="Security type by product">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-04 10:28:41 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>6B9C4C46-5617-E783-1C65-FB2BF74222E9</entity>
+<relations>
+<relationID>569364CD-A831-2656-07A4-0AFA5D3F2072</relationID>
+<relationID>C3C4A36C-5439-26BF-3992-882975E8D0FA</relationID>
+</relations>
+</Arc>

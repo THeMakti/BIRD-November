@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="434915A7-D99B-BF17-FD68-CDA6E45B8891" name="Security/Security Collateral lending component indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-29 14:57:42 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>914F904D-61DB-648C-04F2-578DB8B908FA</entity>
+<relations>
+<relationID>7F1EA3F8-0756-02A2-21DC-D8C03B8FB2C7</relationID>
+<relationID>871B15D0-85FB-E5F9-788A-0A64E97E0E8F</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="F7F644BF-4A03-CC01-7354-C78D96D18DFF" name="Central bank and private sector company role type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-27 11:27:32 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>0A8459C5-6F0E-2DFD-CCB2-4B74CD47130F</entity>
+<relations>
+<relationID>9BDBB75F-81B6-969E-AF6A-9400F30C70DB</relationID>
+<relationID>6B90FC1F-D159-2AF4-8C4C-FEDF432F19A6</relationID>
+<relationID>D4652B1F-882B-21EE-876F-0DCC45726DAC</relationID>
+<relationID>8EDECCD0-46BD-15BD-52D2-5DC1BC45C68F</relationID>
+<relationID>287C4063-EB55-4F3F-1405-7597CEFABA5C</relationID>
+<relationID>9BE8EEA6-4D14-09F5-C854-184FF356C46B</relationID>
+</relations>
+</Arc>

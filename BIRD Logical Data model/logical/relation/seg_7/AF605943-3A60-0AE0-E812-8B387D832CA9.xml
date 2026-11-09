@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loan has Loan derived data" directorySegmentName="seg_7" id="AF605943-3A60-0AE0-E812-8B387D832CA9">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F591A1C-DF86-8E7B-24D4-C62F809C445B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FAD7D90B-080B-90E8-CC31-C4C1885818FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Distinction between &apos;negotiable&apos; and &apos;non-negotiable&apos; required for all types of `Securities`?" id="38641-540">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+# Overview
+
+My understanding is that the distinction between 'negotiable' and 'non-negotiable' is relevant only for `Debt securities` (not all types of `Securities`) in order to identify `Debt securities` which are classified as `BSI`.`Loans`.
+
+If this understanding is correct the `Negotiable security position indicator` should be located / placed in the `Long debt security position` entity type, instead of its current location in the `Long security position` entity type - this change of course includes some renaming and moving the subtypes as well.
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Background information
+_[info]_
+
+### Points/Questions to resolve
+
+* check if the distinction between 'negotiable' and 'non-negotiable' `Security position`(s) is required for all types of `Securities`
+* if only required for `Debt securities`, please adjust the model accordingly
+
+### Related issues
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/540]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

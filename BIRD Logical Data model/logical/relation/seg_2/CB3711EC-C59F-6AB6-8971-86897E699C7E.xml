@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Loan debtor is obliged to pay Advance(s) via Advance Loan debtor assignment" directorySegmentName="seg_2" id="CB3711EC-C59F-6AB6-8971-86897E699C7E">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 18:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[is obliged to pay]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6B39892-E3CB-659D-2ACC-E41A263E33CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0F1425F-B6B5-0C22-F3B7-25EA275F05D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

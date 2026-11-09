@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="9FE13B77-4149-639E-5791-4770A0C14D90" name="Offices and commercial premises collateral indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-11-08 14:14:30 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>2DF2BC27-0F24-6ABF-B026-615DDC2398A7</entity>
+<relations>
+<relationID>347FE9E6-DE0E-BDC7-8DDE-1E8D808E61D4</relationID>
+<relationID>38ECC40F-CD78-5E02-9394-F38C4AC8DE5C</relationID>
+</relations>
+</Arc>

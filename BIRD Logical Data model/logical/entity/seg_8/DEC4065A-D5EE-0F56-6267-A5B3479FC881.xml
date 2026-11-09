@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="DEC4065A-D5EE-0F56-6267-A5B3479FC881" name="Group Key management personnel assignment">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-05-02 12:13:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Group - Key management personnel assignment is the generalisation of the relationship types between any Group and any Key management personnel.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>F36538BB-5D06-004C-7E98-E0E4C376E423</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>GRP_KY_MNGMNT_PRSNLL_ASSGNMNT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Group Key management personnel assignment type" id="19F31356-3C08-F95C-7C63-BE56445D8057">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-05-02 12:31:31 UTC</createdTime>
+<comment><![CDATA[Group Key management personnel assignment type distinguishes the relationship type between Group and Key management personnel according to their nature.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>14513C89-6963-480A-B7FF-A8E8F9C29721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>GRP_KY_MNGMNT_PRSNNL_ASSGNMNT_TYP</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

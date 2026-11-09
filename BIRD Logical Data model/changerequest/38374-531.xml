@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Reference rate for AnaCredit transformation rules" id="38374-531">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!--See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab)-->
+
+### Overview
+
+Enlarge the domain of attribute RFRNC_RT with additional members
+
+### Contact person
+
+_\[__silvia.giacintime@ecb.europa.eu__\]_
+
+### Description of change request
+
+Due to the AnaCredit Q&A (e.g. https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/ecb.anaq.200131.0001.en.html) the domain RFRNC_RT was extended beyond the regulation. we need to add the following members
+
+| RFRNC_RT_152 | SORA (Singapore overnight rate average) |
+|--------------|-----------------------------------------|
+| RFRNC_RT_146 | €STR |
+| RFRNC_RT_148 | SONIA (Sterling overnight index average) |
+| RFRNC_RT_150 | TONA (Tokyo overnight average rate) |
+| RFRNC_RT_151 | HONIA (Hong Kong dollar overnight index average) |
+| RFRNC_RT_149 | SARON (Swiss average rate overnight) |
+| RFRNC_RT_147 | SOFR |
+
+### Summary of impacted LDM objects/attributes
+
+_\[TBD\]_
+
+### Forward Engineering considerations
+
+_\[No impact\]_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/531]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

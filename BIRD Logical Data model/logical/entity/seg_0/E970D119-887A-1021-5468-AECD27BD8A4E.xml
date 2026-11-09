@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E970D119-887A-1021-5468-AECD27BD8A4E" name="International organisation and general government">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 11:42:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[An International organisation and general government is an Organisation that is either an International organisation or a General government.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>36F4F142-0055-6B37-EB1E-64DFB173402F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>INTRNTNL_ORGNSTN_GNRL_GVNMNT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="International organisation and general government type" id="9536D700-3E8D-E3B1-1D72-D5981AD1903F">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 11:57:06 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between international organisations and general government.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D09672AB-880F-BC5C-2934-A1DF0727EB40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INTRNTNL_ORGNSTN_GNRL_GVNMNT_TYP</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="EACEC705-E2D0-C5D3-DA19-14E32E588AFC" name="Over the counter (OTC) Derivative hedge accounting standard type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:39:33 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>EE7AABF7-53FD-1A4B-D940-7E228C87F604</entity>
+<relations>
+<relationID>6B495664-87FD-8405-9605-E4EE30AE461D</relationID>
+<relationID>5748A3C2-59AE-A7ED-B528-1A88BB9065FA</relationID>
+</relations>
+</Arc>

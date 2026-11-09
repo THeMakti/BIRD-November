@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_9" id="65DA216C-B58B-786B-4A90-15548967F2FD" name="Credit facility under pre-specified terms and conditions">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:16:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Credit facility under pre-specified terms and conditions is a type of credit facility that is under pre-specified terms and conditions.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>AE3B0B8B-4E66-709C-450E-CC4B1C21FF1E</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CRDT_FCLTY_UNDR_PRSPCFD_TRM_CNDTN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Credit facility under specified terms and conditions type" id="621AC66F-8A0E-4941-3564-94DE7459AA58">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:17:53 UTC</createdTime>
+<comment><![CDATA[Credit facility under specified terms and conditions type distinguishes between different types of Credit facility under specified terms and conditions.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>308DA806-DD3D-72EB-48A7-72D0001A2B14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_UNDR_PRSPCFD_TRM_CNDTN_TYP</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

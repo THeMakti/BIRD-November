@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="2DDA952D-07B0-F9F7-5722-03EA342B283E" name="Financial asset instrument type by CRR, Article 123 (Retail exposure)">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 22:49:06 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</entity>
+<relations>
+<relationID>36BBB071-DD86-99AE-3DCA-E42E821C1EED</relationID>
+<relationID>184FF7DF-60AE-32A3-9AF7-530C5252679B</relationID>
+</relations>
+</Arc>

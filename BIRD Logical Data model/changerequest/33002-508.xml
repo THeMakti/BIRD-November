@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Protection arrangement derived data should be Protection arrangement received derived data" id="33002-508">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The derived data entity type _Protection arrangment derived data_ must be renamed to _Protection arrangement **received** derived data_ and relocated from _Protection arrangement_ to _Protection arrangement received_.
+
+### Contact person
+@Arjan.Bos 
+
+### Description of change request
+After the inclusion of the attribute `Asset encumbrance residual maturity band` as derived data of _Protection arrangment_, we added the role construct to the _Protection arrangement_. They can have two roles (currently): received, and given. The attribute `Asset encumbrance residual maturity band` is only valid for the _Protection arrangement received_ and because we are as explicit as possible in the LDM, we need to move the entity type _Protection arrangement derived data_ from the _Protection arrangement_ to the _Protection received arrangement_. And it has to be renamed to _Protection arrangement received derived data_, with a definition that matches the new name. The relationship type has to be renamed too.
+
+### Summary of impacted LDM objects/attributes
+- _Protection arrangement derived data_
+- _Protection arrangement_ has _Protection arrangement derived data_
+
+### Model sketch:
+![image](/uploads/ab4658b4b7fe9cc6f91e3669ac50be97/image.png)
+
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/508]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

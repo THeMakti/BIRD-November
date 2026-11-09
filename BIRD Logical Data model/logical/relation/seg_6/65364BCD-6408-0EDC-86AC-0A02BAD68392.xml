@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Forbearance measure type is applied to Renegotiated credit facility with forbearance measure" directorySegmentName="seg_6" id="65364BCD-6408-0EDC-86AC-0A02BAD68392">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-05 09:14:01 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5A90872E-0BD5-5E96-5772-E1EFC1746358</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3905B5FF-E8B6-C7D2-FCB8-C18D317E3234</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83FC9685-C210-31B4-01B4-752934B5B535</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>38957-549</requestID>
+</changeRequests>
+</Relation>

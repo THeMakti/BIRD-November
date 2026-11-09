@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="C47B79BA-EE16-F52C-1197-5CF831AB42A6" name="Non-financial liability type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-13 11:45:13 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>BA9F2869-8376-3D78-0C4A-19BCEB888390</entity>
+<relations>
+<relationID>4B496E27-4029-A193-C605-CCCE9714B049</relationID>
+<relationID>BCF574E3-1F6A-251C-EB9B-774D1B0E186C</relationID>
+<relationID>718B2E77-5D83-34C7-E3C4-1DE3413DE7A8</relationID>
+<relationID>F205284D-3736-5F26-0CC4-608F90C43C04</relationID>
+</relations>
+</Arc>

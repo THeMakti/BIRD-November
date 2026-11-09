@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Debt security issued (by the reporting agent) has Debt security issued (by the reporting agent) as a hedge" directorySegmentName="seg_7" id="E4B86C8C-6362-C140-0E71-10BB50972A3B">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-20 14:20:24 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C196C5EF-1B22-620F-78FF-48041386A041</sourcePk>
+<dominantRole>101580C7-7A41-DBA0-F668-CA0B21D0D2A3</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>101580C7-7A41-DBA0-F668-CA0B21D0D2A3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FAEB9B83-BE89-F719-6667-BF2DE4448BFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

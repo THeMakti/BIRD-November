@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Long balance sheet recognised debt security position may have Long balance sheet recognised debt security position derived data" directorySegmentName="seg_8" id="714A3382-3373-6533-ACD3-8E4C1B3D2844">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-16 17:09:11 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C1D698B3-FCA9-B038-608E-AB70C33E575D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BF8F3BD-E58F-D34A-E1B5-C5F535966E3C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>479DE3FE-780A-3BCF-AED6-7EBC388AE0DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

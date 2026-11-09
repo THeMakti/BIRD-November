@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="`International organisation code` is used in multiple entity types (i.e., `European Central Bank` and `International organisation`) but there exists no reference data entity type" id="39286-551">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+`International organisation code` is used in multiple entity types (i.e., `European Central Bank` and `International organisation`) but there exists no reference data entity type
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Description of change request
+
+Please add a reference data entity type covering international organisation codes; add the reference to the entity types `European Central Bank` and `International organisation`.
+
+### Summary of impacted LDM objects/attributes
+
+* entity types `European Central Bank` and `International organisation` will have a field resulting from a relationship instead of an attribute
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/551]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

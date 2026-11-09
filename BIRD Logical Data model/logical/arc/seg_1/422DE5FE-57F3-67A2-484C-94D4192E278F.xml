@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="422DE5FE-57F3-67A2-484C-94D4192E278F" name="Credit facility type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:17:23 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</entity>
+<relations>
+<relationID>197055C0-7FEC-32FC-1C69-3D02366C77A2</relationID>
+<relationID>67734747-C916-0A53-427B-DCC7BCA6F811</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D30824D1-0C3B-E54E-308D-941032A317C3" name="Creditor">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-07 10:25:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Creditor is a Party role where the Party is bearing the credit risk of a financial operation, other than the Protection provider.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>874B5668-704D-E089-1B04-719A14DFD772</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CRDTR</preferredAbbreviation>
+</Entity>

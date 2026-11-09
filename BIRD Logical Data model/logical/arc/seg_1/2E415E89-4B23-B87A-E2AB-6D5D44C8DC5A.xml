@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="2E415E89-4B23-B87A-E2AB-6D5D44C8DC5A" name="Securities financial transaction type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 09:21:22 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>61A1258D-6C46-1DAB-6C7B-517F5BF9F5B4</entity>
+<relations>
+<relationID>10F184D4-2951-4E92-0927-49B195414552</relationID>
+<relationID>885CAC64-7222-E14A-FB15-7ED35ECDEE8E</relationID>
+</relations>
+</Arc>

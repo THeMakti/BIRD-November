@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Investment property taken into possession has Investment property taken into possession derived data" directorySegmentName="seg_7" id="C8DEF938-3652-28EE-F7A0-466B78C3E355">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-14 07:29:35 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>2726F387-E75F-6DE9-2D57-9E53ED19CFB3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58AD3A4A-6668-545C-9E14-F3A294702D9C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3BA0AB67-3971-BC75-D00A-5A85BF3E34CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

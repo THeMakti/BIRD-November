@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Financial asset instrument has Financial asset instrument derived data" directorySegmentName="seg_2" id="8377EA7A-9FED-837C-C6B7-7BBDC347E12E">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-08-24 14:57:12 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>791B8411-7E00-08FE-C4F8-E18BAA32B7B7</sourcePk>
+<dominantRole>AC25CE06-349E-2EC8-DA05-FFD6B8759432</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6CBCC0E7-4D57-A936-5273-6A99009949C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

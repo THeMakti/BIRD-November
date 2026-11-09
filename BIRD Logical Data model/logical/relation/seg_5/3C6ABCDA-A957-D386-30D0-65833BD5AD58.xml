@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="European Union member postal code has European Union member address" directorySegmentName="seg_5" id="3C6ABCDA-A957-D386-30D0-65833BD5AD58">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-06 17:12:06 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>38CB9012-FF04-CA29-16B4-355B533A2641</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E95C06E-6270-82A0-1DBC-C82A9C39D218</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C5B9F82-190D-AF25-BC51-7E18BC5BA50F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

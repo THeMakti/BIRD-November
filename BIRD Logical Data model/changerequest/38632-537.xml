@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Attribute `Securities financing transaction (SFT)`.`Legal final maturity date` should be moved down (in the SFT entity hierarchy)" id="38632-537">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+The attribute `Legal final maturity` is present in multiple levels of the `Securities financing transaction (SFT)` hierarchy, specifically `Securities financing transaction (SFT)`.`Legal final maturity` but also `Term repurchase agreement instrument`.`Legal final maturity` where `Term repurchase agreement instrument` is a subtype of `Securities financing transaction (SFT)`. Fix required.
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Description of change request
+
+Move the attribute `Securities financing transaction (SFT)`.`Legal final maturity date` to the `Security borrowing and lending transaction` entity type.
+
+### Summary of impacted LDM objects/attributes
+
+* `Securities financing transaction (SFT)`
+* `Security borrowing and lending transaction`
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/537]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

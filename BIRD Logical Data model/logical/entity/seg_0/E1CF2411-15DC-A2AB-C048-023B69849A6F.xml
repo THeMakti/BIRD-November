@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1CF2411-15DC-A2AB-C048-023B69849A6F" name="Credit institution">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 11:36:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Credit institution is an undertaking the business defined in Regulation (EU) 575/2013, Article 4 (1)(1).]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8D13A63F-6387-B83C-E773-1F3262DD306E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CRDT_INSTTTN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Institutional sector" id="156C024E-1C42-D0BB-68B1-65C94B95F12D">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-21 10:34:58 UTC</createdTime>
+<comment><![CDATA[Institutional sectors in accordance with Regulation (EU) No 549/2013, Regulation (EU) No 575/2013 and Regulation (EU) No 1075/2013 of the European Central Bank (ECB/2013/40)(1).]]></comment>
+<generatorID>73F97A86-2858-EA9D-0529-52AA617F6B94</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<constraintName>Institutional sector</constraintName>
+<referedAttribute>D7F5A07C-F563-1363-5440-3D94249A1FE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>24f978bf-6fd6-4b09-9b10-deb049e07952</domain>
+<listOfValues>
+<valueDef value="S122_A_1" description="Credit institutions not including entities according to the article 2.5 Directive 2013/36/EU"/>
+<valueDef value="S122_A_2" description="Credit institutions according to the article 2.5 Directive 2013/36/EU"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INSTTTNL_SCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

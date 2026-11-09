@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Main debtor type classifies Trade receivable Assigned debtor assignment" directorySegmentName="seg_8" id="9CEF37A5-8EF7-E38C-856A-978CF58337D7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-26 13:51:18 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C1CC20EB-7C6F-266B-BE7A-4BC54582ECD2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>578A6840-994B-72BA-F2AB-5DB2888CB35C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C7AB2CF-78C2-2FC0-DAA0-46CFC7856618</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

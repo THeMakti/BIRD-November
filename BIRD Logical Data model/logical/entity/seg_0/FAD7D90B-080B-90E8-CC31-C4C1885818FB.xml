@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAD7D90B-080B-90E8-CC31-C4C1885818FB" name="Loan derived data">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-10-16 12:32:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Loan derived data is additional information about Loan.  
+]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>LN_DRVD_DT</preferredAbbreviation>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Loan reference date" id="FDECC190-179A-F114-057F-26C22E4469C9">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>AF605943-3A60-0AE0-E812-8B387D832CA9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>9ECE8643-3670-4EAE-A455-B5EF4C2CE45A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LN_INSTRMNT_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Loan reporting agent identifier" id="CD0416A8-7684-7D4D-E64E-4E5C9543BC85">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>AF605943-3A60-0AE0-E812-8B387D832CA9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>BB6D9386-34F3-FCB8-F6D0-4BB43D4EAAA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LN_INSTRMNT_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Loan accounting consolidation level" id="2E660480-22A1-9C6D-ACE3-9501C025855A">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>AF605943-3A60-0AE0-E812-8B387D832CA9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>5274804D-A835-BDD4-2A63-D4CA298D7206</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LN_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Loan accounting standard" id="745088D4-898D-7D65-4531-6555B8DC1BFB">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<generatorID>AF605943-3A60-0AE0-E812-8B387D832CA9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>95450026-8D1A-CC69-C91F-F52DCE1C328F</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LN_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Loan identifier" id="C4E018C5-8D55-DE71-9E3A-6FC6041D614A">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-10-28 10:01:07 UTC</createdTime>
+<comment><![CDATA[An identifier applied by the reporting agent to uniquely identify each instrument under a single contract. Each instrument must have one instrument identifier. This value will not change over time and cannot be used as the instrument identifier for any other instrument under the same contract.]]></comment>
+<generatorID>AF605943-3A60-0AE0-E812-8B387D832CA9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>F7859051-3E5A-9707-1E2B-67B4383135E4</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>bedac99c-65df-4709-835b-fbf0381d048e</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LN_INSTRMNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Commercial real estate loan indicator" id="092F4A14-AF4F-9F34-9AB4-79BDF50A59B2">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-10-16 15:16:16 UTC</createdTime>
+<comment><![CDATA[A Commercial real estate loan indicator distinguishes Loan derived data whether it is a commercial real estate loan or not.]]></comment>
+<generatorID>126632A7-0AD8-3D3F-AC83-863B6A1D20A5</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>88251E26-2934-E553-13CC-88625410CA10</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>29DE22BE-049A-8E06-7604-618C67DD23ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CMMRCL_RL_ESTT_LN_INDCTR</preferredAbbreviation>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Attribute>
+<Attribute name="Current loan-to-value ratio" id="DFEF6C55-FBE1-B4D2-5FA6-633395051B6A">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-11-17 15:15:23 UTC</createdTime>
+<comment><![CDATA[Current loan-to-value ratio (LTV-C) means the sum of all loans or loan tranches secured by the borrower on a property at the reporting date relative to the current value of the property (ESRB), allocated per Loan derived data.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>A602B33C-0004-D05B-A4E1-4A2339C606D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRRNT_LTV_RT</preferredAbbreviation>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAB8B3E4-5FE6-9352-2737-5548EADC5646" name="Loan derived data PK">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-10-16 14:17:30 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<newElementsIDs>AF605943-3A60-0AE0-E812-8B387D832CA9</newElementsIDs>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+<usedAttributes>
+<attributeRef>FDECC190-179A-F114-057F-26C22E4469C9</attributeRef>
+<attributeRef>CD0416A8-7684-7D4D-E64E-4E5C9543BC85</attributeRef>
+<attributeRef>2E660480-22A1-9C6D-ACE3-9501C025855A</attributeRef>
+<attributeRef>745088D4-898D-7D65-4531-6555B8DC1BFB</attributeRef>
+<attributeRef>C4E018C5-8D55-DE71-9E3A-6FC6041D614A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

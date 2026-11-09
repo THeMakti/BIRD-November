@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="3F9E5859-17A3-99FB-DD9C-04EAA723931C" name="Securitisation tranche type">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-06-19 16:00:10 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>0CD8E99C-1E1F-CA83-112D-827E1C50A023</entity>
+<relations>
+<relationID>B072DF65-F5C3-130D-7D9A-137CC927EF00</relationID>
+<relationID>ABC1D8E2-58EB-ED50-76B8-223C2C754C12</relationID>
+</relations>
+</Arc>

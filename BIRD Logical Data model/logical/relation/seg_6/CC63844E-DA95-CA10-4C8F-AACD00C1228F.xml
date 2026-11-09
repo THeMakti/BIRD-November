@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Forbearance measure type is applied to Forborne off-balance sheet item given instrument" directorySegmentName="seg_6" id="CC63844E-DA95-CA10-4C8F-AACD00C1228F">
+<createdBy>ostarij</createdBy>
+<createdTime>2024-03-06 09:23:30 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5A90872E-0BD5-5E96-5772-E1EFC1746358</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3905B5FF-E8B6-C7D2-FCB8-C18D317E3234</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A994495-8635-2847-B74C-7B1E3FA433BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_3" id="D7480174-008E-2F12-B250-920113E51A46" name="Type of Financial Asset instrument according to Annex V">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:35:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of financial asset is the type of financial asset according to Annex V.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TYP_FNNCL_ASST_INSTRMNT_ANNX_V</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type of Financial Asset instrument according to Annex V" id="CBE59FD2-1CE3-0021-7E3D-35E62AD8234F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:36:18 UTC</createdTime>
+<comment><![CDATA[Type of financial asset is the type of financial asset according to Annex V.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FCED55AE-F572-481E-4858-0A165FA0C850</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TYP_FNNCL_ASST_INSTRMNT_ANNX_V</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA2C2E5D-1D3F-5240-366C-76BA19130D1F" name="Type of Financial Asset instrument according to Annex V PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-08-25 15:42:36 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBE59FD2-1CE3-0021-7E3D-35E62AD8234F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

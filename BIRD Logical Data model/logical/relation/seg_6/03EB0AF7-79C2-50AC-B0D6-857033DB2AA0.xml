@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Currency specifies Cash on hand(s) national general accepted accounting principles (nGAAP)" directorySegmentName="seg_6" id="03EB0AF7-79C2-50AC-B0D6-857033DB2AA0">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:41:59 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5B43AAD5-6276-833E-D608-F4F0F949B0F4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9FEFF2E-B32D-D101-FE35-DA78D0769518</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3862A235-456A-1239-9279-A7922ED769CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

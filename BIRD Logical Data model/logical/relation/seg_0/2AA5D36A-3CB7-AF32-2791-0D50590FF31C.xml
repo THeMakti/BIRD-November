@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Central bank and private sector company is Linked enterprise via Linked enterprise assignment" directorySegmentName="seg_0" id="2AA5D36A-3CB7-AF32-2791-0D50590FF31C">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 12:17:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[is]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A6FE620C-D0A1-F3B4-BCF9-3ABCF84D367D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85956057-D0C7-8869-F90B-A6A301A3A30F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37968742-5377-688E-6FDC-0D3CEA5E7033</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

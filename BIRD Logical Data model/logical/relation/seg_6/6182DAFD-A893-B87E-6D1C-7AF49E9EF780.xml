@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Held for sale type classifies Balance sheet recognised exchange tradable derivative asset position International Financial Reporting Standard (IFRS)" directorySegmentName="seg_6" id="6182DAFD-A893-B87E-6D1C-7AF49E9EF780">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 11:14:14 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>3E0C3075-8792-4102-E82D-9DAEA6D26C0F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8010F03-C9C4-D0EC-E458-F061E8B3D403</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D34DE8DB-D997-C71D-0EA7-C955ADA17650</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

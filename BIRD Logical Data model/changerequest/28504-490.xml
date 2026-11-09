@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[IReF] Rename Other loans to Term loans and other loans" id="28504-490">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+To investigate if _Other loans_ should be renamed to _Term loans and other loans_
+
+
+### Contact person
+- @Arjan.Bos (BIRD)
+- @Olivia.Hauet (IReF)
+- Arek.Wyka@ecb.europa.eu (AnaCredit)
+
+### Business definition
+
+Arek:
+> I’d like to put forth another suggestion regarding the classification of loans. It seems that redefining ‘other loans’ to a more descriptive term, such as ‘term loans and other loans’, could be advantageous. The current category ‘other loans’ can be misleading, as it suggests that term loans, which are in fact a standard lending product, are a residual category of loans.
+
+### Legal definition
+_[Legal reference]_
+
+### Reason for inclusion
+_[Justifications]_
+
+### Relationships
+_[Related objects]_
+
+### Relevant Framework/Template
+_[Relevance]_
+
+### Additional documentation/links (optional)
+_[Additional info]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/490]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

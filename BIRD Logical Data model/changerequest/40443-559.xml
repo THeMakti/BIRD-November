@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Inclusion of the &quot;FINREP reporting scheme&quot; information in BIRD metadata" id="40443-559">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[Regulation (EU) 2015/534 introduces three additional categories of supervisory financial reporting (FINREP) schemes that may be submitted by reporting agents, in addition to the full supervisory financial reporting (Full FINREP) under Articles 11 and 12 of Implementing Regulation (EU) 2021/451 for the reporting of supervisory financial information:
+
+1.	Simplified supervisory financial reporting
+2.	Over-simplified supervisory financial reporting
+3.	Supervisory financial reporting data points
+
+The reporting obligations for these additional categories are set out in the annexes of Regulation (EU) 2015/534. Although these schemes require smaller sets of data to be reported compared to full reporting, they are still based on Annexes III and IV of Implementing Regulation (EU) 2021/451.
+
+If the new input information “FINREP reporting scheme” is added to the BIRD metadata, the generation of differentiated reporting obligations could be made explicit, thereby supporting reporting agents in the preparation of their submissions.
+
+The input information “FINREP reporting scheme”, could have the following domain values:
+
+1. Full
+2. Simplified
+3. Over-simplified
+4. Data points
+
+This variable would be used in data generation as a filter to determine whether a specific template or data point should be generated.
+
+One modelling option would be to add the new variable “FINREP reporting scheme” to the Party section, referring to the reporting agent as a Party.
+
+Furthermore, it should be considered that if this new type of information is adopted in the data model, it may subsequently be necessary to introduce similar variables for other frameworks with differing output schemes.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/559]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="5E7E7375-D3D1-8E76-8C54-E1C990D0F841" name="Rating grade type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-08 12:05:48 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>A56EF320-739A-39EA-5F24-6DEB2915BAB3</entity>
+<relations>
+<relationID>C5712383-E1B6-8872-091F-0AB31194E5BB</relationID>
+<relationID>608FF2C6-7682-20CA-C6C4-FFA97B44C824</relationID>
+</relations>
+</Arc>

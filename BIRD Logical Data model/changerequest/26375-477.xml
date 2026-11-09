@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Collateral received re-used" id="26375-477">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[## Overview
+Templates F 33.00.a/b require information on the possibility for a collateral received to be re-used, which is something not yet included in the BIRD LDM.
+
+## Contact person
+@Arianna.Nuvoli @Maria_Manuel.Henriques @Pietro.Ferroni 
+
+## Legal definition
+**F 33.00.a, row 0030 and F 33.00.b, row 0020** are described as follows: 
+
+> **Collateral received re-used (receiving leg)** 
+
+
+See instructions for row 0130 of the AE-COL template and column 0040 of
+the AE-SOU template. 
+
+
+The amounts are reported at fair value and distributed among the set of residual maturity buckets specified in the columns according to the residual maturity of the transaction that generated for the entity the reception of the collateral that is being re-used (receiving leg).
+
+**F 32.02.a, row 0130** is described as follows: 
+
+> **Collateral received by the reporting institution** 
+
+
+All classes of collateral received by the reporting institution.
+
+**F 32.04.b, column 0040** is described as follows: 
+
+> **Assets, collateral received and own debt securities issued other than covered bonds and securitisations encumbered**
+
+**Of which: collateral received re-used** 
+
+
+Fair value of the collateral received that are re-used/encumbered as a
+result of the different type of transactions specified in the rows.
+
+## Reason for inclusion
+AE integration
+
+## Relevant Framework/Templates
+- F 32.02.a - Asset encumbrance: Encumbrance overview - Collateral (a)
+- F 32.04.b - Asset encumbrance: Sources of encumbrance (b)
+- F 33.00.a/b - Asset encumbrance: Maturity data (b)]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/477]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

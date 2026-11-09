@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Over the counter (OTC) Derivative instrument is protected by Protection item via Over the counter (OTC) Derivative instrument Collateral given assignment" directorySegmentName="seg_8" id="070864D7-69F9-AC82-ADA3-BDB088DEF8BB">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-19 09:16:39 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9665198A-8A15-BE5A-E137-9B7F66788D28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17FE648E-4D9F-FB11-6BA6-E04B683D1BD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

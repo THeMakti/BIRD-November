@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Encumbered asset indicator classifies non- balance sheet recognised security position" directorySegmentName="seg_8" id="E56D19AE-0BFC-98B2-BD26-DAB8DB8D68F3">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-02-02 09:44:33 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1646D3F9-4140-F25D-93D4-CB127D6ECDB1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89A25A88-DF54-C195-6643-F9649C0AB478</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0F54796-D350-E3DC-FBD3-8F0AC47B6353</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

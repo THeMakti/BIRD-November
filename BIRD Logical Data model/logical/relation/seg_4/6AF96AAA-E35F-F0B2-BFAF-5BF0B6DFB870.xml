@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Accrued interests for market values type specifies Security" directorySegmentName="seg_4" id="6AF96AAA-E35F-F0B2-BFAF-5BF0B6DFB870">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 12:10:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[specifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A02ECC6F-1D36-7933-634E-BA0DAA2C445C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>908258D6-A4BC-8E0B-4E13-D039589530A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B9C4C46-5617-E783-1C65-FB2BF74222E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

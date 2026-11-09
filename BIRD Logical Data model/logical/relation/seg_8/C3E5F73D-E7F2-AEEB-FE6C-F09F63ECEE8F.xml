@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fair value option designation for financial liabilities is assigned to Fair-valued balance sheet recognised financial liability instrument" directorySegmentName="seg_8" id="C3E5F73D-E7F2-AEEB-FE6C-F09F63ECEE8F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-20 17:25:40 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6CF1AA07-7901-BF63-4D65-9FC6ECB862C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2EA243FA-4C22-1517-47B4-2222CB91C9BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD6CA4D6-73F4-227E-86A5-6945C7ACAF0B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subject to operating lease type specifies Other Intangible asset" directorySegmentName="seg_7" id="34C3EE92-6CEB-3FC2-DBD1-31A3DB66C5AC">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-05-15 09:28:41 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0B12DC57-43F9-D8EE-43A4-CEE65FD5D23B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2872992-AFFE-F496-E488-8CD577868144</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0A68774-AE19-592E-515D-4033B459C533</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Initial period of interest rate fixation" id="15749-164">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[Time intervals - The contractual maturity regarding a fixed interest rate.
+MIR requirement https://www.ecb.europa.eu/pub/pdf/other/manualonmfiinterestratestatistics_201701.en.pdf
+
+**Definition:** The _initial_ interest rate fixation period means a predetermined period of time at the start of a contract during which the value of the interest rate cannot change. The initial period of fixation may be shorter or equal to the original maturity of the loan
+Initial period of interest rate fixation partly overlapping with AnaCredit information „next interest reset date“
+
+According to the BIRD survey this should be added as date]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/164]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

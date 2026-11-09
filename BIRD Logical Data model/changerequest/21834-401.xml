@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[SHS] Instrument ESA 2010 class" id="21834-401">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!--See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab)-->
+
+# Overview
+
+How to handle the classification of Securities according to SHS requirement "Instrument ESA 2010 Class"?
+
+### Contact person
+
+@Arjan.Bos, @sdressler
+
+### Business definition
+
+The following ESA 2010 instrument types should be provided: 
+
+* short-term debt securities (F.31) 
+* long-term debt securities (F.32) 
+* listed shares (F.511) 
+*  money market funds (MMF) shares or units (F.521) 
+* non-MMF investment fund shares or units (F.522)
+
+### Legal definition
+
+See https://www.ecb.europa.eu/pub/pdf/other/ecb.guidance_notes_to_reporting_agents_on_shs_regulation202005~f7bce14823.en.pdf paragraph 5.4.2
+
+### Reason for inclusion
+
+_\[Justifications\]_
+
+### Relationships
+
+- Security
+
+### Relevant Framework/Template
+
+- SHS
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/401]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_6" id="C7EAFBBF-5E70-050D-2EDC-FC9AD9BC47EC" name="Securitisation correlation trading portfolio (CTP) Risk Factor for standardised approach">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-08-15 09:45:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Securitisation correlation trading portfolio (CTP) Risk Factor for standardised approach is a risk factor for standardised approach]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1B94F88B-CE04-E04E-DE88-6866B6DBCB24</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>569226D4-0B71-7630-0EE4-00E6F7A871C8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SCRTSTN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_STNDRDSD_APPRCH</preferredAbbreviation>
+</Entity>

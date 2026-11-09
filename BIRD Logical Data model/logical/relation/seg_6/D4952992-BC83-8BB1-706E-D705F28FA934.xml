@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Treatment of securitised / transfered assets in balance sheet is applied to Repurchase transaction gold (given) assignment" directorySegmentName="seg_6" id="D4952992-BC83-8BB1-706E-D705F28FA934">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-02-17 13:49:27 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DA3567AD-B7EF-305B-8D85-8F0CA3154A9A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EEE5F19-6BD1-DC0E-D355-7D881A38792F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>25FB7BA4-2841-84A7-990A-6213F5F91937</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

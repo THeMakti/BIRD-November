@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_6" id="3851C2B6-6B8E-3041-D1CF-1B07A6D6AB41" name="Impairment assessment method">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 16:00:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The method by which the impairment is assessed, if the asset is subject to impairment in accordance with applied accounting standards. Collective and individual methods are distinguished.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>IMPRMNT_ASSSSMNT_MTHD</preferredAbbreviation>
+<changeRequests>
+<requestID>40477-565</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Impairment assessment method" id="F7264D78-470B-6A0A-5EBC-1BEEBA00CD08">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 16:03:03 UTC</createdTime>
+<comment><![CDATA[The method by which the impairment is assessed, if the instrument is subject to impairment in accordance with applied accounting standards. Collective and individual methods are distinguished.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>9395498C-7C15-5871-9F22-C38B8130D93C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>IMPRMNT_ASSSSMNT_MTHD</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02E18C2B-42A5-FFDC-EF21-7CD23A729DD4" name="Impairment assessment method PK">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 16:10:58 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7264D78-470B-6A0A-5EBC-1BEEBA00CD08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Derived default status is derived in Financial asset instrument derived data" directorySegmentName="seg_6" id="C3919E17-89E5-FB4B-6FE4-A4C3B816A8CD">
+<createdBy>ostarij</createdBy>
+<createdTime>2024-02-08 16:10:10 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>11DE807D-23D3-C017-9AA2-391009C262DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9536D61-7E1C-2898-E0A7-6AA3EAC169A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CBCC0E7-4D57-A936-5273-6A99009949C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

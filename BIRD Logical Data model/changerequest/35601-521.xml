@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Typo in the preferred abbreviation of the the entity type Security borrowing and lending transaction including cash as collateral component" id="35601-521">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Contact person
+
+@Arianna.Nuvoli 
+
+### Description of change request
+
+The preferred abbreviation should be **SCRTY**\_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL instead of **SCTRY**\_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL
+
+### Summary of impacted LDM objects/attributes
+
+_Security borrowing and lending transaction including cash as collateral component_
+
+### Forward Engineering considerations
+
+_\[Other considerations\]_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/521]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Organisation has Organisation risk data" directorySegmentName="seg_0" id="D0AC7850-F873-ECF4-BFD0-BED5F9E4BBE7">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-07 10:00:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A6FE620C-D0A1-F3B4-BCF9-3ABCF84D367D</sourcePk>
+<dominantRole>36F4F142-0055-6B37-EB1E-64DFB173402F</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>36F4F142-0055-6B37-EB1E-64DFB173402F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>738EC625-A767-BF44-F3AB-E6042E942CD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Assigned debtor is debtor of Trade receivable(s) via Trade receivable Assigned debtor assignment" directorySegmentName="seg_2" id="F152155E-2532-C083-1344-B9255026BF64">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 19:07:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[is debtor of]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>486D6DF6-D80B-53C0-21CD-91D6A906839B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02F2FE6D-2515-6757-5033-C336093DB172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C7AB2CF-78C2-2FC0-DAA0-46CFC7856618</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

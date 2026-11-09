@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Cover pool derivative positions" id="26020-465">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+
+Currently, in the LDM we consider Debt securities, Loans and advances and equities as assets that can be part of a cover pool. The new requirement raising from Template F 35.00.b is to include derivatives as well.
+
+Please note that derivatives can be included in the cover pool both as assets and as liabilities.
+
+### Contact person
+
+@Arianna.Nuvoli @Maria_Manuel.Henriques @Pietro.Ferroni 
+
+### Business definition
+
+_\[Business requirements\]_
+
+### Legal definition
+
+**_Annex XVII:_**
+
+**Cover pool derivative positions with net positive market value (Assets):** The cover pool derivative positions shall be such net derivative positions that in accordance with the relevant statutory covered bond regime have been included in the cover pool and are subject to the respective covered bond protective measures in that such derivative positions with a positive market value would not form part of the covered bond issuer's general insolvency estate.
+
+**Cover pool derivative positions with net negative market value (Liabilities):** The cover pool derivative positions shall be such net derivative positions that in accordance with the relevant statutory covered bond regime have been included in the cover pool and are subject to the respective covered bond protective measures in that such derivative positions with a negative market value require coverage by eligible cover pool assets.
+
+### Reason for inclusion
+
+AE Integration
+
+### Relevant Framework/Template
+
+AE F 35.00.b
+
+### Additional documentation/links (optional)
+
+_\[Additional info\]_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/465]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

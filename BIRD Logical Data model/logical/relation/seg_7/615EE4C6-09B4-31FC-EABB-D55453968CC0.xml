@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="At cost based method or Lower of costs or market (LOCOM) indicator classifies Over the counter (OTC) Derivative as a hedge according to national general accepted accounting principles (nGAAP)" directorySegmentName="seg_7" id="615EE4C6-09B4-31FC-EABB-D55453968CC0">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:40:37 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>70D7EDC0-4258-5940-7F39-D51053E1A7EE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E57B8EA-294B-00B6-908B-2E1E6FD34468</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18A00C9B-FD63-8085-4CEA-5A788FA34539</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>29064-493</requestID>
+</changeRequests>
+</Relation>

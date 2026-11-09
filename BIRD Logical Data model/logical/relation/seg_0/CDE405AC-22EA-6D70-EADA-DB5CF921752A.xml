@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Credit facility has Creditor via Credit facility Creditor assignment" directorySegmentName="seg_0" id="CDE405AC-22EA-6D70-EADA-DB5CF921752A">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-03 10:12:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1AE12C8D-FA90-A5F2-9060-EBC70B60B0E4</sourcePk>
+<dominantRole>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1190B810-FE41-4FFA-574E-C114BC6E93EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

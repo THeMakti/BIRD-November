@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Input information for Source of encumbrance for loans (according to AnaCredit) is missing" id="8348-5">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[AnaCredit requirement for Source of encumbrance is missing in the LDM.
+
+**\[Update for AE requirements\]**
+
+Information about the Source of encumbrance is required in F 32.03.a, F 32.04.b, F 34.00.b/c, F 35.00.a/b/d, F 36.01.a, F 36.02.a.
+
+The possible values for the source of encumbrance, as specified in F 32.04.a, are: _Derivatives, Deposits, Debt securities issued, Loan commitments received, Financial guarantee received, Securities borrowed with no cash collateral, Other commitments received._
+
+What is important to underline is that the source of encumbrance should be linked to:
+
+1. The **items that are the source of encumbrance** (listed in F 32.04.a):
+   * _Derivatives_
+   * _Deposits_
+   * _Debt securities issued_
+   * _Loan commitments received_
+   * _Financial guarantee received_
+   * _Securities borrowed with no cash collateral_
+   * _Other commitments received_
+2. The **items that can be encumbered because of the source of encumbrance**:
+   * Assets (Loans and advances, debt securities, equities, others(Cash on hands, Derivatives, Tangible assets, Intangible assets, Tax assets))
+   * Collateral Received (Loans and advances, debt securities, equities, Derivatives, Immaterial rights, Physical collaterals (real estate, aircraft, ship, property plants and equipment, gold etc.))
+   * Collateral given (only if the source of encumbrance is Own debt securities issued that are covered bonds or securitisation, please see F 32.03.a), please see collateral received
+   * Own debt instruments issued other than securitisations and covered bonds]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/5]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

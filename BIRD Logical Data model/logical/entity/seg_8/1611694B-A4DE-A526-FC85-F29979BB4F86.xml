@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="1611694B-A4DE-A526-FC85-F29979BB4F86" name="Balance sheet recognised exchange tradable derivative asset position national general accepted accounting principles (nGAAP)">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-07-11 12:37:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Balance sheet recognised exchange tradable derivative asset position national general accepted accounting principles (nGAAP) is a Balance sheet recognised exchange tradable derivative position role to which the nGAAP accounting standard applies.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>CD8E5291-A87C-578E-7536-20CECA5FA9A0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>BLNC_SHT_EXCHNG_TRDBL_DRVTV_ASST_PSTN_NGAAP</preferredAbbreviation>
+<changeRequests>
+<requestID>25692-459</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fiduciary asset indicator" id="6A0044FE-0A24-0CC6-0168-E28D3DFD34EE">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-07-11 13:27:06 UTC</createdTime>
+<comment><![CDATA[Identification of instruments in which the observed agent acts in its own name but on behalf of and with the risk borne by a third party.]]></comment>
+<generatorID>B13A8EF4-7AFB-16C7-873E-3BDC8AA41686</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>88F386F3-4353-CE5E-AA79-1C9548B60865</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D9D544B1-1229-4FD5-4C97-06E213CE6217</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FDCRY</preferredAbbreviation>
+<changeRequests>
+<requestID>25692-459</requestID>
+</changeRequests>
+</Attribute>
+<Attribute name="Haircuts for trading position valued at fair value" id="FBF1A67A-56F2-986C-9244-739B89E983A7">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 07:43:36 UTC</createdTime>
+<comment><![CDATA[Haircut for trading position valued at fair value. 
+According to Annex V (5.29):
+Where applicable under national GAAP based on BAD, ‘Haircuts for trading positions valued at fair value’ shall be reported. The haircuts decrease the value of trading assets and increase the value of trading liabilities.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FAA20A39-31D6-458E-8297-A7FD01A6501F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>HRCTS_TRDNG_PSTN_FV</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

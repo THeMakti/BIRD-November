@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Traditional securitisation comprises Debt security issued (by the reporting agent) Traditional securitisation assignment" directorySegmentName="seg_6" id="0C62A4E9-99EE-D169-3C98-1AF9BE826092">
+<createdBy>ostarij</createdBy>
+<createdTime>2024-03-06 15:37:26 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>CCD7497F-44AA-7E0C-2B1D-9EAD605A4908</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA2C1C55-9919-EFA4-4644-24E333EEF6B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F67F20B-41BF-6D1D-9D6F-D70B8FCC1937</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

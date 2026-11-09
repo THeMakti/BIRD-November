@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies Covered bond programme" directorySegmentName="seg_1" id="8298AA13-AFCA-BD97-00C6-FB4265D2B843">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-12-08 12:23:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[specifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>459D3125-2F68-477E-EAC2-635498AA4DB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

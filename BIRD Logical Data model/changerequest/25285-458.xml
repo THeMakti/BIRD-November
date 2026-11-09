@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Model context in the primary key of Risk position (Kb) per bucket derived data" id="25285-458">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The entity type _Risk position (Kb) per bucket derived data_ needs to have the model context in the key.
+
+### Contact person
+@Arjan.Bos 
+
+### Description of change request
+Every entity type whose data is under the specific control of the reporting agent needs to have the model context as part of its primary key. Currently _Risk position (Kb) per bucket derived data_ does not have this. We propose to add the model context as part of the key.
+
+### Summary of impacted LDM objects/attributes
+- Risk position (Kb) per bucket derived data
+- Model context
+
+### Forward Engineering considerations
+This will change the primary key for the Enriched Input Layer for _Risk position (Kb) per bucket derived data_.
+
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/458]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

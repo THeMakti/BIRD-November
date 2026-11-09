@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Removing the attribute `Long debt security position`.`Default status`" id="38649-543">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+According to the CRR, Article 178 the `Default status` can - under certain conditions - be assessed on an individual level. We believe that these conditions, especially the assignment to the `Retail exposure class` do not apply for `Long debt security position`(s) and therefore we suggest to remove the attribute `Long debt security position`.`Default status`.
+
+### Contact person
+
+dominik.lin-ully@oenb.at, Valentina.Murano@bancaditalia.it
+
+### Description of change request
+
+Remove the attribute `Long debt security position`.`Default status`.
+
+### Summary of impacted LDM objects/attributes
+
+* `Long debt security position`.`Default status`
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/543]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

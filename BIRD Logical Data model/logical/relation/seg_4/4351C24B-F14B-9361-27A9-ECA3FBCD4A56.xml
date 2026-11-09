@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Payment frequency is assigned to Financial asset instrument" directorySegmentName="seg_4" id="4351C24B-F14B-9361-27A9-ECA3FBCD4A56">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 09:28:13 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DB1DB23F-C11A-0700-F197-46941CAA4E0E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7400B259-0970-1F8C-6385-BA49D48E586F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

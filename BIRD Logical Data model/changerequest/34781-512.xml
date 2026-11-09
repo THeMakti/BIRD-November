@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Relationship File has missing and incorrect values" id="34781-512">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[- [x] If the target entity is ‘Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) being a deposit’ the target table should be ‘TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_DPST’ for "sourceEntity": "Deposit"
+- [x] If the target entity is "Deposit Depositor assignment" the target table should be “INSTRMNT_ENTTY_RL_ASSGNMNT”
+- [x] The check on RPRCHS_AGRMNT_CMPNNT_INSTRMNT_FK was completely missing]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/512]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Central bank and private sector company is assigned to Rating grade(s) for issuer based rating system for non-central government via Rating grade Central bank and private sector company assignment" directorySegmentName="seg_1" id="8C9A9763-CC34-7B0E-D57E-4EBB61FBF753">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-12 13:45:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[is assigned to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A6FE620C-D0A1-F3B4-BCF9-3ABCF84D367D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85956057-D0C7-8869-F90B-A6A301A3A30F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5DE71C99-66A5-4961-0C97-745882528C1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

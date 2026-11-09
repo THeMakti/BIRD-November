@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="523A0DF0-59D9-EE46-B546-C29A255FFF25" name="Rating system type by nature (Grade vs. Numeric)">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-12 13:30:33 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>70FB289D-B03F-3183-2133-75789F14C663</entity>
+<relations>
+<relationID>5E0375BF-54E8-76B2-D44D-F5A9CAE03A99</relationID>
+<relationID>237D6360-A5A5-6703-7C2F-F0B5E18BA3F0</relationID>
+</relations>
+</Arc>

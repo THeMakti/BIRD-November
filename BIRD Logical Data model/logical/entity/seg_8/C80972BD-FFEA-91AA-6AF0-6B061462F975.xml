@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="C80972BD-FFEA-91AA-6AF0-6B061462F975" name="Balance sheet recognised security position">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-16 09:59:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[A balance sheet recognised security position is a security position that is recognised in the balance sheet.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AE454F88-CBBB-388C-4265-06CD95FA89DD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>BLNC_SHT_RCGNSD_SCRTY_PSTN</preferredAbbreviation>
+</Entity>

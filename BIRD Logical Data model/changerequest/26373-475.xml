@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Currency of the amount issued - (CRRNCY_AMNT_ISSD)" id="26373-475">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+
+The variable is used in AE in the context of the "Contingent Encumbrance" template. (For a deeper discussion of the concept of contingency please check ticket #474). 
+
+More specifically, the variable "Currency of the amount issued" is relevant in Template F 34.00.c, that requires institutions to report the level of additional asset encumbered under the (fictional) Scenario B.
+
+Scenario B assumes "_A 10% depreciation in each currency in which the institution has aggregate liabilities amounting to or exceeding 5% of the institution's total liabilities_" (Annex XVII). 
+
+### Contact person
+
+@Arianna.Nuvoli, @Maria_Manuel.Henriques, @Pietro.Ferroni   
+
+### Business definition
+
+Please refer to the comments of this issue.
+
+### Legal definition
+
+According to Annex XVII, in this template: _"a currency shall be a significant currency if the reporting institution has aggregate liabilities in that currency amounting to or exceeding 5% of the institution's total liabilities_" 
+
+### Reason for inclusion
+
+AE Integration
+
+### Relationships
+
+Please refer to the comments of this issue.
+
+### Relevant Framework/Template
+
+AE (F 34.00.c)
+
+### Additional documentation/links (optional)
+
+_\[Additional info\]_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/475]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

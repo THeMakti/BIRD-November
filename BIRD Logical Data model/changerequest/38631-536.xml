@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Relationship type between `OTC derivative instrument` and `OTC derivative as a hedge` has cardinality &apos;one-to-many&apos; but the primary key of the target and source entity types is equal" id="38631-536">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+# Overview
+
+Relationship type between `OTC derivative instrument` and `OTC derivative as a hedge` has cardinality 'one-to-many' but the primary key of the target and source entity types is equal
+
+### Contact person
+
+dominik.lin-ully@oenb.at
+
+### Background information
+_[info]_
+
+### Points/Questions to resolve
+
+If there exists a 'one-to-many' relationship type between two entity types (e.g., 'source' and 'target') the 'target' entity type's primary key must be 'larger' than the 'source' primary key.
+
+This is not the case for the entity types `OTC derivative instrument` and `OTC derivative as a hedge`, although the relationship type's cardinality is 'one-to-many'.
+
+### Related issues
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/536]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

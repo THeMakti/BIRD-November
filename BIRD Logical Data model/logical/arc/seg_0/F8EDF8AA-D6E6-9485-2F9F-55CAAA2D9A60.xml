@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="F8EDF8AA-D6E6-9485-2F9F-55CAAA2D9A60" name="Equity or fund security type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 18:42:27 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>76DC506A-5B11-AE58-2AF6-A8F410FFE83E</entity>
+<relations>
+<relationID>A109F31B-30B2-DF67-D3F1-21ADBA3DA1F9</relationID>
+<relationID>CA949267-F1B6-AD36-D3B8-F0F7A95F756E</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="5A068E21-E8DD-DEA0-7A58-FA3408E32CCA" name="International organisation and general government type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-07 08:41:05 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>E970D119-887A-1021-5468-AECD27BD8A4E</entity>
+<relations>
+<relationID>15BF3C2E-A25A-FB54-C2A1-132ADBEC78C1</relationID>
+<relationID>AC64D698-244D-9625-F0CB-10CD5986F51F</relationID>
+</relations>
+</Arc>

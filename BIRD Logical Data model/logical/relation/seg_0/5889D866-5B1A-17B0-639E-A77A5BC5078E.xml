@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Issuer issues Security or Exchange tradable derivative(s) via Security Issuer assignment" directorySegmentName="seg_0" id="5889D866-5B1A-17B0-639E-A77A5BC5078E">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-04 11:20:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[issues]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F2F2193-F1CB-6012-8749-1F309C44EFF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C4CA59D-CEFA-7753-9A33-AF14FE5B6E7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

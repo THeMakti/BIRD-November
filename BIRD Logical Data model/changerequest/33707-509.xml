@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Update Domains related to the Economic Activity and Institutional Sector" id="33707-509">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The Domains associated with the Economic Activity and the Institutional Sector contain more allowed values than the most granular ones.
+
+For example, under the "Institutional Sectors" Domain, we have, among others, the following allowed values:
+- (S14) Households 
+   - (S14_B) Households other than sole proprietorships/partnerships without legal status 
+   - (S14_A) Households that are sole proprietorships/partnerships without legal status
+
+Under the NACE Domain, we have, among others, the following allowed values:
+-  (01_4) Animal production 
+   - (01_44) Raising of camels and camelids 
+   - (01_41) Raising of dairy cattle 
+   - (01_43) Raising of horses and other equines 
+   
+### Contact person
+@Maria_Manuel.Henriques 
+
+### Description of change request
+- [ ] Change the Domain "Institutional Sectors" to only include the most granular allowed values.
+- [ ] Change the Domain "NACE levels 2 to 4 plus not applicable (stating)" to only include the most granular allowed values.
+
+### Summary of impacted LDM objects/attributes
+- "Institutional Sectors" Domain
+- "NACE levels 2 to 4 plus not applicable (stating)" Domain
+
+### Forward Engineering considerations
+Not applicable
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/509]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

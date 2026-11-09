@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Balance sheet recognised financial asset instrument taken into possession has Balance sheet recognised financial asset instrument taken into possession derived data" directorySegmentName="seg_3" id="FDE68269-173B-90B1-531A-097FDE70788A">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-10 10:01:08 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>791B8411-7E00-08FE-C4F8-E18BAA32B7B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3649C4B6-CAF1-2216-8522-0BB74655A9C1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5A9E94C8-BB1A-90A2-D0BE-9F9B9F426CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

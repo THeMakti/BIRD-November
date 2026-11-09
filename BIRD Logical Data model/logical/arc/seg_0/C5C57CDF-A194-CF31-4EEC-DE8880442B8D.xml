@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="C5C57CDF-A194-CF31-4EEC-DE8880442B8D" name="Security position Balance sheet recognised type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-22 15:39:47 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>AE454F88-CBBB-388C-4265-06CD95FA89DD</entity>
+<relations>
+<relationID>19A41C88-5298-C9D6-9A75-1B5FD9D9F080</relationID>
+<relationID>49FD14C1-8199-DD0F-A748-18477823C0B8</relationID>
+</relations>
+</Arc>

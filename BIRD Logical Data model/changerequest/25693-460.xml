@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - High liquidity and credit quality (HQLA) indicator - (HQLA_INDCTR)" id="25693-460">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[Currently in the LDM there's an entity _High liquidity and credit quality (HQLA) type_, with attribute `High liquidity and credit quality (HQLA) indicator`, related only to the entity _Security_.
+
+In AE this concept is used in templates F 32.01, F 32.02.a/b, F 32.03.b and it is needed/relevant for loans and advances, equity instruments that are securities, debt securities (both negotiable and not negotiable) and, among other assets, cash on hand.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/460]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

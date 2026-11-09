@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="418B973C-4154-688E-68FA-69AD1E97EA22" name="Postal code type">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-07 10:44:51 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>0E4F2A27-1B6E-D33A-A2B8-CB3FA9585BED</entity>
+<relations>
+<relationID>77A7B3AD-606F-52C8-E14C-9CBCBC6AB1CB</relationID>
+<relationID>C6575060-9736-900D-9991-BC0DBA954765</relationID>
+</relations>
+</Arc>

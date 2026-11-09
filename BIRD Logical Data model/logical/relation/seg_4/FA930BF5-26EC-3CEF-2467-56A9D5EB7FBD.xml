@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Enterprise size (calculated) is calculated for Party previous period data" directorySegmentName="seg_4" id="FA930BF5-26EC-3CEF-2467-56A9D5EB7FBD">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 15:42:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[is calculated for]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>D19F9267-2DBB-85E9-5B7F-1B228F01E6D8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD58D100-8E07-C96E-9247-8C2B3E9E64FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BC3536B-8321-4DC1-DBFD-E8B4652D40E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

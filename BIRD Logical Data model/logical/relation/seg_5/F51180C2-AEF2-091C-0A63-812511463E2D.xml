@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Exchange tradable derivative position specifies Fundamental review of the trading book standard approach risk measure for ETD positions" directorySegmentName="seg_5" id="F51180C2-AEF2-091C-0A63-812511463E2D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-10-08 12:36:54 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>8E30730F-B8C5-DC9C-3260-BB915E3AB8EE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB0CC98E-4E09-ADBF-024E-4EF7E3FA6604</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A0875EC-6B6E-AC1A-CD23-71EC954DDA91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

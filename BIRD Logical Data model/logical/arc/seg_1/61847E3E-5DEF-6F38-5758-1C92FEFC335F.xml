@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="61847E3E-5DEF-6F38-5758-1C92FEFC335F" name="Exchange tradable derivative position hedge accounting standard type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-26 10:25:42 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>6EEE9DB7-67AC-D2CA-13A9-4ED84E7604F3</entity>
+<relations>
+<relationID>47DCD579-378D-B81B-01CA-79883B9C5DD8</relationID>
+<relationID>E2105A37-FC07-AC49-F70C-03ABA0A21476</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Deposit belongs to Depositor via Deposit Depositor assignment" directorySegmentName="seg_2" id="3357D046-122E-10F3-4620-0B02A26691A4">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 18:23:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[belongs to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<dominantRole>9CCB209C-1981-3086-B589-367D457CE9CD</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CCB209C-1981-3086-B589-367D457CE9CD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7991FFB7-6B28-808F-97AC-6FFBC72BCF2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

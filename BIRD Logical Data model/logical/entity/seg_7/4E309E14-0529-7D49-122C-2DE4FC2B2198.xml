@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_7" id="4E309E14-0529-7D49-122C-2DE4FC2B2198" name="Exchange tradable derivative asset position">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-11-03 15:37:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[An Exchange tradable derivative asset position is an Exchange tradable derivative asset or liability position role where the Exchange tradable derivative position acts in the role of an asset position.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DEBAF9F4-7798-ED5D-963A-B6BEE579D665</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_ASST_PSTN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Exchange tradable derivative asset position type" id="93C569C2-2679-7515-0979-8633F7E4238C">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-09 16:58:26 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between different types of Exchange tradable derivative asset positions.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>1BABA987-329F-D67A-BD60-57824795569D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ETD_ASST_PSTN_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Encumbered asset indicator" id="517126C7-CD6F-2605-DB06-D819676214DE">
+<createdBy>reddigj</createdBy>
+<createdTime>2026-01-21 12:27:29 UTC</createdTime>
+<comment><![CDATA[Encumbered asset indicator signals whether the asset is encumbered or not.]]></comment>
+<generatorID>94C2DFC9-118C-5641-A114-566A44A7F3A7</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>80DB8721-57CF-002D-52CF-B495CE72436C</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>B601809B-D51A-4008-91C7-43667208E447</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ENCMBRD_ASST_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

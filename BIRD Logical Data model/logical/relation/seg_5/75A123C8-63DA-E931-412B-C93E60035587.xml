@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="European Union member postal code is location of Real estate collateral located in a member state" directorySegmentName="seg_5" id="75A123C8-63DA-E931-412B-C93E60035587">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-08 13:27:45 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>38CB9012-FF04-CA29-16B4-355B533A2641</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E95C06E-6270-82A0-1DBC-C82A9C39D218</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A33EBEF-B597-8677-29D2-6EE7D9818987</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

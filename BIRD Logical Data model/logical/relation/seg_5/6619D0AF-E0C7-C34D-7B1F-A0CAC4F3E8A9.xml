@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prudential portfolio classifies Balance sheet recognised exchange tradable derivative asset position" directorySegmentName="seg_5" id="6619D0AF-E0C7-C34D-7B1F-A0CAC4F3E8A9">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-12-09 16:56:33 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0CCE7BBC-0755-2570-EE2B-70609AD4D721</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C44433DF-43F0-3978-5381-A52FD9427431</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD8E5291-A87C-578E-7536-20CECA5FA9A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

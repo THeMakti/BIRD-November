@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="A195EF34-F33D-2547-040B-D5DCFACCF956" name="Over the counter (OTC) Swap type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:06:13 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>C95440D4-9BCA-C083-B96B-D0AE0259FCA7</entity>
+<relations>
+<relationID>AA80CE2F-E6B5-A9A1-34FA-26C73677CB63</relationID>
+<relationID>B6CD219F-6524-F624-B194-6E178BCFD1BC</relationID>
+<relationID>FC31D63E-DAA2-2ED7-269C-3F8888D0098C</relationID>
+</relations>
+</Arc>

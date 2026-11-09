@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Foreign institutional unit has Foreign branch" directorySegmentName="seg_6" id="10E755E5-12F8-4CF4-1451-5F793F06BDE6">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-22 17:06:56 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>86FECAC0-8A7A-BE18-57FE-C8ED7C57A9F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D6DDCCA-73A7-57F6-7DC8-A0B1DAF42906</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>718CEC61-D5A5-8225-E6B6-74908DD7D59B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

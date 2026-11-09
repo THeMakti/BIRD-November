@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subject to impairment indicator is applied to Financial asset instrument" directorySegmentName="seg_6" id="050CB951-406D-E049-A83B-193AC92FC4CF">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-12-11 09:04:48 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>12316118-558D-4A2C-D98E-51E0AAC146C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>24C70B31-006D-69BE-CCB7-9FA5F1B4D5D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC25CE06-349E-2EC8-DA05-FFD6B8759432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

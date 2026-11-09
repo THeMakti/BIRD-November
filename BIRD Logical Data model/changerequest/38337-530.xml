@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Review Derivatives treatment" id="38337-530">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+Currently derivatives are split between
+- OTC derivatives: derivatives traded over the counter
+- ET derivatives: exchange traded derivatives
+
+OTC derivatives are treated as an instrument mainly because of the characteristic of being an individual agreements between two _Parties_. 
+While ET derivatives have similarities to _Securities_, e.g., an _International Security Identification Number (ISIN)_
+
+Iref will add the ISIN also for OTC derivative so it is worthy to rediscuss and review the current structure, considering if it still makes sense to keep the two type of derivatives separates or it is better to treat derivatives all together and separetly from both instrument and security. 
+
+### Contact person
+_[me@ecb.europa.eu]_
+
+### Background information
+![otc](/uploads/22244d350744f950082e2596bb3ed6dd/otc.png)![et_structure](/uploads/8b6dac4864045ba740a4eb94072bdf7e/et_structure.png)
+
+### Points/Questions to resolve
+_[Key points]_
+
+### Related issues
+#496 
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/530]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="10F7C074-A3A5-E281-5578-2F3B93C9CA8B" name="Financial liability instrument derived data">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:39:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Financial liability instrument derived data is extra information about Financial liability instrument that can be derived from other information in the model.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_DRVD_DT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Financial liability instrument reference date" id="B45B5A00-A20A-EC82-E462-59E4D7D8756A">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>7F530CBF-4627-C7D1-6C50-AB1FC96056B0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Financial liability instrument reporting agent identifier" id="7E72DBEA-43AB-0B8E-8A40-77E843B0F8C3">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>CB7734D4-5ECD-011C-BF59-61AAD44D205B</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Financial liability instrument accounting consolidation level" id="804E7E92-70A6-A7D1-1C0E-1352799D2AEC">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>B4396838-8972-1324-FF52-DE0C414F572D</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Financial liability instrument accounting standard" id="E7427ADE-11A1-AB7D-31F7-181928388F9F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>7593F9D3-C2D1-A446-BDFE-2A0FF8205727</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Financial liability instrument role type" id="D0E99F64-6305-889E-1DE6-3BBDB2F5CAC6">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between different roles an instrument may act in. Examples are financial asset instrument, financial liability instrument.]]></comment>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>25388038-025D-99E8-CF86-3AB697F8D586</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>8e78f30b-610e-404e-97c5-60fa855125db</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_RL_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Financial liability instrument identifier" id="E89B5CCD-1F3D-5DFE-2823-935E0E747D2D">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<comment><![CDATA[An identifier applied by the reporting agent to uniquely identify each instrument under a single contract. Each instrument must have one instrument identifier. This value will not change over time and cannot be used as the instrument identifier for any other instrument under the same contract.]]></comment>
+<generatorID>50F21831-FC7D-A173-CFDF-E0ED75B51542</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>2AA5F1F8-7222-F0EE-9769-936B5346CE62</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>bedac99c-65df-4709-835b-fbf0381d048e</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FNNCL_LBLTY_INSTRMNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Type of Financial Liability instrument according to Annex V" id="323445D3-3FA3-E97A-D87B-0D090D20E6F4">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:45:24 UTC</createdTime>
+<generatorID>F50AA3B3-08ED-A479-A3E4-FF5107C5463A</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<constraintName>Type of financial Liability instrument according to Annex V</constraintName>
+<referedAttribute>6298EB89-0F89-2C45-E9F5-727F238FA71F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D2886F5E-CD80-177F-2FB7-211B3E2EAB18</domain>
+<listOfValues>
+<valueDef value="1114" description="Derivatives not hedge according to Annex V"/>
+<valueDef value="1119" description="Derivatives hedge according to Annex V"/>
+<valueDef value="1120" description="Not financial liability according to Annex V"/>
+<valueDef value="1122" description="Deposits according to Annex V"/>
+<valueDef value="1124" description="Other financial liabilities according to Annex V"/>
+<valueDef value="1125" description="Liabilities included in disposal groups classified as held for sale according to Annex V"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TYP_FNNCL_LBLTY_INSTRMNT_ANNX_V</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B822BCFF-9FE1-8F76-062D-ECD4816EEA16" name="Financial liability derived data PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B45B5A00-A20A-EC82-E462-59E4D7D8756A</attributeRef>
+<attributeRef>7E72DBEA-43AB-0B8E-8A40-77E843B0F8C3</attributeRef>
+<attributeRef>804E7E92-70A6-A7D1-1C0E-1352799D2AEC</attributeRef>
+<attributeRef>E7427ADE-11A1-AB7D-31F7-181928388F9F</attributeRef>
+<attributeRef>D0E99F64-6305-889E-1DE6-3BBDB2F5CAC6</attributeRef>
+<attributeRef>E89B5CCD-1F3D-5DFE-2823-935E0E747D2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

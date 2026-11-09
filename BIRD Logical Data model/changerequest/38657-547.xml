@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="&apos;day-count-convention&apos; for `Past due time band` attribute" id="38657-547">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+We suggest to amend the allowed values of the attribute `Past due time band`, solely using calendar days.
+
+### Contact person
+
+dominik.lin-ully@oenb.at, Valentina.Murano@bancaditalia.it
+
+### Description of change request
+
+[Past_DUE_definition.docx](/uploads/5870b6df481396d42b72694e323b8e83/Past_DUE_definition.docx)
+
+### Summary of impacted LDM objects/attributes
+
+* `Past due time band`
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/547]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

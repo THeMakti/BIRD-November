@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[Asset Sec] End of month following the transfer" id="17800-193">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab)
+
+
+# Overview
+BSI requires the reporting of net transfers occurring during the month at month end. This is different from AnaCredit where full transfers with a residing credit institution exit the reporting before the next reference date (with the exception of write-offs which trigger the next end-of-quarter rule). Indeed, in that case the buyer credit institution takes over the reporting obligations. Since transfer acquisitions are not captured, there is no way to calculate net transfers from AnaCredit data, which is not in line with the methodology used to adjust growth rates.
+
+
+### Contact person
+@Arjan.Bos @Olivia.Hauet 
+
+### Business definition
+There are different ways to address this gap in the IReF. 
+- One way would be to extend the reporting obligation to the reference date following the transfer. 
+- Another way would be to address the issue of exiting instruments more generally in a specific table.
+
+### Legal definition
+_[Legal reference]_
+
+### Reason for inclusion
+_[Justifications]_
+
+### Relationships
+_[Related objects]_
+
+### Relevant Framework/Template
+- AnaCredit
+- BSI
+
+### Additional documentation/links (optional)
+The modelling of the so-called life cycle of a thing (entity type) is a standard pattern.
+Three standard questions are:
+1. What are the statuses? For an instrument prospective, active, ended, closed are typical
+2. Do we need to know the date on which the change of the status occurred?
+3. Do we need to know what triggered the change?
+4. Do we need to know who - Customer or Bank - made the change? 
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/193]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[SHS] collateral area (location) to be reported e.g. for ABS transactions" id="21826-396">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+According to SHS requirements the collateral geographical location needs to be reported e.g. for ABS transactions (see worksheet [CL_SHS_COLLATERAL_AREA.xlsx](/uploads/5469f5e53eaf6f48c0719b832da4c3f2/CL_SHS_COLLATERAL_AREA.xlsx))
+
+For this to work, we need to check if the current model solution is adequate and that it indeed can be derived from the location of the real estate as required by AnaCredit, or that the location of the collateral for SHS is required for more than real estate. 
+
+### Contact person
+@Arjan.Bos, @sdressler 
+
+### Description of change request
+
+For this to work, we need to check if the current model solution is adequate and that it indeed can be derived from the location of the real estate collateral as required by AnaCredit, or that the location of the collateral for SHS is required for more than real estate.
+
+### Reference:
+https://www.ecb.europa.eu/pub/pdf/other/ecb.guidance_notes_to_reporting_agents_on_shs_regulation202005~f7bce14823.en.pdf
+
+5.4.13 Collateral geographical location
+
+Use: Mandatory.
+
+#### Description
+Geographical allocation of the underlying assets.
+
+#### Additional clarifications
+> The collateral geographical location is the region or the country where the assets
+underlying the security are located. For example, if an SPV located in France issues a
+securitisation backed by German household mortgages, Germany as the country of
+the underlying assets has to be reported.
+
+
+> If the assets are located in more than one country, either the sub-region, e.g. the euro
+area, or the main country should be reported. 
+
+
+> If the attribute is not applicable to the security (for example, if it is not a covered bond,
+or a security issued as part of a securitisation), the relevant NCB may dispense with
+the requirement to fill the attribute.
+
+### Summary of impacted LDM objects/attributes
+- collateral
+- real estate collateral
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/396]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

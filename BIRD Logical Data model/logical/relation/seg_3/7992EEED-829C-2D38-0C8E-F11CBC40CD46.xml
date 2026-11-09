@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reference date specifies Model Context." directorySegmentName="seg_3" id="7992EEED-829C-2D38-0C8E-F11CBC40CD46">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-02-03 16:49:19 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>24E9EB9D-5E6D-D297-83BF-B4784A376EA4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B705FC2D-A598-2D0A-B53D-89DF710070C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

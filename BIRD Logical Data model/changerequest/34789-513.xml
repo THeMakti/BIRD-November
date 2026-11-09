@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Compliance with article 129 of CRR indicator and Asset class according to CRR, Article 129" id="34789-513">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[### Overview
+
+The attribute `Compliance with article 129 of CRR indicator` (entity type `Asset pool (subject to a Covered bond programme)`) has been wrongly assigned to the domain _Primary asset cover pool_ which is the same as the attribute `Asset class according to CRR, Article 129.` The two attribute shared also the same abbreviation so just one is then included in the input layer.
+
+### Contact person
+
+@Arianna.Nuvoli 
+
+### Description of change request
+
+_Assign attribute `Compliance with article 129 of CRR indicator` the the domain Compliance with article 129 CRR type and change the abbreviation._
+
+### Summary of impacted LDM objects/attributes
+
+Entity type: `Asset pool (subject to a Covered bond programme)`
+
+Attribute: `Compliance with article 129 CRR type`
+
+![image.png](/uploads/2d7f81ef996193c27a2f69bf9f3f5efe/image.png){width=250 height=164}
+
+### Forward Engineering considerations
+
+_Update table `ASST_PL`_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/513]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

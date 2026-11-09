@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Trade receivable has Factor via Trade receivable Factor assignment" directorySegmentName="seg_2" id="C23BB9F8-1AC0-8EEF-949F-696310B8F5CA">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 18:26:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<dominantRole>5183D638-6F8E-E4ED-2C17-CAD059CF1853</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5183D638-6F8E-E4ED-2C17-CAD059CF1853</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>20E8D039-861C-CE2E-A9AF-EC81951BC568</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

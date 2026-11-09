@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Other physical collateral is measured by Protection valuation approach" directorySegmentName="seg_5" id="2A612B48-65EC-0FC9-E20D-FB1CC29B0078">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-11-22 14:06:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F509325A-ED2C-91A3-8CE1-AF8FE97EC681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEAECD04-84D6-BE28-0AFB-55F1488722F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>055BC8D9-2CAD-DC47-E8EC-AD1F5A52D649</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

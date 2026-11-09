@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Assessment aproach for credit quality status is applied to Credit facility risk data" directorySegmentName="seg_4" id="8959AD64-DEB9-1838-D3B4-053F6AF69158">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 12:25:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[is applied to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6B8EBD95-BAD0-6704-F048-B9294909E1AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>704D663F-6D09-9D25-02F6-F8CE0B2CC4EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>536D9BE8-895C-32C3-C6AD-50ABD7478588</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

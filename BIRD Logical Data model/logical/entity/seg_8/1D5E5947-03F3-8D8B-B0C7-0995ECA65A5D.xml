@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="1D5E5947-03F3-8D8B-B0C7-0995ECA65A5D" name="Type of Financial Liability instrument according to Annex V">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:43:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of financial liability is the type of financial liability according to Annex V.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TYP_FNNCL_LBLTY_INSTRMNT_ANNX_V</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type of Financial Liability instrument according to Annex V" id="6298EB89-0F89-2C45-E9F5-727F238FA71F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:44:14 UTC</createdTime>
+<comment><![CDATA[Type of financial liability is the type of financial liability according to Annex V.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D2886F5E-CD80-177F-2FB7-211B3E2EAB18</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TYP_FNNCL_LBLTY_INSTRMNT_ANNX_V</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="042FEA71-72D6-4F7B-BF18-FE0639FF1690" name="Type of financial liability PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:45:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6298EB89-0F89-2C45-E9F5-727F238FA71F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

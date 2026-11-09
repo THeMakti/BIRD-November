@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC750728-2252-66F9-4A0C-3EFB362110E3" name="Organisation with legal proceeding">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 10:27:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[An Organisation with legal proceeding is an Organisation with a Legal proceedings status.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>36F4F142-0055-6B37-EB1E-64DFB173402F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ORGNSTN_WTH_LGL_PRCDNG</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Legal proceeding status" id="24BA7058-E383-EB91-9280-23C4CFC02A16">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 09:12:43 UTC</createdTime>
+<comment><![CDATA[Categories describing an entity's legal status in relation to its/his/her solvency based on the national legal framework.]]></comment>
+<generatorID>1F81E0FD-6DFA-9C77-4B2E-B20AF8031669</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>27F5D9B1-BFFC-8AF5-4035-5017E1E60827</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>0b4c659d-2891-4c54-a272-61fa124e8d83</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>LGL_PRCDNG_STTS</preferredAbbreviation>
+</Attribute>
+<Attribute name="Date of initiation of legal proceeding" id="7F3C3889-843D-6190-F3DB-40264BF17360">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 10:28:14 UTC</createdTime>
+<comment><![CDATA[The date on which the legal proceedings were initiated.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>DT_INTTN_LGL_PRCDNGS</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

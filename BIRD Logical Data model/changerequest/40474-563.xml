@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="create TRNSFRRD_AMNT in EIL" id="40474-563">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+We need to add the attribute TRNSFRRD_AMNT in cube ASST_PL_INSTRMNT_ASSGNMNT the computation will be ASST_PL_INSTRMNT_ASSGNMNT,PRCNTG_TRNSFRD,, Multiplied by INSTRMNT, NMNL_AMNT_
+
+### Contact person
+@Silvia.Giacinti 
+
+### Description of change request
+Add attribute in EIL possible cube ASST_PL_INSTRMNT_ASSGNMNT or instrument
+
+### Summary of impacted LDM objects/attributes
+_[EIL ]_
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/563]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

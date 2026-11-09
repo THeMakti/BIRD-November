@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="F2F4CC70-A51F-FA5C-F5C7-02D0C0A64639" name="Country type by reporting">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-06-26 08:56:05 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>38013587-3E0F-07E3-FABD-AEF3C2ADF02B</entity>
+<relations>
+<relationID>AD5DBBB5-2746-539D-FDA1-15776450883E</relationID>
+<relationID>826A3B0C-B8A2-ECB2-27CC-280767236F9F</relationID>
+</relations>
+</Arc>

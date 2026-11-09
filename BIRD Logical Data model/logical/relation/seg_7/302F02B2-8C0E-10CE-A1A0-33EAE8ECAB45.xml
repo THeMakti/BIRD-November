@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Right of use asset indicator specifies Property, plant and equipment" directorySegmentName="seg_7" id="302F02B2-8C0E-10CE-A1A0-33EAE8ECAB45">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-05-15 09:42:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>59439907-90F5-7C8E-D06B-8F512A017C6B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B54FB99-5D9B-B6BC-4BF3-26E51016B01A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D686F9F6-0CDE-CEE3-9F51-1A55CA17B97A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

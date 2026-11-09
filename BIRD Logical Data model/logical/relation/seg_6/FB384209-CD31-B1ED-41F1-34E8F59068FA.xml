@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Treatment of securitised / transfered assets in balance sheet is applied to Asset pool (subject to a Securitisation and other credit transfer)" directorySegmentName="seg_6" id="FB384209-CD31-B1ED-41F1-34E8F59068FA">
+<createdBy>ostarij</createdBy>
+<createdTime>2024-02-13 16:08:25 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DA3567AD-B7EF-305B-8D85-8F0CA3154A9A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EEE5F19-6BD1-DC0E-D355-7D881A38792F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF3123E9-C3A5-7650-8DD2-DBE9CABA5872</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

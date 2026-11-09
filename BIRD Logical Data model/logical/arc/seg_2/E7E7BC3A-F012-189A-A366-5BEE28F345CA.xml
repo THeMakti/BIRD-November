@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="E7E7BC3A-F012-189A-A366-5BEE28F345CA" name="Entity group role type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-12-09 12:32:35 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>36EC9428-1F7E-F185-455D-F5135971D083</entity>
+<relations>
+<relationID>752CFE72-71A4-686A-0EA6-3B55DD27639F</relationID>
+<relationID>0A997977-2165-A13D-81CD-04BC4E1E3F55</relationID>
+</relations>
+</Arc>

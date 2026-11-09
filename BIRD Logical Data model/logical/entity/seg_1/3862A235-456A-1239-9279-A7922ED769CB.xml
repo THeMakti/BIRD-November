@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="3862A235-456A-1239-9279-A7922ED769CB" name="Cash on hand national general accepted accounting principles (nGAAP)">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:38:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cash on hand national general accepted accounting principles (nGAAP)  shall include holdings of national and foreign banknotes and coins in circulation that are commonly used to make payments.
+
+According to ESA 2010 this includes "Monetary gold", which is indicated via the currency "XAU". See ESA 2010 paragraph 5.65 - 5.68.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>33380944-8442-174B-069A-88F99EEEC3DC</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CSH_HND_NGAAP</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cash on hand reference date" id="CF6BB11C-424D-5902-5623-09AAAD3D8B39">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:44:14 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>F433ED99-DEBE-8DE3-0FEE-D7C305F48F9B</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>90FBD27B-EE6E-D877-F9E7-447D604CC0ED</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CSH_HND_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Cash on hand reporting agent identifier" id="AFCD7573-7B7A-1EFB-C712-D5F922B238D3">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:44:14 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>F433ED99-DEBE-8DE3-0FEE-D7C305F48F9B</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>29F5BBD5-6DF1-9F07-524A-463A45C7E70C</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CSH_HND_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Cash on hand accounting consolidation level" id="DE9BD985-BF34-28DE-0B8D-0217B430BEAE">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:44:14 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>F433ED99-DEBE-8DE3-0FEE-D7C305F48F9B</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>E63F0FBF-53EF-27C4-74FE-8245552D649F</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CSH_HND_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Cash on hand accounting standard" id="F7743FD2-1E7B-BEE5-82AE-F64654FFC197">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:44:14 UTC</createdTime>
+<generatorID>F433ED99-DEBE-8DE3-0FEE-D7C305F48F9B</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>4FEA6523-92D0-8957-673E-0C2139F61B82</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CSH_HND_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Currency" id="F3E21B40-8DC9-8B20-BE72-C56A877229CE">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:41:59 UTC</createdTime>
+<comment><![CDATA[The currency code according to ISO4217.]]></comment>
+<generatorID>03EB0AF7-79C2-50AC-B0D6-857033DB2AA0</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>4CA512E4-A54A-933E-24C1-3D8E2D31E7C6</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2D4D0542-0954-4C82-9231-4447DC95A6DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRRNCY</preferredAbbreviation>
+</Attribute>
+<Attribute name="Encumbered asset indicator" id="8F9CF328-77ED-DE38-F9C3-73CEE7AA1003">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:56:21 UTC</createdTime>
+<comment><![CDATA[Encumbered asset indicator signals whether the asset is encumbered or not.]]></comment>
+<generatorID>7BA5C4EA-2D29-6863-B80D-6E8F704532AA</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>80DB8721-57CF-002D-52CF-B495CE72436C</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>B601809B-D51A-4008-91C7-43667208E447</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ENCMBRD_ASST_INDCTR</preferredAbbreviation>
+</Attribute>
+<Attribute name="Carrying amount" id="088A51C7-0534-B1D1-E6E1-D879CD0D90C5">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:38:36 UTC</createdTime>
+<comment><![CDATA[The carrying amount in accordance with Annex V to Implementing Regulation (EU) No 680/2014.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FAA20A39-31D6-458E-8297-A7FD01A6501F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRRYNG_AMNT</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A4AC3D8-2F46-EB03-DFB1-00145E4C22CB" name="Cash on hand PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-27 09:38:36 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3E21B40-8DC9-8B20-BE72-C56A877229CE</attributeRef>
+<attributeRef>CF6BB11C-424D-5902-5623-09AAAD3D8B39</attributeRef>
+<attributeRef>AFCD7573-7B7A-1EFB-C712-D5F922B238D3</attributeRef>
+<attributeRef>DE9BD985-BF34-28DE-0B8D-0217B430BEAE</attributeRef>
+<attributeRef>F7743FD2-1E7B-BEE5-82AE-F64654FFC197</attributeRef>
+<attributeRef>8F9CF328-77ED-DE38-F9C3-73CEE7AA1003</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

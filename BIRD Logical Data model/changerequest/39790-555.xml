@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Automated consistancy checks on the LDM" id="39790-555">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[To improve quality and usability after we create 5 consistancy checks on the LDM that can run from within SQLDeveloper after any change or proposal.
+
+These are:
+
+
+ 1.) Check if an arc has the same name as the discriminator generating the subtyping.
+
+ 2.) For all subtypes included the LDM, check whether their name is a member of the discriminator domain in the supertype.
+
+ 3.) Check that every attribute and entity have a description.
+
+ 4.) Naming convention of the relationship type. Both entity type names should be part of the relationship type name. 
+
+ 5.) Naming convention of the foreign key. From the name of the foreign key you should be able to infer the entity type it comes from. See example in Security collateral where the FK to the security has “Security” as prefix.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/555]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

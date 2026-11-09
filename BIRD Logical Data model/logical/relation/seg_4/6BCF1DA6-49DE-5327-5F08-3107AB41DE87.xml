@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="International organisation code classifies an international organisation" directorySegmentName="seg_4" id="6BCF1DA6-49DE-5327-5F08-3107AB41DE87">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-08-08 10:33:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>262C9C74-F89C-AC73-7F42-C6B0E92430FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E1C1849-9E6D-2B06-8F38-B4FFAE53D647</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB902D77-F0D4-07A3-B64A-103FAF25D7D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>39286-551</requestID>
+</changeRequests>
+</Relation>

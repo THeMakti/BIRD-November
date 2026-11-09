@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[FINREP] F 46.00" id="27162-484">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+EBA Q&A 2020_5301 – states that a specific cell will be opened in the future. Meanwhile, as an interim solution a different cell will be used – what will be the basis for FinRep transformation rules? The current interim solution or the future solution?
+
+### Contact person
+@Arjan.Bos @andreamerz 
+
+### Background information
+
+### Points/Questions to resolve
+
+### Related issues
+#482 #483 
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/484]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Non-performing exit criteria met indicator is applied to Non-performing debt security" directorySegmentName="seg_5" id="2DE63ED3-3488-6730-E399-D078324C0E9C">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-10-25 13:30:44 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>19E1DCCB-F9C5-933A-0497-C968FD8F4956</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>715F0BA1-5931-E463-8506-E5D628EEE9C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4855C66-FDB4-306A-0F2B-44BAB9ADC2A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

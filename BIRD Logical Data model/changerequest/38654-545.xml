@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Renaming the entity type `Potential retail exposure class financial asset instrument` to `Retail exposure class financial asset instrument`" id="38654-545">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+Suggestion for improvement of name due to update of CRR.
+
+### Contact person
+
+dominik.lin-ully@oenb.at, Valentina.Murano@bancaditalia.it
+
+### Description of change request
+
+In the current model, we observe a distinction between “Potential Retail” and “Non-Retail”. The term “Potential”, originally introduced under CRR2, was used to represent cases where a counterparty might or might not meet the conditions of Article 123(1).
+
+However, with the introduction of paragraph 4, this distinction has become less relevant. Moreover, the model currently does not provide a clear indication of when a counterparty should be definitively classified as “Retail”.
+
+We propose to Rename the entity currently labeled:
+
+* From: `Potential retail exposure class financial asset instrument`
+* To: `Retail exposure class financial asset instrument`
+
+This change would ensure consistency with the field `Retail exposure according to CRR indicator` in the `Credit facility risk data` entity type, which classifies exposures as either:
+
+* `Retail`
+* `Non-Retail`
+
+Additionally, we recommend removing the word “Potential” from the entity’s description, if the renaming is approved.
+
+### Summary of impacted LDM objects/attributes
+
+* `Potential retail exposure class financial asset instrument`
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/545]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

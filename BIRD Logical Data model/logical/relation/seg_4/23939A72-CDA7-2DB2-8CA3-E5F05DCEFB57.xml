@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Controlled by national or foreign bodies specifies Central bank and private sector company" directorySegmentName="seg_4" id="23939A72-CDA7-2DB2-8CA3-E5F05DCEFB57">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-07-28 12:35:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[specifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>81A498E4-814D-FADD-30AD-8882190B246C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AFE0B22-DBD9-E041-B693-C01E7E96F6CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85956057-D0C7-8869-F90B-A6A301A3A30F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

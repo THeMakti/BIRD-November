@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Eligible for central bank funding indicator in EIL 6.5 - Wrong abbreviation" id="34849-515">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[In 6.5 EIL, for the variable "Eligible for central bank funding indicator" we use two different abbreviations in entities INSTRMNT and SCRTY_EXCHNG_TRDBL_DRVTV, see below:
+
+INSTRMNT (Correct)
+
+![image](/uploads/a43d81347e1252b73ba0e5b125964632/image.png){width=220 height=101}
+
+SCRTY_EXCHNG_TRDBL_DRVTV (Incorrect)
+
+![image](/uploads/8285660fc26484d0168966519a9cfa5f/image.png){width=307 height=122}]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/515]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

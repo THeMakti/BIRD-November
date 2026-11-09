@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Deposit-taking corporation has Deposit-taking corporation derived data" directorySegmentName="seg_8" id="DEDDB4C2-EB5E-E5B5-8CEF-1C38FEE76610">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-01 17:08:12 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4A502F49-3E3C-81C4-5608-7F4401EDE34A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8BFE7241-BBA2-D986-8B77-8BDB6AE35081</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

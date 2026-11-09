@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Protection value type measures collateral received derived data" directorySegmentName="seg_5" id="5D2F8BAE-31B0-4049-27D9-D4B27F1B9972">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-01 15:53:32 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>C69DFA6C-BD8C-034A-5105-EDB7D55445ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>367F8051-DD55-1935-D23A-9CBF9FC3F792</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E62E3F0-6FFD-E5E4-C654-80C99823D21D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

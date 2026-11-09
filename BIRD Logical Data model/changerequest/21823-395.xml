@@ -1,0 +1,483 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[SHS] Mismatch of Primary Asset Class" id="21823-395">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+
+The list of values for the attribute "primary Asset class" does not match the requirements for SHS reporting (see worksheet CL_SHS_PRIMARY_ASSET_CLASS, which is copied below)
+
+We currently only have the primary asset class for cover pools, which follows the CRR. This issue needs to figure out
+
+1. Where the SHS Primary asset class applies to (security / security position / Exchange tradable derivatives / debt securities / OTC Derivatives / ...) ,
+2. What the values are,
+3. How, if at all, it can be derived from the current model structure. and
+4. How to model the rest of the values.
+
+### Contact person
+
+_\[__me@ecb.europa.eu__\]_
+
+### Business definition
+
+_\[Business requirements\]_
+
+### Legal definition
+
+**Additional clarifications** 
+
+The securities are classified according to their asset type in accordance with the definitions laid down in the Handbook on Securities Statistics and other sources, such as ESA 2010, Classification of financial instruments (CFI code) and Asset types of the list of eligible marketable assets (ECB General Documentation). 
+
+The instruments are to be classified in accordance with their main characteristics if potentially more than one code is applicable.
+
+### Reason for inclusion
+
+_\[Justifications\]_
+
+### Relationships
+
+* Security in the form of debt or direct ownership
+
+### Relevant Framework/Template
+
+SHS: https://www.ecb.europa.eu/pub/pdf/other/ecb.guidance_notes_to_reporting_agents_on_shs_regulation202005~f7bce14823.en.pdf
+
+### Additional documentation/links (optional)
+
+(Please check the table below for accuracy)
+
+<table>
+<tr>
+<td>CODE</td>
+<td>DESCRIPTION</td>
+<td>DEFINITION</td>
+</tr>
+<tr>
+<td>
+
+\_X
+</td>
+<td>
+
+Not applicable<sup>1</sup>
+</td>
+<td>To be reported, in case the attribute is not applicabale (reporting of Pre-Stage 4 input).</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Debt</td>
+<td>Debt securities are negotiable financial instruments serving as evidence of a debt. They are covered by the financial assets and liabilities (financial instrument) category “debt securities” (F.3) in ESA 2010.</td>
+</tr>
+<tr>
+<td>D.1</td>
+<td>Bond</td>
+<td>Bonds and debentures are long-term debt securities that give the holders the unconditional right to fixed payments or contractually determined variable payments on a specified date or dates, that is, the earning of interest is not dependent on earnings of the debtors. Bonds and debentures also give holders the unconditional right to fixed sums as payments to the creditor on a specified date or dates.</td>
+</tr>
+<tr>
+<td>D.11</td>
+<td>Straight bond</td>
+<td>A bond without any further special characteristics listed separately.</td>
+</tr>
+<tr>
+<td>D.12</td>
+<td>Securitisation bond</td>
+<td>Securitisation is the issuance of debt securities for which coupon or principal payments are backed by specified assets or by future income streams.</td>
+</tr>
+<tr>
+<td>D.121</td>
+<td>Traditional securitisation</td>
+<td>In case of traditional securitisation, the transfer of credit risk takes place by transferring the assets subject to that risk.</td>
+</tr>
+<tr>
+<td>D.122</td>
+<td>Synthetic securitisation</td>
+<td>In case of synthetic securitisation, the transfer of credit risk takes place by means of instruments that provide insurance against credit losses, without an actual transfer of assets taking place.</td>
+</tr>
+<tr>
+<td>D.129</td>
+<td>Other securitisation</td>
+<td>A securitisation that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>D.13</td>
+<td>Covered bond</td>
+<td>Covered bonds are debt securities issued by a financial corporation, or fully guaranteed by a financial corporation. In case of default of the issuing or guarantor financial corporation, bond holders have a priority claim on the cover pool, in addition to their ordinary claim on the financial corporation.</td>
+</tr>
+<tr>
+<td>D.131</td>
+<td>Jumbo covered bond</td>
+<td>Jumbo covered bonds are covered bonds issued in accordance with the requirements in Article 52(4) of Directive 2009/65/EC and with an issuing volume of at least EUR 1 billion, for which at least three market-makers provide regular bid and ask quotes.</td>
+</tr>
+<tr>
+<td>D.139</td>
+<td>Other covered bond</td>
+<td>Covered bonds other than jumbo covered bonds.</td>
+</tr>
+<tr>
+<td>D.14</td>
+<td>Medium-term note</td>
+<td>A debt security issued at fixed or floating rates of interest, as part of an overall medium-term note programme. Used by institutions as a source for medium-term funding.</td>
+</tr>
+<tr>
+<td>D.141</td>
+<td>Euro medium term notes (EMTN) </td>
+<td>A medium-term note denominated in Euro.</td>
+</tr>
+<tr>
+<td>D.149</td>
+<td>Other MTN</td>
+<td>A medium-term note denominated in a currency other than Euro.</td>
+</tr>
+<tr>
+<td>D.15</td>
+<td>Perpetual bond</td>
+<td>A debt security that has no stated maturity date.</td>
+</tr>
+<tr>
+<td>D.16</td>
+<td>Linked bond</td>
+<td>Linked bonds have their coupon or principal payments (or both) linked to a general price index for goods and services (such as the consumer price index (CPI)), interest rate (such as the London interbank offered rate (LIBOR) or a bond yield), or asset price.</td>
+</tr>
+<tr>
+<td>D.161</td>
+<td>Inflation-linked bond</td>
+<td rowspan="8">
+
+Detailed breakdowns by type in accordance with definitions laid down in Handbook of Securities Statistics.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+</td>
+</tr>
+<tr>
+<td>D.162</td>
+<td>Interest rate-linked bond</td>
+</tr>
+<tr>
+<td>D.163</td>
+<td>Asset-linked bond</td>
+</tr>
+<tr>
+<td>D.164</td>
+<td>Currency-linked bond</td>
+</tr>
+<tr>
+<td>D.165</td>
+<td>Credit-linked bond</td>
+</tr>
+<tr>
+<td>D.166</td>
+<td>Exchange traded notes (ETN)</td>
+</tr>
+<tr>
+<td>D.167</td>
+<td>Exchange traded commodities (ETC)</td>
+</tr>
+<tr>
+<td>D.169</td>
+<td>Other linked bond</td>
+</tr>
+<tr>
+<td>D.17</td>
+<td>Strip bond</td>
+<td>Separate trading of registered interest and principal of securities (STRIPS) are securities that have been transformed from a principal amount and periodic coupons into a series of zero-coupon bonds, with the range of maturities matching the coupon payment dates and the redemption date of the principal amount.</td>
+</tr>
+<tr>
+<td>D.171</td>
+<td>Principal strip</td>
+<td>A strip bond created for the part of the principal amount.</td>
+</tr>
+<tr>
+<td>D.172</td>
+<td>Coupon strip</td>
+<td>A strip bond created for the part of the coupons.</td>
+</tr>
+<tr>
+<td>D.18</td>
+<td>Structured debt security (Certificates)</td>
+<td>Structured debt securities typically combine a debt security, or a basket of debt securities, with a financial derivative, or a basket of financial derivatives. These financial derivatives are typically embedded in and are therefore inseparable from the debt securities.</td>
+</tr>
+<tr>
+<td>D.181</td>
+<td>Investment product</td>
+<td>The Investment product category of Structured debt securities covers securities where the principal amount is (1) protected and returned at maturity, regardless of the performance of the reference financial instrument; (2) exposed to losses limited to less than the full principal; (3) fully at risk subject to a level of initial loss protection or (4) fully at risk.</td>
+</tr>
+<tr>
+<td>D.1811</td>
+<td>Capital protection product</td>
+<td rowspan="4">
+
+Detailed breakdowns of upper category in accordance with categoristion of European Structured Investment Products Association (EUSIPA).
+
+ 
+
+ 
+</td>
+</tr>
+<tr>
+<td>D.1812</td>
+<td>Yield enhancement product</td>
+</tr>
+<tr>
+<td>D.1813</td>
+<td>Participation product</td>
+</tr>
+<tr>
+<td>D.1819</td>
+<td>Other investment product</td>
+</tr>
+<tr>
+<td>D.182</td>
+<td>Leverage Product</td>
+<td>The leverage product category of Structured debt securities covers securities with a large risk compared with the initial investment and that combine an investment in an underlying security with a future or option.</td>
+</tr>
+<tr>
+<td>D.1821</td>
+<td>Leverage product with knock-out</td>
+<td rowspan="4">
+
+Detailed breakdowns of upper category in accordance with categoristion of European Structured Investment Products Association (EUSIPA).
+
+ 
+
+ 
+</td>
+</tr>
+<tr>
+<td>D.1822</td>
+<td>Leverage product without knock-out</td>
+</tr>
+<tr>
+<td>D.1823</td>
+<td>Constant leverage product</td>
+</tr>
+<tr>
+<td>D.1829</td>
+<td>Other leverage product</td>
+</tr>
+<tr>
+<td>D.19</td>
+<td>Other bond</td>
+<td>A bond that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>D.2</td>
+<td>Money market instrument</td>
+<td>Money market instruments in accordance with Directive 2009/65/EC comprise transferable instruments which are normally dealt in on the money market rather than on the regulated markets.</td>
+</tr>
+<tr>
+<td>D.21</td>
+<td>Bankers acceptance</td>
+<td>A negotiable order to pay a specified amount of money on a future date, accepted and guaranteed by a bank and drawn on a deposit at a bank.</td>
+</tr>
+<tr>
+<td>D.22</td>
+<td>Certificate of deposit</td>
+<td>Usually a negotiable certificate issued by a bank acknowledging a deposit in that bank for a specified period of time at a specified interest rate.</td>
+</tr>
+<tr>
+<td>D.23</td>
+<td>Commercial paper</td>
+<td>A discounted and unsecured debt security issued by a corporation whose name appears on the front of the security and who promises to pay to the security holder a certain amount on a stated maturity date.</td>
+</tr>
+<tr>
+<td>D.231</td>
+<td>Euro commercial paper (ECP) </td>
+<td>A commercial paper denominated in Euro.</td>
+</tr>
+<tr>
+<td>D.232</td>
+<td>Pagares</td>
+<td>Specific type of commercial paper commonly known in Spain.</td>
+</tr>
+<tr>
+<td>D.239</td>
+<td>Other CP</td>
+<td>A commercial paper that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>D.24</td>
+<td>Treasury bill</td>
+<td>A common form of sovereign shortterm debt security that many governments issue. It gives the holder the unconditional right to receive stated fixed sums on a specified date, and is issued at a discount to face value that depends on the rate of interest and the time to maturity.</td>
+</tr>
+<tr>
+<td>D.29</td>
+<td>Other money market instrument</td>
+<td>A money market instrument that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>D.3</td>
+<td>Hybrid debt instrument</td>
+<td>Instrument with characteristics of debt and equity which are classified as debt according to their main characteristics.</td>
+</tr>
+<tr>
+<td>D.31</td>
+<td>Convertible bond</td>
+<td>A fixed interest rate bond that the investor has the option of converting into the equity of the borrower or its parent.</td>
+</tr>
+<tr>
+<td>D.311</td>
+<td>Contingent convertible bonds (CoCo’s)</td>
+<td>Contingent convertible securities are hybrid securities issued as debt instruments and automatically converted into equity shares if a contractually pre-defined 'trigger event' occurs. Their defining characteristics are a loss-absorption mechanism (conversion or write-down) and an activation trigger, either based on a mechanical rule or on supervisors’ discretion. </td>
+</tr>
+<tr>
+<td>D.32</td>
+<td>Bonds with warrants attached</td>
+<td>Bonds with warrants attached are debt securities that incorporate warrants giving the holder the option to purchase equity in the issuer or another company during a predetermined period, or at a particular date, and at a fixed contract price. The warrant may be detachable and traded separately from the debt security.</td>
+</tr>
+<tr>
+<td>D.33</td>
+<td>Stapled debt instrument</td>
+<td>Stapled instruments - which, under their terms of issue, are two or more different financial instruments (for example, ordinary equity securities and unsecured notes) coupled together for certain purposes - are usually treated separately as fixed interest rate debt securities and equity securities. However, stapled instruments usually cannot be transferred separately either in the market or as the result of an over-the-counter (OTC) transaction. A parcel consisting of one equity security and one or more notes is traded in the market as though it were a single security, although conceptually the components are regarded as separate. If the components cannot be separately identified, the stapled instrument should be classified according to the predominant component, that is, either as a debt security or an equity security.</td>
+</tr>
+<tr>
+<td>D.34</td>
+<td>Non-participating (preferred) share</td>
+<td>Holders are entitled to receive a fixed dividend, but do not participate in the distribution of the residual value of a corporation on dissolution.</td>
+</tr>
+<tr>
+<td>D.39</td>
+<td>Other hybrid debt Instrument</td>
+<td>A hybrid debt instrument that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>D.9</td>
+<td>Other debt</td>
+<td>A debt instrument that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Equity</td>
+<td>Equity securities are negotiable financial instruments that entitle holders to a share of both distributed profits and the residual value of the corporation’s assets in the event of its liquidation. Holders of these financial assets are the collective owners of a corporation. Equity securities are part of the financial assets and liabilities (financial instrument) category “equity and investment fund shares or units” (F.5) and belong to the subcategory “equity” (F.51) in ESA 2010.</td>
+</tr>
+<tr>
+<td>E.1</td>
+<td>Ordinary / Common share</td>
+<td>
+
+Ordinary shares (or “common” shares) usually give holders the right to the following:
+• Holders are generally entitled to participate in the corporation’s general policymaking and have the right to attend, speak, and vote (in the case of voting shares) at general meetings. Holders of ordinary shares can vote on corporate objectives and matters of policy, on stock splits, and to elect the corporation’s board of directors.
+• Holders are usually entitled to a preferential subscription in the event of a capital increase. Some holders of ordinary shares also receive preemptive rights (a rights issue), which enables them to retain their proportional share in the ownership
+of a corporation should it issue more stock.
+• Holders generally have the right to a share in the corporation’s profits. However, no fixed dividends are paid out to ordinary shareholders. Ordinary shareholders’ returns are therefore uncertain and dependent on earnings, corporate reinvestment, and the market’s ability to value and sell stock efficiently.
+</td>
+</tr>
+<tr>
+<td>E.2</td>
+<td>Preference / Preferred share</td>
+<td>Holders of preferred shares have priority over holders of ordinary shares when it comes to laying claim to a corporation’s assets. However, while preferred shares may have priority over ordinary shares in the payment of dividends and in the event of liquidation, they are subordinated to debt securities.</td>
+</tr>
+<tr>
+<td>E.21</td>
+<td>Cumulative preferred share</td>
+<td>Holders are entitled to receive a fixed dividend ahead of ordinary shares and retain the right to any accumulated preferred dividends that may have built up.</td>
+</tr>
+<tr>
+<td>E.22</td>
+<td>Participating preferred share</td>
+<td>Holders are entitled to participate in the profits of a corporation over and above fixed dividends by means of an additional fluctuating dividend. They also participate in the distribution of the residual value of a corporation on dissolution.</td>
+</tr>
+<tr>
+<td>E.23</td>
+<td>Cumulative, participating preferred share</td>
+<td>A preferred share that fulfils the criteria of cumulative and participating preferred shares at the same time.</td>
+</tr>
+<tr>
+<td>E.24</td>
+<td>Redeemable preferred share</td>
+<td>These can be redeemed at the request of either the corporation or the shareholder (at a fixed price on a specified date or during a specified period of time). Strict conditions apply to the issuance of redeemable shares and their redemption. Instead of cancelling shares on redemption, a corporation may continue to hold such shares as treasury shares, but no voting rights may be exercised and no dividends are payable.</td>
+</tr>
+<tr>
+<td>E.29</td>
+<td>Other preferred share</td>
+<td>A prefered share that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>E.3</td>
+<td>Depository receipt</td>
+<td>A financial instrument that allows a nonresident to introduce securities into a market in a form more readily acceptable to the investors in that market. A deposit-taking corporation will purchase the underlying security and then issue receipts in a currency more acceptable to the investor.</td>
+</tr>
+<tr>
+<td>E.31</td>
+<td>American depository receipt (ADR)</td>
+<td>American depository receipts (ADR) are liabilities of the non-U.S. institutional units whose securities underlie the ADR, not of the U.S. financial institutions issuing the ADR.</td>
+</tr>
+<tr>
+<td>E.32</td>
+<td>Global depository receipt (GDR)</td>
+<td>Global depository receipts (GDR) are securities available in one or more markets outside the corporation’s country of residence.</td>
+</tr>
+<tr>
+<td>E.39</td>
+<td>Other depository receipt</td>
+<td>A depository receipt that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>E.4</td>
+<td>Hybrid equity instrument</td>
+<td>Instrument with characteristics of debt and equity which are classified as equity according to their main characteristics.</td>
+</tr>
+<tr>
+<td>E.41</td>
+<td>Participation certificate (Genussschein)</td>
+<td>Participation certificates grant their holders participation rights. Participation rights may take various forms, both for equity securities and for debt securities. In many countries, almost no legal restrictions are placed on this type of financial instrument. Depending on their specific features, participation certificates are considered to be either equity securities or debt securities. They are treated as equity securities if the following criteria are met: a) the holder’s claims are subordinated, b)the holder’s remuneration is performance related and c) capital is provided for an unlimited period, or at least on a long-term basis. In light of these criteria, most participation certificates are considered to be equity securities. 3.47 “Genussscheine” (or “Genussrechte”) are a type of participation certificate. These are issued mainly in European countries such as Germany, Austria, and Switzerland. “Genussscheine” sometimes have a stated maturity.</td>
+</tr>
+<tr>
+<td>E.42</td>
+<td>Convertible (preferred) share</td>
+<td>Holders are allowed to convert preferred shares into a specified amount of ordinary shares.</td>
+</tr>
+<tr>
+<td>E.43</td>
+<td>Subscription right</td>
+<td>Subscription rights that are traded separately are often given their own separate International Securities Identification Number (ISIN). They are classified as shares, rather than as financial derivatives, since they represent a claim on the residual value of a corporation. Issuers of shares use subscription rights to provide existing shareholders with the opportunity to participate in new issues, which enables them to retain their proportional share in the ownership of the corporation. To make the new shares even more attractive, these subscription rights may also allow existing shareholders to buy the shares at less than the market price.</td>
+</tr>
+<tr>
+<td>E.49</td>
+<td>Other hybrid equity instrument</td>
+<td>A hybrid equity instrument that is of a type not listed separately.</td>
+</tr>
+<tr>
+<td>E.9</td>
+<td>Other equity</td>
+<td>An equity instrument that is of a type not listed separately. This also includes "Other equity" in accordance with ESA 2010 (F.519) that is not in the form of securities. Other equity includes equity in quasi-corporations (such as branches, trusts, and partnerships), as well as notional units representing ownership of real estate.</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Fund</td>
+<td>Investment fund shares are shares of an investment fund if the fund has a corporate structure. They are known as units if the fund is a trust. Investment funds are collective investment undertakings through which investors pool funds for investment in financial and/or non-financial assets. Funds are part of the financial assets and liabilities (financial instrument) category “equity and investment fund shares or units” (F.5) and belong to the subcategory “Investment fund shares or units” (F.52) in ESA 2010.</td>
+</tr>
+<tr>
+<td>F.1</td>
+<td>Undertaking for collective investment in transferable securities (UCITS) Fund</td>
+<td>Undertakings for Collective Investment in Transferable Securities (UCITS) as defined in Directive 2009/65/EC on the coordination of laws, regulations and administrative provisions relating to UCITS.</td>
+</tr>
+<tr>
+<td>F.2</td>
+<td>Alternative investment fund (AIF)</td>
+<td>Alternative investment fund (AIF) as defined in Directive 2011/61/EU on Alternative Investment Fund Managers.</td>
+</tr>
+<tr>
+<td>F.9</td>
+<td>Other fund</td>
+<td>A fund that is of a type not listed separately.</td>
+</tr>
+</table>
+
+### Before closing checklist
+
+* [ ] Assignee for review
+* [ ] Assignee to close
+* [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/395]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

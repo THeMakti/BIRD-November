@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="NOMINAL CAPITAL GUARANTEE LEVEL" id="15759-166">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[Security Guarantee Identifies securities for which the contractual redemption value in the issuing currency at maturity is lower than the amount originally
+
+BSI requirement - 
+
+**Definition:** 
+> “of which debt securities up to two years and nominal capital guarantee below 100%” 
+
+> Hybrid instruments issued by MFIs of original maturity of up to two years and which at maturity may have a contractual redemption value in the issuing currency lower than the amount originally invested due to their combination of debt and derivative components. This redemption value may be linked to the development of an underlying reference asset, asset price or other reference indicator over the maturity of the instrument. Examples of such instruments include, but are not limited to, discount certificates and reverse convertible securities
+
+This is related liability side and specifically to the securities issued. 
+According to the BIRD subgroup on IREF should be An amount for the redemption date.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/166]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Additional subtype for `Debt security` entity type" id="38655-546">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+
+Suggestion to implement an additional level of subtyping to `Debt security` for consistent representation of 'Past due' information.
+
+### Contact person
+
+dominik.lin-ully@oenb.at, Valentina.Murano@bancaditalia.it
+
+### Description of change request
+
+In the `Instrument role` hierarchy, 'Past due' information, e.g., `Past due date` is managed within an individual subtype, namely `Past due financial asset instrument`.
+
+For consistency reasons, we suggest applying the same modeling construct also to the `Debt security`, i.e., adding the subtypes `Past due debt security` and `Not past due debt security` as subtypes of `Debt  security` where the `Past due debt security` would include the attribute `Date past due`.
+
+### Summary of impacted LDM objects/attributes
+
+* `Debt security`
+
+### Forward Engineering considerations
+
+* additional multiple subtype on `Debt security` level, adjustment of discriminator treatment required?
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/546]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

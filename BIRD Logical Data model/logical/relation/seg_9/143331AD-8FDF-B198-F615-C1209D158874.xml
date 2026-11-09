@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Repurchase transaction uses gold via Repurchase transaction gold assignment" directorySegmentName="seg_9" id="143331AD-8FDF-B198-F615-C1209D158874">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-26 11:05:25 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B03540AC-36AC-63EE-EEC5-CB1B2B0E4C5D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>25FB7BA4-2841-84A7-990A-6213F5F91937</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

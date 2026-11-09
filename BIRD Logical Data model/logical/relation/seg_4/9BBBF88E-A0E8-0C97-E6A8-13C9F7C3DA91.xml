@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Past due debt security has past due debt security derived data" directorySegmentName="seg_4" id="9BBBF88E-A0E8-0C97-E6A8-13C9F7C3DA91">
+<createdBy>Vishal Upadhayay</createdBy>
+<createdTime>2025-09-09 14:56:25 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>B9AAA95C-8F10-489B-49CE-630E13C3BDE2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3F69ED6-E996-4AF5-1B47-1A86070D1B3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36A62AF3-D353-AE65-7F5D-0B209D20E7F7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

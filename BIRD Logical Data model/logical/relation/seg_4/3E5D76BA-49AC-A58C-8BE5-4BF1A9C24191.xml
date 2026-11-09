@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Liability encumbrance residual maturity band classifies Securities financing transaction (SFT) derived data" directorySegmentName="seg_4" id="3E5D76BA-49AC-A58C-8BE5-4BF1A9C24191">
+<createdBy>reddigj</createdBy>
+<createdTime>2026-01-27 17:31:47 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>807BB96F-A88C-8C86-9929-93D3EBBEB458</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F483B5ED-043A-E103-4A13-C8209F68EA93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73B40C3C-BF9B-0BB3-5A7E-1592685C28A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26374-476</requestID>
+</changeRequests>
+</Relation>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Review SHS instrument asset classes as subtypes in the model" id="20966-363">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+SHS has a detailed hierarchy of their primary asset classes for their securities instruments. See the attached spreadsheet. It also has a mapping between various statistical reporting requirements and the instrument types mentioned in there. This issue is to analyse the BIRD LDM structures for instrument types and security types and see where we need to enhance it to be able to include the values from the spreadsheet.
+
+> If you will have a look on SHS the securities have to be classified much more deeper as the current classification. Please find an Excel-worksheet in the attachment which shows the current status of instrument classification. The instruments are not classified in the same way over the different regulations. Therefor a consolidation of the different classification is required.
+
+### Contact person
+@Arjan.Bos @sdressler 
+
+
+### Relationships
+(tbd)
+
+### Relevant Framework/Template
+See SHS
+
+### Additional documentation/links (optional)
+[BIRD_LDM_-_Instrument_roles_and_Instrument_types_SDR2.xlsx](/uploads/cb2838f732f6a8a878df853f79f7bd44/BIRD_LDM_-_Instrument_roles_and_Instrument_types_SDR2.xlsx)
+
+Please note: 
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/363]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

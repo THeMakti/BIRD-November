@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Model Context specifies 30% Fair value decrease contingent encumbrance" directorySegmentName="seg_7" id="08EFEB1B-6C32-949D-7E3A-7907E9EFE1F9">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-10-30 14:16:35 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>812C2C3E-0EC8-F00C-ACBB-994417AFC695</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23700D94-7BD4-B730-CE3A-BD73D77FEEAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A2BD7F7-6D4A-3F63-D1DE-ABAA2CCB0F7E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>26372-474</requestID>
+</changeRequests>
+</Relation>

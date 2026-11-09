@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Seller sells a Repurchase transaction and receives cash via Repurchase transaction Seller assignment" directorySegmentName="seg_9" id="93572E0D-3799-386B-6FD3-31AFB64A3AA9">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-27 10:26:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>0896F54E-EBE8-37DC-9B16-12409874DEC4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EA2E086-7C62-B90A-F5D9-B4E684801F0E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5EEEBD20-5875-DBE3-D4DC-DFC1F8BD9B99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

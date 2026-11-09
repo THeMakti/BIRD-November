@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_9" id="CAA7F5C6-3717-EEF5-F0AA-AA0C7F85DA95" name="Credit facility other than under pre-specified terms and conditions">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:16:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Credit facility other than under pre-specified terms and conditions is a type of credit facility that is not  under pre-specified terms and conditions.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>AE3B0B8B-4E66-709C-450E-CC4B1C21FF1E</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CRDT_FCLTY_OTHR_THN_UNDR_PRSPCFD_TRM_CNDTN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Credit facility other than under specified terms and conditions type" id="4E24030A-7BD5-CFBB-C578-E06E95EEA55B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:18:58 UTC</createdTime>
+<comment><![CDATA[Credit facility other than under specified terms and conditions type distinguishes between different types of Credit facility other than under specified terms and conditions.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>0A6FA9FF-7094-5DBB-C965-42F502385A3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRDT_FCLTY_OTHR_THN_UNDR_PRSPCFD_TRM_CNDTN_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Initial impairment status" id="29DDDAC4-65E7-6A8C-DE3C-4F86A214726F">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:21:13 UTC</createdTime>
+<comment><![CDATA[Initial imapirment status is the impairment status, recorded in the beginning of the financial year or at the initial recognition of the impairment of the exposure after the beginning of the financial year.]]></comment>
+<generatorID>8705C817-0C80-F720-EE5B-6A56399587E7</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>62C5BFF6-C2A0-8D7F-FA03-DE27AE7E6D64</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>3E701DBB-AE13-4320-D402-2D9DA177F9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INTL_IMPRMNT_STTS</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

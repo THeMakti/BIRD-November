@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="41A99D17-0161-62D3-EC7A-95B779778268" name="Exchange tradable derivative asset position derived data">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:45:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Exchange tradable derivative asset position derived data is additional information about Exchange tradable derivative asset position.
+]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_ASST_PSTN_DRVD_DT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Seller identifier" id="4E6FFD82-5DF9-EBF6-9D95-41FF70C4837B">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The party identifier of the involved seller.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>4023A690-2C5B-2A4A-09F6-72778B08DC48</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>bedac99c-65df-4709-835b-fbf0381d048e</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Seller role type" id="F7E0FBC4-7A23-E448-678C-780BD8F744F8">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The seller role.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>57CA4730-6907-DC5A-18E5-D95ABF02181A</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D0551245-E927-3180-FE42-C9D973931F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_RL_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer reference date" id="ED160BB0-CF54-E7C7-6A56-5835B324831C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>8F0A6A1C-D97A-9270-AE5E-0E54F3BA0D67</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer reporting agent identifier" id="A4B8E2CC-01C3-11EB-DB24-3EF50465F2E3">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>599AF5AB-47A5-9BF0-C4C7-469C7099595F</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Seller reference date" id="B50539EF-48EB-8FB8-A89A-E7A3B844D5AE">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>7A3D2C06-EEC8-27B6-4AA1-8A88480A6A70</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Seller reporting agent identifier" id="7A3AEF4F-A8D6-7462-B52A-8B1E46A71C12">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>347CB144-9420-1968-27A8-94D6A02E9AB8</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer identifier" id="877D6592-3102-D119-B20D-95C2E80370B3">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The party identifier of the involved buyer.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>418833DB-D13C-3540-59CE-D1B56D4EAD2A</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>bedac99c-65df-4709-835b-fbf0381d048e</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer role type" id="3EFD7A8B-D402-3A07-00EF-D21168C08943">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The buyer party role.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>7C874101-A59E-71B3-A4E3-7269A22FE9D6</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D0551245-E927-3180-FE42-C9D973931F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_RL_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative identifier" id="7CB50477-BFD0-4BBA-32C7-5BF0A73E8E3C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The security identifier of the exchange tradable derivative.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>A3491B60-B403-77F0-7209-6022ADB3040E</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative reference date" id="ECA17819-4F63-9A1C-4DB0-B7CC067CA21C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[The date the data refers to.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>32EB67C2-BAD4-F5C5-884F-647D3F0D165F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BB0BC4F-2625-4B6E-BFB9-85C466713314</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_RFRNC_DT</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative reporting agent identifier" id="33236D62-7D92-CDA6-04F7-405E5CD915A8">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Identifier of the reporting agent.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>2CC4896B-8DB1-6133-19B6-037D0878FF1F</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>12DFCE00-085A-4E8C-BE55-52350D849DA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_RPRTNG_AGNT_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer accounting consolidation level" id="FC019FF2-BF10-2826-EF54-F6E9B69FFEBF">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>517266AB-F83B-8EDF-5332-02073FEC825A</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Seller accounting consolidation level" id="02962746-2A83-F2C6-2143-8E1A47195484">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>EFA010F9-69FA-29DB-18F5-BBDF23619D51</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative accounting consolidation level" id="643FD46E-968F-7ED3-00E4-67E99FBD0D02">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>B2ED5D09-87D4-324C-CD96-D4F54A16E3A5</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>4CBDE993-B269-D10F-4FD3-13040004B341</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL</preferredAbbreviation>
+</Attribute>
+<Attribute name="Buyer accounting standard" id="A5B9141B-3120-0304-6F09-FA333F486B1D">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>182DD2E7-D5EC-5A80-8551-BF5FDCE4611C</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>BYR_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Seller accounting standard" id="9C1DBE23-0C89-6FD0-5B68-F7ECCFF04754">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>811D5D60-6EDE-F869-9A76-F73EF5E69B39</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>SLLR_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative accounting standard" id="12F38AB5-488D-5EDC-CF82-7EA649BA419C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>2918112A-033A-280F-97BC-803AFEA35736</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E121E041-B09C-AB9A-70C9-78308EDD10E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_ACCNTNG_STNDRD</preferredAbbreviation>
+</Attribute>
+<Attribute name="Exchange tradable derivative position role type" id="71DD208A-A712-1E8A-B04D-11E0B0A5D586">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between different types of Exchange tradable derivative position roles.]]></comment>
+<generatorID>F699BB88-D435-C043-EE01-3836C0797400</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>46E17DC4-F374-6CAE-5E62-EA68E570695E</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D26FC9AC-7DFB-0149-3341-DDD8E24AF729</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP</preferredAbbreviation>
+</Attribute>
+<Attribute name="Type of Financial Asset instrument according to Annex V" id="3CC6E8B9-9B33-C2FC-5AFE-7F39F079657C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-08-25 15:42:37 UTC</createdTime>
+<comment><![CDATA[Type of financial asset is the type of financial asset according to Annex V.]]></comment>
+<generatorID>68024EAC-4FBB-AC85-07DF-018242522207</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<constraintName>Type of financial asset instrument according to Annex V</constraintName>
+<referedAttribute>CBE59FD2-1CE3-0021-7E3D-35E62AD8234F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FCED55AE-F572-481E-4858-0A165FA0C850</domain>
+<listOfValues>
+<valueDef value="1110" description="Not financial asset"/>
+<valueDef value="1114" description="Derivatives not hedge"/>
+<valueDef value="1118" description="Non-current assets and disposal groups classified as held for sale"/>
+<valueDef value="1119" description="Derivatives hedge"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TYP_FNNCL_ASST_INSTRMNT_ANNX_V</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="416D1FEB-445B-A35D-9EC8-26E1DE016F55" name="Exchange tradable derivative asset position derived data PK">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-03-30 07:46:59 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E6FFD82-5DF9-EBF6-9D95-41FF70C4837B</attributeRef>
+<attributeRef>F7E0FBC4-7A23-E448-678C-780BD8F744F8</attributeRef>
+<attributeRef>ED160BB0-CF54-E7C7-6A56-5835B324831C</attributeRef>
+<attributeRef>A4B8E2CC-01C3-11EB-DB24-3EF50465F2E3</attributeRef>
+<attributeRef>B50539EF-48EB-8FB8-A89A-E7A3B844D5AE</attributeRef>
+<attributeRef>7A3AEF4F-A8D6-7462-B52A-8B1E46A71C12</attributeRef>
+<attributeRef>877D6592-3102-D119-B20D-95C2E80370B3</attributeRef>
+<attributeRef>3EFD7A8B-D402-3A07-00EF-D21168C08943</attributeRef>
+<attributeRef>7CB50477-BFD0-4BBA-32C7-5BF0A73E8E3C</attributeRef>
+<attributeRef>ECA17819-4F63-9A1C-4DB0-B7CC067CA21C</attributeRef>
+<attributeRef>33236D62-7D92-CDA6-04F7-405E5CD915A8</attributeRef>
+<attributeRef>FC019FF2-BF10-2826-EF54-F6E9B69FFEBF</attributeRef>
+<attributeRef>02962746-2A83-F2C6-2143-8E1A47195484</attributeRef>
+<attributeRef>643FD46E-968F-7ED3-00E4-67E99FBD0D02</attributeRef>
+<attributeRef>A5B9141B-3120-0304-6F09-FA333F486B1D</attributeRef>
+<attributeRef>9C1DBE23-0C89-6FD0-5B68-F7ECCFF04754</attributeRef>
+<attributeRef>12F38AB5-488D-5EDC-CF82-7EA649BA419C</attributeRef>
+<attributeRef>71DD208A-A712-1E8A-B04D-11E0B0A5D586</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="368046AB-C8F7-FD1A-4278-4A2A5FB5D2B0" name="Retail exposure class financial asset instrument">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 22:41:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[A retail exposure class financial asset instrument is a Financial asset instrument fulfilling the definition of Regulation (EU) 575/2013, Article 123 Retail exposure. Please note that this does not imply that such a Financial asset instrument is assigned to the Exposure class Retail exposure but it implies that it could be assigned to it.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>E3679F77-0ED6-93EB-F366-44CA2F802395</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AC25CE06-349E-2EC8-DA05-FFD6B8759432</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RTL_EXPSR_CLSS_FNNCL_ASST_INSTRMNT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Retail exposure class financial asset instrument type" id="35BDD5AA-ACD4-07B4-C934-797FB1540248">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 22:51:02 UTC</createdTime>
+<comment><![CDATA[A discriminator to distinguish between different types of potential retail exposure class financial assets.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>488D195E-DCDF-B54E-6A64-F232A32A43BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>RTL_EXPSR_CLSS_FNNCL_ASST_INSTRMNT_TYP</preferredAbbreviation>
+<changeRequests>
+<requestID>38654-545</requestID>
+</changeRequests>
+</Attribute>
+</attributes>
+</Entity>

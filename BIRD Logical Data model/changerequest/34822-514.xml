@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP in EIL 6.5" id="34822-514">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP is assigned to the wrong domain in boht EXCHNG_TRDBL_DRVTV_PSTN and SCRTY_PSTN in EIL 6.5 (in IL 6.5 it seems fine).]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/514]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

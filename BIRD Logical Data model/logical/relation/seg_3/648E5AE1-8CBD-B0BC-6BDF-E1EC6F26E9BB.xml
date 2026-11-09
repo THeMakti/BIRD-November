@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Investment property may be obatined as Investment property taken into possession" directorySegmentName="seg_3" id="648E5AE1-8CBD-B0BC-6BDF-E1EC6F26E9BB">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-10-02 13:04:43 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>2079F3FA-0B68-9997-75F5-FDC8A86233A2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02E00201-0ACA-69C6-F56F-3B2C690AFC81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>58AD3A4A-6668-545C-9E14-F3A294702D9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

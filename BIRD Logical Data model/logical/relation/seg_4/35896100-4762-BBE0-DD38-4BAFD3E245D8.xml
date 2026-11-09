@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Re-securitisation type classifies Securitisation(s)" directorySegmentName="seg_4" id="35896100-4762-BBE0-DD38-4BAFD3E245D8">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 13:44:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[classifies]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>A152EF05-7AD4-DD1A-0692-ACD04765A229</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DEC2FBE7-42AE-2E24-4A94-A395BC7A269D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC05B5FC-3397-964C-AAF0-C65C085847AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

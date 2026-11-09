@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Counterparty in scope of AnaCredit new attribute in EIL" id="40365-558">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!--See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/029a901266c49be92bc330a197fb0501e37e42a1/AnaCredit%20Subgroup/Derivation%20rules%20-%20In%20progress/Counterparty%20in%20scope%20of%20AnaCredit/infosheet.md)-->
+
+### Overview
+
+Due to AnaCredit regulation https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0867 , ART.4.1.A the instrument has to be reported only if the debtor is a legal entity. In order to generate the AnaCredit output we need to filter on the legal entities, this new variable supports the generation. 
+
+### Contact person
+
+@Silvia.Giacinti 
+
+### Description of change request
+
+Add A new attribute "Counterparty in scope of AnaCredit" in EIL "BIRD_PRTY_EIL"
+
+### Summary of impacted LDM objects/attributes
+
+_\[to be define \]_
+
+### Forward Engineering considerations
+
+_\[Other considerations\]_
+
+### Before closing checklist
+
+- [ ] \[ V\] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/558]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

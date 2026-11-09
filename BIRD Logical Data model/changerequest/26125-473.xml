@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Assign a role to securities (asset, liabilities, collateral etc.)" id="26125-473">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[# Overview
+
+In Asset Encumbrance we need the possibility to assign different roles to securities (asset, liabilities, collateral etc.). The differentiation between asset and liabilities is already there for derivatives.
+
+Differently from FINREP, the accounting classification isn't required in AE and therefore we can't use it to make the distinction between asset and liabilities. 
+
+We might derive this information using the accounting classification and the relationship between other part of the model (e.g., the link with the collateral).
+
+### Contact person
+
+@Maria_Manuel.Henriques @Pietro.Ferroni @Arianna.Nuvoli
+
+### Business definition
+
+_\[Business requirements\]_
+
+### Legal definition
+
+_\[Legal reference\]_
+
+### Reason for inclusion
+
+AE integration
+
+### Relationships
+
+_\[Related objects\]_
+
+### Relevant Framework/Template
+
+All templates of AE
+
+### Additional documentation/links (optional)
+
+Extract from the model:
+
+![sec_dev_position.png](/uploads/7ce5786f1c647d03b6e687c72d0d1ee3/sec_dev_position.png)
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/473]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

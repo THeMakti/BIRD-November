@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="085C6AEB-7F9D-D223-2AD4-4A07284D08CB" name="Collateral role type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-12-06 14:09:00 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>F6388EB7-5C3F-2BDB-A2D9-E478DD2F89DD</entity>
+<relations>
+<relationID>C5DA1F7A-C46C-9483-1B47-0EE6D61C3D0D</relationID>
+<relationID>4B1083D6-CFB0-B66D-144C-9438AF28296A</relationID>
+</relations>
+</Arc>

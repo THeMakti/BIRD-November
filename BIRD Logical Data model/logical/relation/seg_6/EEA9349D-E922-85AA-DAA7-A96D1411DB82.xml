@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Syndication or sub-participation member instrument has payment agent via Syndication or sub-participation member instrument Payment agent assignment" directorySegmentName="seg_6" id="EEA9349D-E922-85AA-DAA7-A96D1411DB82">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-05 15:15:10 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA305BC2-1078-CA1E-2C19-47E9008DDE26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8016AB99-196E-D820-539D-B82547602772</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

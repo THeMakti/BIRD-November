@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_5" id="B50A98FB-FDAE-986A-4B6B-BD575BC67B81" name="Fiduciary asset type">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 13:35:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[An indicator specifying if an instrument is a fiduciary instrument or not.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>1312D78D-A5F6-B25F-0715-6E131635D11D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>FDCRY_INSTRMNT_TYP</preferredAbbreviation>
+<changeRequests>
+<requestID>25692-459</requestID>
+</changeRequests>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fiduciary asset indicator" id="88F386F3-4353-CE5E-AA79-1C9548B60865">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 13:35:44 UTC</createdTime>
+<comment><![CDATA[Identification of instruments in which the observed agent acts in its own name but on behalf of and with the risk borne by a third party.]]></comment>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D9D544B1-1229-4FD5-4C97-06E213CE6217</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>FDCRY</preferredAbbreviation>
+<changeRequests>
+<requestID>25692-459</requestID>
+</changeRequests>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC308456-0FBC-2475-223B-11B371862A99" name="Fiduciary instrument type PK">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-06-27 13:36:15 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88F386F3-4353-CE5E-AA79-1C9548B60865</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

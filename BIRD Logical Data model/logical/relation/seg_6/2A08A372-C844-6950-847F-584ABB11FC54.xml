@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Risk type classifies Exchange tradable derivative position" directorySegmentName="seg_6" id="2A08A372-C844-6950-847F-584ABB11FC54">
+<createdBy>reddigj</createdBy>
+<createdTime>2024-02-20 16:13:21 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>8E70C349-33B7-C269-FDAB-1FD1686A40B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F50869AB-836B-6678-6121-163B93F3FC0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB0CC98E-4E09-ADBF-024E-4EF7E3FA6604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

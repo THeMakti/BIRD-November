@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Planning permission for development indicator classifies Land excluding agriculture collateral" directorySegmentName="seg_8" id="EC9BF553-4CE9-0567-655F-64E916E73D86">
+<createdBy>nuvolia</createdBy>
+<createdTime>2025-09-23 13:09:11 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>BE16A03F-634B-775B-026B-E8E616B6F100</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73709397-39FA-BB13-E5A3-7B705188C637</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0D22BD8-2C34-CD72-C62E-B8CC562CE121</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

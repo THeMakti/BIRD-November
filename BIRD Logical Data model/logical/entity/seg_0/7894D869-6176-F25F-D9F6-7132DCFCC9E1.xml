@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7894D869-6176-F25F-D9F6-7132DCFCC9E1" name="Investment vehicle / fund">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 10:05:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[An Investment vehicle / fund is a specific part of the balance sheet of an Organisation dedicated, and legally separated, for a specific purpose.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BBE9E655-D7FE-9699-EE8A-796E13407C83</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>INVSTMNT_VHCL_FND</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Institutional sector" id="11A137A3-EF5F-CC90-C3FA-F1A29DA3764E">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-21 11:08:23 UTC</createdTime>
+<comment><![CDATA[Institutional sectors in accordance with Regulation (EU) No 549/2013, Regulation (EU) No 575/2013 and Regulation (EU) No 1075/2013 of the European Central Bank (ECB/2013/40)(1).]]></comment>
+<generatorID>4B0CC6C8-8D52-52F4-1567-BC788CF658F9</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<constraintName>Institutional sector</constraintName>
+<referedAttribute>D7F5A07C-F563-1363-5440-3D94249A1FE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>24f978bf-6fd6-4b09-9b10-deb049e07952</domain>
+<listOfValues>
+<valueDef value="S123" description="Money Market Funds (MMFs): It corresponds to subsector S.123, as defined in Regulation (EU) No 549/2013 (paragraphs 2.79 to 2.81 of Annex A), extended to the rest of the world."/>
+<valueDef value="S124" description="Non-MMF investment funds: It corresponds to subsector S.124, as defined in Regulation (EU) No 549/2013 (paragraphs 2.82 to 2.85 of Annex A), extended to the rest of the world."/>
+<valueDef value="S125_A" description="Financial Vehicle Corporations (FVCs): FVCs as defined in Article 1 of Regulation (EU) No 1075/2013."/>
+<valueDef value="S125_C" description="Financial corporations engaged in lending: Financial corporations engaged in lending as defined in Regulation (EU) No 549/2013 (paragraph 2.92 of Annex A), extended to the rest of the world."/>
+<valueDef value="S127" description="Captive financial institutions and money lenders: It corresponds to subsector S.127, as defined in Regulation (EU) No 549/2013 (paragraphs 2.98 to 2.99 of Annex A), extended to the rest of the world."/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INSTTTNL_SCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

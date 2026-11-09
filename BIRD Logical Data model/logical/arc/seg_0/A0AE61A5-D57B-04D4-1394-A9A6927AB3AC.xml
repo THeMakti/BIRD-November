@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="A0AE61A5-D57B-04D4-1394-A9A6927AB3AC" name="Issuer based rating system type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-12 13:30:28 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>4CCE6504-DC34-52C5-F0FC-A8EB88DD9E93</entity>
+<relations>
+<relationID>8F12692F-CB3E-D443-D90F-E025FCC50427</relationID>
+<relationID>BBE07E9D-4644-E207-DECA-2431D8D69553</relationID>
+</relations>
+</Arc>

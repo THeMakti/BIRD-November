@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Financial liability instrument has Financial liability instrument derived data" directorySegmentName="seg_7" id="50F21831-FC7D-A173-CFDF-E0ED75B51542">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:40:19 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>791B8411-7E00-08FE-C4F8-E18BAA32B7B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0811BE3-D363-51F6-D109-9A7C6F7D56DE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>10F7C074-A3A5-E281-5578-2F3B93C9CA8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

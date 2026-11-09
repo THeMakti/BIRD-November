@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="FADA1EA8-76FC-18ED-D920-62C840D5B634" name="Balance sheet recognised financial liability instrument type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-08-23 12:15:35 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>B5819EC6-25AB-CE81-2AF6-A357F93FAD4A</entity>
+<relations>
+<relationID>B229E58A-6129-8042-EFB9-A0E8CDC2E836</relationID>
+<relationID>677CF3DA-2C19-E7D3-5EB3-8D5594C50AE3</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Key management personnel is directly or indirectly influenced by Natural person noted in Natural person Key management personnel assignment" directorySegmentName="seg_6" id="E48E98EA-F379-D21A-E7EA-060499C9A2F4">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-08 17:00:28 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1EAC97EA-581B-B3FB-FC09-76C0A30C8188</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>137E3A51-9968-65E9-E657-D11FDFF6370A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DA1342F-49E4-FE44-0F0B-611E4FA096B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

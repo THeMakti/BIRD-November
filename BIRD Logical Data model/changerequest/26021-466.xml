@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="AE Requirements - Present Value (swap) - (PRSNT_VL)" id="26021-466">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[According to the instructions (Annex XVII, pag.26):
+
+"_Present Value (swap) shall be the sum of claims to payment of principal and interest, as discounted by a foreign exchange-specific risk-free yield curve, determined in accordance with the relevant statutory covered bond regime's rules that apply for determining sufficient coverage [...]_"  
+
+It is required in template F 35.00.a (Liabilities: Debt securities issued, all assets).
+
+Currently, this metric isn't in the LDM; it is a new requirement to be included for _Debt securities_, _Loans and advances_, equities.]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/466]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Time past due band classifies Credit facility risk data derived data" directorySegmentName="seg_5" id="7B15784E-05FC-E116-97AF-F3EC4A24DFF6">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-08-24 15:08:02 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>B12CDABB-BB79-38B0-162E-52A2D292DCCA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE235EA2-AF82-437F-2F3A-49B96C151431</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ACF614FC-DE11-E7C1-0954-03D14F3003EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>32829-507</requestID>
+<requestID>32717-506</requestID>
+</changeRequests>
+</Relation>

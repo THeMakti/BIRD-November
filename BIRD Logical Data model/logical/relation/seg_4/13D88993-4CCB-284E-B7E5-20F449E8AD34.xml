@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Balance sheet recognised financial asset instrument may have Balance sheet recognised financial asset instrument derived data" directorySegmentName="seg_4" id="13D88993-4CCB-284E-B7E5-20F449E8AD34">
+<createdBy>ostarij</createdBy>
+<createdTime>2023-11-08 15:41:27 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>791B8411-7E00-08FE-C4F8-E18BAA32B7B7</sourcePk>
+<dominantRole>D98528DD-4340-7068-DCF4-FC4EE2F41DB4</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D98528DD-4340-7068-DCF4-FC4EE2F41DB4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7843E56A-D970-2EDE-467A-EBF530A20DE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

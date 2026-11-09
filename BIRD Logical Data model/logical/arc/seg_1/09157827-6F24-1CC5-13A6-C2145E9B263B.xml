@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="09157827-6F24-1CC5-13A6-C2145E9B263B" name="Risk measure type">
+<createdBy>bosarie</createdBy>
+<createdTime>2023-09-27 07:46:22 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>D43EE6E0-75DE-52E9-8D4A-F62843894A1A</entity>
+<relations>
+<relationID>E78F47AE-C74A-E6BD-37A8-D18C949F9B63</relationID>
+<relationID>E36C397D-847F-1D81-22D1-11B4693AC780</relationID>
+<relationID>F9554807-FD36-0914-F579-630094E77BA6</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Credit facility has provision associated with credit facility" directorySegmentName="seg_9" id="55A8A279-0FDB-2935-A88A-BF6E3490CF91">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 09:00:16 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>1AE12C8D-FA90-A5F2-9060-EBC70B60B0E4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB69AB11-CA2F-CB73-8B7F-7D06ABB9DDE3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>84D04617-536A-0E29-EA42-620456240635</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

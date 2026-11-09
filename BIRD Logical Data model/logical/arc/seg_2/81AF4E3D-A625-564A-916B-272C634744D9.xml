@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="81AF4E3D-A625-564A-916B-272C634744D9" name="Balance sheet recognised exchange tradable derivative asset position accounting standard type">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-07-11 12:41:47 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>CD8E5291-A87C-578E-7536-20CECA5FA9A0</entity>
+<relations>
+<relationID>25AF9923-AD2B-172A-925F-2A6C89ABF376</relationID>
+<relationID>BBF93640-D2B1-4E5A-DC26-88AF41D6C6E2</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="add members to ACCNTNG_CLSSFCTN" id="40475-564">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+Due to Anacredit reporting we need to add the following members to attribute ACCNTNG_CLSSFCTN:  
+ ACCNTNG_CLSSFCTN_5  | nGAAP: Available-for-sale financial assets                                           
+ACCNTNG_CLSSFCTN_12 | nGAAP: Held-to-maturity investments                                                  
+ ACCNTNG_CLSSFCTN_46 | nGAAP: Financial assets held for trading                                              ACCNTNG_CLSSFCTN_48 | nGAAP: Non-trading financial assets mandatorily at fair value through profit or loss |
+ ACCNTNG_CLSSFCTN_10 | nGAAP: Loans and receivables                                                       
+to the cube INSTRMNT_RL in EIL  and in the LMD _
+
+### Contact person
+@Silvia.Giacinti 
+
+### Description of change request
+Add members to the attribute ACCNTNG_CLSSFCTN
+
+### Summary of impacted LDM objects/attributes
+_[LDM, EIL ]_
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/564]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Debt security is guaranteed by Guarantor via Guarantor Debt security assignment" directorySegmentName="seg_8" id="7629977C-8DFC-2DDD-DBA3-6F65B5C2EC6C">
+<createdBy>bosarie</createdBy>
+<createdTime>2025-04-09 08:32:01 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>B9AAA95C-8F10-489B-49CE-630E13C3BDE2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE76A78F-7CDB-648D-9F71-76109033434A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17AAA785-8A0B-51D6-D382-07DB46384D3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>21835-402</requestID>
+</changeRequests>
+</Relation>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[Asset Sec][COREP][FINREP] New input/derived attribute for the pool: Securitised (or referenced) amount" id="18768-324">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+# Overview
+The attribute `Securitised (or referenced) amount` shows the total amount securitised (no matter whether transferred or not, therefore it cannot be called transferred amount since in the case of a synthetic securitisation there is no transfer). If we want to use the same field for covered bond, we could call it `referenced amount`.
+
+It can be calculated from the individual exposures reference amount (see issue #270) if they are available (as the sum), else, it has to be input.
+
+This amount is used in the calculation of attachment et detachment points (issue #238).
+
+It is reported in C 14.00.
+
+### Contact person
+olivia.hauet@ecb.europa.eu arjan.bos@ecb.europa.eu
+
+### Business definition
+_[Business requirements]_
+
+### Legal definition
+ITS: Institutions shall report the value of the securitised portfolio at reporting date, i.e. the outstanding amount of the securitised exposures. In the case of traditional securitisations, no other assets of the securitisation pool shall be included. In the case of multi-seller securitisation schemes (i.e. with more than one originator), only the amount corresponding to the reporting entity’s contribution in the securitised portfolio shall be reported. In the case of securitisation schemes backed by closed pools (i.e. the portfolio of securitised assets cannot be enlarged after the origination date), the amount will progressively be reduced.
+
+
+### Reason for inclusion
+Indispensable for capital requirements calculations
+
+### Relationships
+- Pool
+- Underlying exposure (such as loan)
+
+### Relevant Framework/Template
+C 14.00
+
+| TOTAL AMOUNT  |
+|---------------|
+| 0140          |
+
+### Additional documentation/links (optional)
+https://darwin.escb.eu/livelink/livelink/app/nodes/1732849496 
+
+https://darwin.escb.eu/livelink/livelink/app/nodes/1738543695
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/324]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="[SHS] Guarantor identifier code according SHS" id="21835-402">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+Guarantor identifier code according SHS requirement. We should add the guarantor as a party role to the security.
+
+### Contact person
+@Arjan.Bos, @sdressler 
+
+### Business definition
+How will the guarantor for a security be identified?
+
+
+### Legal definition
+ see https://www.ecb.europa.eu/pub/pdf/other/ecb.guidance_notes_to_reporting_agents_on_shs_regulation202005~f7bce14823.en.pdf paragraph 5.4.14
+
+#### Description
+> A standard code, agreed with the relevant NCB, that uniquely identifies the guarantor
+of the security and information on the identifier type of the code that is used, e.g. an
+EU identifier or national identifier/or LEI.
+
+#### Additional clarifications
+> The guarantor is obliged to make payments to the holder of the security if the issuer
+fails to meet the obligation to make repayments arising under the instrument secured
+by the guarantor. Providers of a “financial guarantee”, as defined in Annex V to
+Regulation (EU) No 680/2014, should be covered.
+
+> Protection may be provided by several guarantors, in which case only one of the
+guarantors is to be reported based on reasonable and risk-prudent considerations
+(e.g., subordination of liabilities, extent of the contribution to the joint protection).
+
+> If the attribute is not applicable to the security due to the unavailability of guarantees, the relevant NCB may dispense with the requirement to fill the attribute.
+
+### Reason for inclusion
+_[Justifications]_
+
+### Relationships
+- party role
+- guarantor
+- security
+- security / guarantor assignment
+
+
+### Relevant Framework/Template
+SHS
+
+### Additional documentation/links (optional)
+_[Additional info]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/402]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

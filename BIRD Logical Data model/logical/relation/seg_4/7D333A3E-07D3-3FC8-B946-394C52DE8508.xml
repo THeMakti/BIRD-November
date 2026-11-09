@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Repayment rights classifies Other loan" directorySegmentName="seg_4" id="7D333A3E-07D3-3FC8-B946-394C52DE8508">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-08-04 13:41:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[are assigned to]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>9AF83A04-DBD7-94E8-1F3B-9004CFC3AFBE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E485154-5F2D-5099-5279-A0872943EE1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95FE2BF1-A996-11A5-9B86-89B3225AD688</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>32244-501</requestID>
+</changeRequests>
+</Relation>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="FB784F42-36DB-67AF-18DA-65AACC383BC8" name="Central bank and Corporation type">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-07 08:41:21 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>F25037ED-1108-1E61-9265-6B5CE644C733</entity>
+<relations>
+<relationID>4B8A324F-E09A-9D38-1944-31F3A4AF82B8</relationID>
+<relationID>DF743512-9E9A-9015-9B9A-B431A2A9BFED</relationID>
+</relations>
+</Arc>

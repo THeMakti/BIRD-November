@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Performing status reason classifies Financial asset instrument derived data" directorySegmentName="seg_6" id="F9BCB81E-A537-757B-CF85-C7D1C8DA09C7">
+<createdBy>neil</createdBy>
+<createdTime>2024-03-22 09:10:46 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>7F3AAC82-1340-BCF2-478F-A1D2DFE9AC5E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>917DF606-CA1F-B9C2-DD33-B6AAD5BA0C25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CBCC0E7-4D57-A936-5273-6A99009949C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="create attribute RL_ESTT_CLLTRL_LCTN" id="40469-561">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+Create attribute RL_ESTT_CLLTRL_LCTN in EIL in one of the EIL collateral tables 
+
+### Contact person
+@Silvia.Giacinti 
+
+### Description of change request
+We need in AnaCredit reporting the attribute RL_ESTT_CLLTRL_LCTN in cube protection received, in order to compute this attribute we need to compute starting form elements of the EIL. the computation will be as following: IF TYP_CLLTRL IN (TYP_PRTCTN_8 TYP_PRTCTN_106, TYP_PRTCTN_107, TYP_PRTCTN_108 TYP_PRTCTN_10) 
+RL_ESTT_CLLTRL_LCTN = TRRTRL_UNT if RL_ESTT_CLLTRL_LCTN_TYP=TYP_PRTCTN_90
+     Else RL_ESTT_CLLTRL_LCTN = NN_MMBR_STT_CNTRY_CD
+Else  RL_ESTT_CLLTRL_LCTN = “Not applicable”
+
+Only applicable when real estate collateral. When located in member state we take NUTS3 region (TRRTRL_UNT), if not in member state we use ISO code of the country (NN_MMBR_STT_CNTRY_CD). But NUTS3 codes are not expected to be populated by the reporting agents, they are expected to populate postal code, which will then be converted to NUT3 by ECB. If postal code is not available, they should populate NUTS3. 
+
+### Summary of impacted LDM objects/attributes
+_[EIL]_
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/561]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

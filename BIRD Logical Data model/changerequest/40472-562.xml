@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Attribute RECL_TRRTRL_UNT in EIL" id="40472-562">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+For AnaCredit reporting we need to create in EIL the attribute RECL_TRRTRL_UNT
+
+### Contact person
+@Silvia.Giacinti 
+
+### Description of change request
+The RECL_TRRTRL_UNT needs to be added in one of the EIL table dedicated to collateral The computation of the attribute is the following: If RL_ESTT_CLLTRL_LCTN_TYP=TYP_PRTCTN_90 (if Collateral is located in member state)
+
+Reporting agents not required to populate this, it’s done by ECB from the postal code
+
+### Summary of impacted LDM objects/attributes
+_[EIL collateral tables]_
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/562]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

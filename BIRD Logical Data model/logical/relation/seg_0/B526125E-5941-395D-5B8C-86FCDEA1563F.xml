@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instrument is hedged by Instrument hedged by Over the counter (OTC) Derivative" directorySegmentName="seg_0" id="B526125E-5941-395D-5B8C-86FCDEA1563F">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-29 07:55:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[is hedged by]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54907B80-5ADD-5298-6AE7-54D1AC9CA6F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB096E17-76EB-145F-9304-28FF226AD063</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

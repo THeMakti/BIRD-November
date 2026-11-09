@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instrument is hedged via Instrument hedged by Exchange tradable derivative position" directorySegmentName="seg_6" id="20D3B92F-5C1A-26E1-5ABF-5745C8A0E17C">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-01-30 16:08:25 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54907B80-5ADD-5298-6AE7-54D1AC9CA6F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>474EA1B1-88C5-D308-02FE-3F5149F8FFBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

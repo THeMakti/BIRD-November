@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Adding &quot;Sources of encumbrance&quot; for AnaCredit instruments" id="40696-566">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+
+# Overview
+
+AnaCredit regulation requires to report the attribute "Sources of encumbrance" in the Accounting data table. Currently, we lack the "Source of encumbrance" attribute in the BIRD LDM in the Instrument part of the model. We therefore propose to add it to AnaCredit instruments tables.
+
+
+### Contact person
+
+pietro.ferroni@ecb.europa.eu , silvia.giacinti@ecb.europa.eu
+
+### Business definition
+
+AnaCredit Manual 2: "This data attribute identifies the type of transaction in which the exposure is encumbered in accordance with Annexes XVI and XVII (on reporting on asset encumbrance) to the amended ITS. An asset will be treated as encumbered if it has been pledged or if it is subject to any form of arrangement to secure, collateralise or credit enhance any instrument from which it cannot be freely withdrawn."
+
+### Legal definition
+
+The attribute is defined in AnaCredit regulation as follows:
+
+"Type of transaction in which the exposure is encumbered in accordance with Implementing Regulation (EU) No 680/2014. An asset will be treated as encumbered if it has been pledged or if it is subject to any form of arrangement to secure, collateralise or credit enhance any instrument from which it can not be freely withdrawn." 
+
+### Reason for inclusion
+
+AnaCredit reporting requirements
+
+
+### Relevant Framework/Template
+
+AnaCredit
+
+### Additional documentation/links (optional)
+See issue https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/5
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Other actions]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/566]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

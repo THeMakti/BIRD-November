@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Type of hedge classifies Over the counter (OTC) Derivative as a hedge" directorySegmentName="seg_7" id="98C79F7E-2080-FBDE-0B74-1FBFF9160EDB">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-11-20 15:04:33 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>DF3549FB-C28C-A726-B8C6-4D942D34E775</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20695BED-A999-5926-39A6-52E10BCBC16D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE7AABF7-53FD-1A4B-D940-7E228C87F604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

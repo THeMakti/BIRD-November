@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_1" id="A9D4F13A-9A11-CC69-EBD6-912F95533E78" name="Non-balance sheet recognised exchange tradable derivative liability position accounting standard type">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:25:20 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>5B6B2353-8910-2E57-E1EB-19CDE58D77F7</entity>
+<relations>
+<relationID>6267DB69-4171-B8D8-E0AF-B9BC7B557FB5</relationID>
+<relationID>B98AB47E-FD4F-B983-0216-9F7593F9C1E0</relationID>
+</relations>
+</Arc>

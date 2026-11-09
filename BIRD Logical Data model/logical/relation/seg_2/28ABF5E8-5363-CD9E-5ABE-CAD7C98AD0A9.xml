@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Over the counter (OTC) Derivative instrument has Seller via Over the counter (OTC) Derivative Seller assignment" directorySegmentName="seg_2" id="28ABF5E8-5363-CD9E-5ABE-CAD7C98AD0A9">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-10-15 18:36:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<dominantRole>9665198A-8A15-BE5A-E137-9B7F66788D28</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9665198A-8A15-BE5A-E137-9B7F66788D28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A9F068E-F902-F6BE-AA04-016FC19D16AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

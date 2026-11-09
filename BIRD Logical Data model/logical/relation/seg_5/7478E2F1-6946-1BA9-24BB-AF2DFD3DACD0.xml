@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Other financial collateral is measured by Protection valuation approach" directorySegmentName="seg_5" id="7478E2F1-6946-1BA9-24BB-AF2DFD3DACD0">
+<createdBy>ostarij</createdBy>
+<createdTime>2022-11-22 14:47:18 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>F509325A-ED2C-91A3-8CE1-AF8FE97EC681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEAECD04-84D6-BE28-0AFB-55F1488722F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5BDC420-D632-2A71-7146-D3E1182D3A7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

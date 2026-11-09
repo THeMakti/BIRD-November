@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCDE04C5-DDB2-A601-CC03-3C9283C7B52C" name="Other organisational unit">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-07-06 10:06:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[An Other organisational unit is an Organisational unit that is not a Branch or an Investment vehicle / fund.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>7A67499C-0479-82E2-9F82-A693B748701D</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BBE9E655-D7FE-9699-EE8A-796E13407C83</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>OTHR_ORGNSTNL_UNT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Institutional sector" id="547C54F6-DEE9-B97E-E586-38155ECC834C">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-01-21 11:08:43 UTC</createdTime>
+<comment><![CDATA[Institutional sectors in accordance with Regulation (EU) No 549/2013, Regulation (EU) No 575/2013 and Regulation (EU) No 1075/2013 of the European Central Bank (ECB/2013/40)(1).]]></comment>
+<generatorID>ED8E476A-6B7C-B6BB-308F-16E465903297</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>D7F5A07C-F563-1363-5440-3D94249A1FE1</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>24f978bf-6fd6-4b09-9b10-deb049e07952</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>INSTTTNL_SCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

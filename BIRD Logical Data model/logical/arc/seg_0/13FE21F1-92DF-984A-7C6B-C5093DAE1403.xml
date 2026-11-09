@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="13FE21F1-92DF-984A-7C6B-C5093DAE1403" name="Advance type">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-02 10:05:45 UTC</createdTime>
+<ownerDesignName>BIRD LDM</ownerDesignName>
+<entity>2B7EC1A2-15F3-575F-BC70-179C100BE2B3</entity>
+<relations>
+<relationID>DDA0947D-8C3E-C7CF-AA2D-F569AFAB6E1A</relationID>
+<relationID>BCC811A5-B960-70C6-B7AF-4CA98B401A91</relationID>
+<relationID>D2FFBE8B-CFC8-9D6B-DFF8-0741A6F18333</relationID>
+</relations>
+</Arc>

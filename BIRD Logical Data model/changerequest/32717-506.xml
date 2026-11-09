@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Change the codes within the Time past due band Domain" id="32717-506">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[
+<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The codes of the below allowed values of the Domain "Time past due band" are not aligned with the ROL:
+- "> 180 days <= 1 year (16)"
+- "> 90 days <= 180 days (12)"
+
+It should be:
+- "> 180 days <= 1 year (**17**)"
+- "> 90 days <= 180 days (**13**)"
+
+### Contact person
+@Maria_Manuel.Henriques 
+
+### Description of change request
+Change the code of the below allowed values:
+- "> 180 days <= 1 year (**17**)"
+- "> 90 days <= 180 days (**13**)"
+
+### Summary of impacted LDM objects/attributes
+Domain: Time past due band
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/506]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

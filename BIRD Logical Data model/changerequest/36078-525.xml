@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Distinction between registered and non-registered collateral differs per country" id="36078-525">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!--See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab)-->
+
+### Overview
+
+The difference between _Registered collateral_ and _Not registered collateral_ differs by country
+
+### Contact person
+
+_\[__me@ecb.europa.eu__\]_
+
+### Description of change request
+
+Different countries can have different registers for collaterals. These registers allow for the annotation of the protected loan next to the collateral, which informs all lenders that the collateral is used and for which amount. Because of this, the current modelling solution is too rigid and needs to be more flexible.
+
+The current model solution with the subtyping into _Registered collateral_ and _Non registered collateral_ should be changed. Their subtypes must become a direct subtype of _Physical collateral_ and the disciminator `Physical collateral type` should be renamed to `Registered physical collateral indicator`.
+
+### Summary of impacted LDM objects/attributes
+
+- _Physical collateral_
+- `Physical collateral type`
+- _Rolling stock collateral_
+- _Machinery and equipment collateral_
+- _Commodity collateral_
+- _Other non-registered collateral_
+- _Inventory collateral_
+- _Real estate collateral_
+- _Ship collateral_
+- _Aircraft collateral_
+
+### Forward Engineering considerations
+
+_\[Other considerations\]_
+
+### Before closing checklist
+
+- [ ] Assignee for review
+- [ ] Assignee to close
+- [ ] Any other actions to be taken
+
+  ![collateral_hier_525.png](/uploads/75fb09840d6a1d1674d39e23ededfe11/collateral_hier_525.png)]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/525]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

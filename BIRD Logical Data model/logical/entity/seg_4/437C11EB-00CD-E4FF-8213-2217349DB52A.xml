@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_4" id="437C11EB-00CD-E4FF-8213-2217349DB52A" name="Balance sheet recognised exchange tradable derivative liability position International Financial Reporting Standard (IFRS)">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 07:49:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Balance sheet recognised exchange tradable derivative liability position International Financial Reporting Standard (IFRS) is a Balance sheet recognised exchange tradable derivative liability position to which the IFRS accounting standard applies.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>6B4999C9-9ED0-E7FF-EF12-F2895351A157</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2F2741D3-5A9B-84B6-79A0-B1F2C0C6DB6E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>BLNC_SHT_RCGNSD_ETD_LBLTY_PSTN_IFRS</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Held for sale indicator" id="EEAC08C0-B0B5-38D9-4FDB-6C7BA40B7997">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-07-21 08:04:31 UTC</createdTime>
+<comment><![CDATA[Held for sale  indicates the Non-current assets and instruments in disposal groups classified as held for sale in accordance with IFRS5. Is not applicable under national GAAP based on BAD.]]></comment>
+<generatorID>05937C3E-8A14-55F6-91DB-B8AF6976CDE0</generatorID>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<referedAttribute>B1D47A64-B5A7-8732-096A-941FB25ABD75</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>9FC05F6E-0558-F79E-96CA-F05753F58262</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>HLD_SL_INDCTR</preferredAbbreviation>
+</Attribute>
+</attributes>
+</Entity>

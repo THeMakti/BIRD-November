@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_2" id="5FD1FB40-4096-3A52-B30E-F8F98AB1F151" name="Syndication or sub-participation member instrument indicator">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-05 13:42:07 UTC</createdTime>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<entity>2F591A1C-DF86-8E7B-24D4-C62F809C445B</entity>
+<relations>
+<relationID>D5E92FD1-B30C-0793-9665-48094056FAD2</relationID>
+<relationID>3088147D-E9DB-6BFC-EBE8-4EB76EC64A4B</relationID>
+</relations>
+</Arc>

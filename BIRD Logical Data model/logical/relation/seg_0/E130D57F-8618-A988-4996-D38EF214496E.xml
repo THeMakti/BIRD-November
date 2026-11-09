@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instrument is protected by Collateral received instrument(s) via Other Instrument Collateral received instrument assignment" directorySegmentName="seg_0" id="E130D57F-8618-A988-4996-D38EF214496E">
+<createdBy>lindomi</createdBy>
+<createdTime>2021-11-03 16:05:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[is protected by]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>5F537373-F972-0198-62B3-B60EA615A290</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54907B80-5ADD-5298-6AE7-54D1AC9CA6F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>970C6EF9-779C-3173-9EDB-6226A668218D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

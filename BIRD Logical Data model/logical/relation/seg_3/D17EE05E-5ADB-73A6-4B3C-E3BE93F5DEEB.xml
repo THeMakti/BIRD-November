@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fair value option designation  is assigned to Long balance sheet recognised security position prudential portfolio Accounting classification assignment International Financial Reporting Standard (IFRS)" directorySegmentName="seg_3" id="D17EE05E-5ADB-73A6-4B3C-E3BE93F5DEEB">
+<createdBy>nuvolia</createdBy>
+<createdTime>2026-02-02 10:58:23 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>6CF1AA07-7901-BF63-4D65-9FC6ECB862C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2EA243FA-4C22-1517-47B4-2222CB91C9BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0DA242A-CE58-0135-96E7-2A0902B094A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

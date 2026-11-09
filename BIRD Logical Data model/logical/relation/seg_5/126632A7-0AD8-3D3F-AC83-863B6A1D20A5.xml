@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Commercial real estate loan indicator classifies Loan derived data" directorySegmentName="seg_5" id="126632A7-0AD8-3D3F-AC83-863B6A1D20A5">
+<createdBy>antuneo</createdBy>
+<createdTime>2023-10-16 15:16:16 UTC</createdTime>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>40BA5DA2-92D6-DC62-CD04-5D85A1148966</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EEFC725-A75F-1642-2754-1784DB13B8F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAD7D90B-080B-90E8-CC31-C4C1885818FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<changeRequests>
+<requestID>34227-511</requestID>
+</changeRequests>
+</Relation>

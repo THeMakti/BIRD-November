@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Issue-based rating system has Rating grade for issue-based rating system" directorySegmentName="seg_1" id="ACE2BB86-7E3C-7497-0D61-11E8C7FB254B">
+<createdBy>Dominik</createdBy>
+<createdTime>2021-08-12 13:33:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[has]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<sourcePk>82D96B0F-72FC-D603-0126-B14E364B13F1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04F7FAE7-FB99-BF85-4723-377D5B2DDF1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94567C38-912F-9D46-C025-C7DED12C991D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

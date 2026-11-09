@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Make exposure class for the calculation of risk weight a reference entity type." id="21524-369">
+<createdBy>ostarij</createdBy>
+<createdTime>2026-11-02 16:33:06 UTC</createdTime>
+<comment><![CDATA[<!-- See: documentation on [Issues in GitLab](https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/wikis/Issues-in-GitLab) -->
+
+### Overview
+The primary key attribute `Exposure class` of entity type _Long security position Prudential portfolio assignment risk data_ is an enumeration of the domain "Exposure class for the calculation of risk weight". This should be its own reference data entity type with a relationship type to the exposure class as foreign key.
+
+### Contact person
+@Arjan.Bos 
+
+### Description of change request
+- rename reference entity type for the domain "Exposure classes for the calculation of risk weight". It is now used as initial exposure class. The attribute in security must remain named initial exposure class, but these classes are to be reused.
+- create relationship type from it to _Long security position Prudential portfolio assignment risk data_
+- make sure that the foreign key is the attribute `Exposure class`
+
+See picture below:
+
+![image](/uploads/e3a97831c4df29e525faa9cf85c3bd4d/image.png){width=765 height=264}
+
+### Summary of impacted LDM objects/attributes
+- Long security position Prudential portfolio assignment risk data
+- Initial exposure class of the security
+
+### Forward Engineering considerations
+_[Other considerations]_
+
+### Before closing checklist
+- [ ] Assignee for review
+- [ ] Assignee to close 
+- [ ] Any other actions to be taken]]></comment>
+<notes><![CDATA[https://gitlab.sofa.dev/sdd-bird-team/bird-logical-data-model/-/issues/369]]></notes>
+<ownerDesignName>BIRD data models</ownerDesignName>
+<status>Proposed</status>
+</ChangeRequest>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_8" id="98DEE4C3-79FE-26F7-B6E7-0CAB44DE5C12" name="Software collateral">
+<createdBy>bosarie</createdBy>
+<createdTime>2024-02-26 15:20:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Software as collateral is an Immaterial rights as collateral that is a legal concept that recognizes software as a form of intellectual creation that does not need a physical form, but grants the owner or creator exclusive rights to use, modify, distribute, or license it, subject to the intellectual property law.
+
+See also IAS 38 for its usage as Property, Plant & Equipment or Other intangible non-financial assets.]]></commentInRDBMS>
+<ownerDesignName>BIRD Logical Data model</ownerDesignName>
+<typeID>9233E877-99B3-25CB-0DCC-48B7E03DC1DD</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6EECA4B7-DEBD-853D-56C9-AC4C7DEE524F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SFTWR_CLLTRL</preferredAbbreviation>
+</Entity>
